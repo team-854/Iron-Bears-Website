@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Iron Bears FRC Team 854 home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]:
+          - text: IRON BEARS
+          - generic [ref=e7]: FRC TEAM 854
+      - navigation "Main navigation" [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e10] [cursor=pointer]:
+          - /url: /about
+        - link "Sponsors" [ref=e11] [cursor=pointer]:
+          - /url: /sponsors
+        - link "History" [ref=e12] [cursor=pointer]:
+          - /url: /history
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+      - button "Switch to light theme" [ref=e15] [cursor=pointer]
+  - main [ref=e18]:
+    - region [ref=e19]:
+      - generic [ref=e20]:
+        - img "Team 854's 2025 REEFSCAPE robot competing on the field" [ref=e22]
+        - generic [ref=e26]:
+          - heading "WE BUILD REAL ROBOTS." [level=1] [ref=e27]: WE BUILDREAL ROBOTS.
+          - paragraph [ref=e28]: Student-led. Hands-on. Team 854 turns curiosity into competitive robots and real engineering skills.
+          - generic [ref=e29]:
+            - link "Meet the team" [ref=e30] [cursor=pointer]:
+              - /url: /about
+            - link "Sponsor us" [ref=e33] [cursor=pointer]:
+              - /url: /sponsors
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: Our 2025 REEFSCAPE robot, in its element.
+        - group "Explore the team in photos" [ref=e41]:
+          - button "Compete" [pressed] [ref=e42] [cursor=pointer]
+          - button "Build" [ref=e44] [cursor=pointer]
+          - button "Connect" [ref=e45] [cursor=pointer]
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "GREAT ROBOTS. EVEN BETTER PEOPLE." [level=2] [ref=e48]: GREAT ROBOTS.EVEN BETTER PEOPLE.
+        - paragraph [ref=e49]: We are the Iron Bears, a student-led robotics team at Martingrove Collegiate Institute in Toronto, Ontario.
+        - paragraph [ref=e50]: We design, build, and program competitive robots while developing real engineering skills, leadership, and community impact. Every season is a chance to learn something new, together.
+        - link "Our team. Our story." [ref=e51] [cursor=pointer]:
+          - /url: /about
+      - figure "Different skills. One team." [ref=e54]:
+        - img "Iron Bears students and mentors at Martingrove Collegiate Institute" [ref=e55]
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "THIS IS OUR KIND OF SPORT." [level=2] [ref=e60]: THIS IS OURKIND OF SPORT.
+        - paragraph [ref=e61]: FIRST Robotics Competition is a high-school robotics league where teams build large robots for a new game each season. Engineering meets competition.
+      - generic [ref=e62]:
+        - img "Hands-on robot assembly with Iron Bears students and mentors" [ref=e64]
+        - generic [ref=e65]:
+          - article [ref=e66]:
+            - heading "BUILD." [level=3] [ref=e67]
+            - paragraph [ref=e68]: Mechanical design, CAD, fabrication, and wiring. Make an idea into something real.
+          - article [ref=e69]:
+            - heading "CODE." [level=3] [ref=e70]
+            - paragraph [ref=e71]: Controls, autonomy, vision, and strategy. Give the robot a way to see, think, and move.
+          - article [ref=e72]:
+            - heading "LEAD." [level=3] [ref=e73]
+            - paragraph [ref=e74]: Outreach, sponsorships, teamwork, and impact. Take what we learn beyond the workshop.
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "EVERY ROBOT HAS A STORY." [level=2] [ref=e77]: EVERY ROBOTHAS A STORY.
+        - link "Explore our history" [ref=e78] [cursor=pointer]:
+          - /url: /history
+      - generic [ref=e81]:
+        - link "Team 854's 2026 REBUILT robot 2026 REBUILT View season on The Blue Alliance" [ref=e82] [cursor=pointer]:
+          - /url: https://www.thebluealliance.com/team/854/2026
+          - img "Team 854's 2026 REBUILT robot" [ref=e84]
+          - generic [ref=e85]:
+            - generic [ref=e86]: "2026"
+            - generic [ref=e87]: REBUILT
+            - img "View season on The Blue Alliance" [ref=e88]
+        - link "Team 854's 2025 REEFSCAPE robot 2025 REEFSCAPE View season on The Blue Alliance" [ref=e90] [cursor=pointer]:
+          - /url: https://www.thebluealliance.com/team/854/2025
+          - img "Team 854's 2025 REEFSCAPE robot" [ref=e92]
+          - generic [ref=e93]:
+            - generic [ref=e94]: "2025"
+            - generic [ref=e95]: REEFSCAPE
+            - img "View season on The Blue Alliance" [ref=e96]
+    - generic [ref=e99]:
+      - heading "BUILT TOGETHER." [level=2] [ref=e100]
+      - paragraph [ref=e101]: Our sponsors make the season possible, supporting the tools, parts, funding, and outreach behind every robot.
+      - generic [ref=e102]:
+        - link "Visit Optimist International" [ref=e103] [cursor=pointer]:
+          - /url: https://www.optimist.org
+          - img "Optimist International" [ref=e104]
+        - link "Visit Gene Haas Foundation" [ref=e105] [cursor=pointer]:
+          - /url: https://www.ghaasfoundation.org
+          - img "Gene Haas Foundation" [ref=e106]
+        - link "Visit Hatch" [ref=e107] [cursor=pointer]:
+          - /url: https://www.hatch.com
+          - img "Hatch" [ref=e108]
+      - link "Meet all our supporters" [ref=e109] [cursor=pointer]:
+        - /url: /sponsors
+    - generic [ref=e112]:
+      - heading "THERE’S A PLACE FOR YOU HERE." [level=2] [ref=e113]: THERE’S A PLACEFOR YOU HERE.
+      - generic [ref=e114]:
+        - paragraph [ref=e115]: Bring your curiosity, share your expertise, or help make our next robot possible.
+        - link "Let’s connect" [ref=e116] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - link "Iron Bears FRC Team 854 home" [ref=e123] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e124]:
+              - text: IRON BEARS
+              - generic [ref=e125]: FRC TEAM 854
+          - paragraph [ref=e126]: Student-led robotics.Martingrove Collegiate Institute.Toronto, Ontario.
+        - generic [ref=e127]:
+          - heading "Explore" [level=2] [ref=e128]
+          - link "About the team" [ref=e129] [cursor=pointer]:
+            - /url: /about
+          - link "Our robot history" [ref=e130] [cursor=pointer]:
+            - /url: /history
+          - link "Our sponsors" [ref=e131] [cursor=pointer]:
+            - /url: /sponsors
+        - generic [ref=e132]:
+          - heading "Stay connected" [level=2] [ref=e133]
+          - link "Instagram" [ref=e134] [cursor=pointer]:
+            - /url: https://www.instagram.com/team854/
+          - link "GitHub" [ref=e137] [cursor=pointer]:
+            - /url: https://github.com/team854
+          - link "Contact the team" [ref=e140] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: © 2026 Iron Bears Robotics
+        - paragraph [ref=e145]: Built on curiosity. Powered by teamwork.
+        - link "mci.robotics@gmail.com" [ref=e146] [cursor=pointer]:
+          - /url: mailto:mci.robotics@gmail.com
+  - button "Open Next.js Dev Tools" [ref=e152] [cursor=pointer]

@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 1,
+  "inventoryScope": "Unique public/images raster paths referenced by current src/app, src/components and src/data source files. Existing project assets only.",
+  "assetCount": 34,
+  "assets": [
+    {
+      "sourcePath": "public/images/about/assembly1.jpg",
+      "webPath": "/images/about/assembly1.jpg",
+      "referencedBy": [
+        "src/app/about/page.tsx",
+        "src/app/page.tsx",
+        "src/app/sponsors/page.tsx",
+        "src/components/HeroShowcase.tsx"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/about/assembly1.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "c741c0fecba6b64f66ed6dca2dde241c0cf724a9bade1fd2ecf04f20264772f6",
+      "originalBytes": 6795315,
+      "encodedImageSha256": "e41b9927dc9bff848912fd5d4a649af123f14f8d421d4733d80f9763d0916002",
+      "sha256": "0b168e336e7bf3b89c74840a0829987103f3b7cd8eb1d70821d2242ac1c669f1",
+      "bytes": 6795524,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 209
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/about/demonstration.jpg",
+      "webPath": "/images/about/demonstration.jpg",
+      "referencedBy": [
+        "src/app/about/page.tsx"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/about/demonstration.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "5530f4606709a529723eb0049377127ada198109360c8d0b976bb017a4ecec8b",
+      "originalBytes": 202049,
+      "encodedImageSha256": "3445432701b451675a0af928f8d8722ebbd55f868beedc68dcab56ea1a404189",
+      "sha256": "4b20cd7f57a7d80d7efe5531558311990e6e66d7f9e7821a7dc915d20e94a828",
+      "bytes": 202262,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 213
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/about/hero.jpg",
+      "webPath": "/images/about/hero.jpg",
+      "referencedBy": [
+        "src/components/HeroShowcase.tsx"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/about/hero.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "9e225286bea4d8afeb640070bdd07b88a95e08f53b476a892cc0e773986ae388",
+      "originalBytes": 4336964,
+      "encodedImageSha256": "29da1c7fb086c45e95dcdf71f509165394904df2e9c5892fafb07f645ad51cc5",
+      "sha256": "afa73c6053f05402f71ed171cbd105fde4b4f70cb8301e671433cb902e948a92",
+      "bytes": 4337168,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 204
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/about/teamphoto.jpg",
+      "webPath": "/images/about/teamphoto.jpg",
+      "referencedBy": [
+        "src/app/about/page.tsx",
+        "src/app/contact/page.tsx",
+        "src/app/page.tsx",
+        "src/components/HeroShowcase.tsx"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/about/teamphoto.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "2ef456a956adff537c1af2515c30b12ae525dd357df4906497ce782d3ea723d1",
+      "originalBytes": 3085248,
+      "encodedImageSha256": "c41e6b202a1d49c738f0c15391e4db636e7b846e80cdb15dcbcb060b2cba9ddc",
+      "sha256": "b024a230f634323fff843e7a857d52899f3b3171c7d2b0d5d28d6fb5d29b2c8c",
+      "bytes": 3085457,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 209
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2003.jpg",
+      "webPath": "/images/history/2003.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2003.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "e232dca34d59477a24c4757bda77f1d5e73484ea38f4e35d3073ef6d7f566264",
+      "originalBytes": 539041,
+      "encodedImageSha256": "be4f08647dafbd232fd69488f835dc3a353bb9a88f802365918bee9eea9ca11a",
+      "sha256": "4ddcd11000fa14abc352384be6db38f331cea822a6a01b9016a5e8cbad44f5b8",
+      "bytes": 539255,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 214
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/history/2007.jpg",
+      "webPath": "/images/history/2007.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2007.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "26fe0eb19086245a6d1b6eddcaab92c178e67dfe6c1f442e5ca9046f9ac8d71f",
+      "originalBytes": 217524,
+      "encodedImageSha256": "26fe0eb19086245a6d1b6eddcaab92c178e67dfe6c1f442e5ca9046f9ac8d71f",
+      "sha256": "c0e283dd9384bfdac430cc2ca59966031a47f4f21b63a7d28d81a2abd4a7eb7e",
+      "bytes": 217730,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2009.jpg",
+      "webPath": "/images/history/2009.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2009.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "291608f7671d79ba975c035e509395bec6d6d0d5f57386daaa1e7feb13afcbfa",
+      "originalBytes": 1255361,
+      "encodedImageSha256": "65c0982390aba58f47fc39e9f2e7e8d9b81123e017c1815845f1b99cb27e001a",
+      "sha256": "72d74f310e95c7f2e1f07a54be10276bbde97590ddfca80ea1ee7e3d8511aa0a",
+      "bytes": 1255575,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 214
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/history/2012.jpg",
+      "webPath": "/images/history/2012.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2012.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "1450d1f6dc91cbe4da9ebd59215ea2f5ef1e10bd7378d9165f7c67ac51b7be70",
+      "originalBytes": 230017,
+      "encodedImageSha256": "bead9b377be66dd3fa7d7b643362baee0f24eca5b8a58fc1d16064c32d46b2bc",
+      "sha256": "80ce4be7e35f1e3312d11845f4447478f055d141659316ecc3099ef0b9284b87",
+      "bytes": 230231,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 214
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/history/2015.jpg",
+      "webPath": "/images/history/2015.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2015.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "9e9a6d29c210b4c9678d9c19daf9a50628d645e20158287000b3ccedcec77de3",
+      "originalBytes": 102180,
+      "encodedImageSha256": "e79504920e53c4990453866ef7f223179bec53060fd67dc93e561c843b3e1ca1",
+      "sha256": "8dfd1e4e7f639297e9d44a3b2a6a2a282cea34f185b1bd907a0ec7ce1edb290c",
+      "bytes": 102386,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2016.jpg",
+      "webPath": "/images/history/2016.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2016.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "cf056d639f76c8585a8d176abee22d6c9fea1e041963717b5eb7d018b817ebd2",
+      "originalBytes": 115860,
+      "encodedImageSha256": "3019f4af2e93737abefee838f2da3dd016e1e22f2fc51ec82d2d322ab2ade643",
+      "sha256": "083482e0dbcd562ed4beda9d2afc7e25858b8e85cb5b74ad01ace5d87a0e8a52",
+      "bytes": 116066,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2017.jpg",
+      "webPath": "/images/history/2017.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2017.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "6a08a9e0bc69cfa406388c5be88c22a5e0a0682e8f04d5e0a0e19ee97e733115",
+      "originalBytes": 4130672,
+      "encodedImageSha256": "555caa45d9c9b5fa1d54beafbaf90bf6dd7efbe08b08f0b7474909cc696cf73e",
+      "sha256": "7bc8f676df4fe6eeaebe6716588a8148f6e305f4f92d34fe7cedf8ef013eb544",
+      "bytes": 4130878,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2018.jpg",
+      "webPath": "/images/history/2018.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2018.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "b8e93b651f6a38b93f2529240e5d3f86130562ddcb73758bf3ad125178adc99d",
+      "originalBytes": 360316,
+      "encodedImageSha256": "22379072161ca248f4e2494dd8a7be4a8aca334f7e2b7455906260e3da2ed2eb",
+      "sha256": "369d4b63b841e7667a2d0148353e67b522cae3e070a53ac560c773f0b48f572f",
+      "bytes": 360522,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2019.jpg",
+      "webPath": "/images/history/2019.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2019.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "521c16c4908f33a2ee9c7735970b1c23e7c853a56c7d6325d50f8a9a85922cef",
+      "originalBytes": 366251,
+      "encodedImageSha256": "fb1fb3ae6f76bd1fbd02084d4039cb0f79f1b599ecdbcc1afdc61b5f1e4e1ed8",
+      "sha256": "85209f259e3cd271410ce6b566c0a9cd670358e70af420c00d6f98b20cace2b3",
+      "bytes": 366457,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2020.jpg",
+      "webPath": "/images/history/2020.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2020.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "129b43372fa0c1494aced6c4cf62ac9960d1b3b80ef7892061afb0df1298c7ea",
+      "originalBytes": 382921,
+      "encodedImageSha256": "129b43372fa0c1494aced6c4cf62ac9960d1b3b80ef7892061afb0df1298c7ea",
+      "sha256": "c0d479cce2a6845a98f885e109357dc336e1527b3f3b3f4b573e09ad9188c814",
+      "bytes": 383127,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2024.jpg",
+      "webPath": "/images/history/2024.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2024.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "2ee56b3df19ac3793767c539dd9f2ac22f07eb776f93910f64e008488627c3f6",
+      "originalBytes": 366134,
+      "encodedImageSha256": "5838f3c8be619a93ca5ace0f57d6324f613514c9cd5bf7dde0a394575a899597",
+      "sha256": "db331803d3c0b8be24d705e0850fea1dfb3188d6cc773b7f5bd8ef53ee094d23",
+      "bytes": 366340,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2025.jpg",
+      "webPath": "/images/history/2025.jpg",
+      "referencedBy": [
+        "src/app/page.tsx",
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2025.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "f7aa48be09a778b893050a10148f08f0ef63e0130a0c74581e7d244be7fd18f1",
+      "originalBytes": 696017,
+      "encodedImageSha256": "28c3c5fa157f74ba4342df380983055661b904afc6aa7292d8ec7dde00f2b865",
+      "sha256": "b016a52004d324c63e591a098381e6a3025537cce12e2786ee25a044538519b1",
+      "bytes": 696223,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/history/2026.jpg",
+      "webPath": "/images/history/2026.jpg",
+      "referencedBy": [
+        "src/app/page.tsx",
+        "src/data/seasons.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/history/2026.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "a71fe06cb5f2032b71ede5a50a4bf7b7c8527624ae1003d43766b34cd9de08d5",
+      "originalBytes": 2997809,
+      "encodedImageSha256": "e6d06386daef551f4b52ebb691470589a79b9f1774f81364afd7863856eba3d2",
+      "sha256": "bbeaa71d4899c5557b4344e320923d6129f91d23f0cf968e37a30ca2f2a7bd4d",
+      "bytes": 2998015,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/logo.png",
+      "webPath": "/images/logo.png",
+      "referencedBy": [
+        "src/components/Footer.tsx",
+        "src/components/Navbar.tsx"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/logo.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "bf1689c84867aaa93d9e74989b2b089895ebc9f39533ded2d05bdfcd080b3047",
+      "originalBytes": 13256,
+      "encodedImageSha256": "1649d7fc936088d3ec666e6ebc10ae9641f08f11d87796baba340b57072295b5",
+      "sha256": "717e2548e088810bcbd3718d18083eaa9a28346a6f3aff30301c016026c43786",
+      "bytes": 13462,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 206
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/baskinrobbins.png",
+      "webPath": "/images/sponsors/baskinrobbins.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/baskinrobbins.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "82a5673ba2f836b12d5c33a98c92eae8f843e205759428fc4947cf8946e40f02",
+      "originalBytes": 370638,
+      "encodedImageSha256": "9927825d56e3095a7b346ea64c067c561fc7caec97540511df078f527505938c",
+      "sha256": "c42b5b38c3d98bcb90abfe1a73a026a597d11c636157690efc64d76720061b05",
+      "bytes": 370862,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 224
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/firstcanada.png",
+      "webPath": "/images/sponsors/firstcanada.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/firstcanada.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "eea29023b3b1b9e942bdaa3b0745b342d785bdacfddb1f33c07f84b1494f33c0",
+      "originalBytes": 104970,
+      "encodedImageSha256": "875d41e4c694c97ba2b3d2ba74e4b4da5258c61079bdeec55538295cefa8b354",
+      "sha256": "ce30ed6beaf2bb512dfcbd993591b9b813721e88032851e90f27483d5ea9882f",
+      "bytes": 105192,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 222
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/frontier.png",
+      "webPath": "/images/sponsors/frontier.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/frontier.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "3789f7e5e2988ccadd85638ec07c36e858afad6398109ba4442f4ef93b69e5ff",
+      "originalBytes": 6250,
+      "encodedImageSha256": "8a0374c56e05a9c4f97d38c3617e3c105bfd971b400bbc563688533854e3eac5",
+      "sha256": "2daafe76374bca866f37cd9963ea0a3a604bd2be05ef9b040d53f68cbd60a6bb",
+      "bytes": 6461,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 211
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/sponsors/haas.png",
+      "webPath": "/images/sponsors/haas.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/haas.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "163b564518494f4744f15ea33ab2fd3ce919cf67804d79e60ea422b5cfd249ea",
+      "originalBytes": 205415,
+      "encodedImageSha256": "ef32eb3e7e5f09558d3c96158dd3edc4c02955f53b9d10c205ce94cfe273644b",
+      "sha256": "55de20ca6da69f993dee3f8ce94d6368bbcdd511e171b2bb7f7113d897ae93e6",
+      "bytes": 205630,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 215
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/hamico.png",
+      "webPath": "/images/sponsors/hamico.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/hamico.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "37f03fa436da88f050e7e6e0d3e312be5e1d514073e2781dafbef30af72b4959",
+      "originalBytes": 21011,
+      "encodedImageSha256": "1274f141fd0e6c71f920940224cd08de03c916bf8dacadfb9a457173cae9a70b",
+      "sha256": "7d53515adad582dd70a7710a580e9895423e83211f4399fbedce6a9325559133",
+      "bytes": 21228,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 217
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/hatch.png",
+      "webPath": "/images/sponsors/hatch.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/hatch.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "6d07ed8b88434df1b3ab41c3161dfb84832614de08c8f7e1f1ea256560d7cd40",
+      "originalBytes": 57681,
+      "encodedImageSha256": "592573c5bd2a64b1ace650ea4fce4eee18bea93082eea691f8d0e5c861331da9",
+      "sha256": "061c05bb9d63a3ad923526b10a82377606bd16d1fa956a9d2091beb639c0abfe",
+      "bytes": 57897,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 216
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/jroberts.png",
+      "webPath": "/images/sponsors/jroberts.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/jroberts.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "4e7eb7a037da5226c2c39b93f550b3c480057ab68d229ddf4b73c073caa75917",
+      "originalBytes": 11007,
+      "encodedImageSha256": "a47bd7e3030eac7f1c69485fa6762c089be75854085abb48e065a35c505347a4",
+      "sha256": "029cb339dff5f7c910a4f8613ef9467ac3da13ae79b163eca8d3f8b34f6e82ac",
+      "bytes": 11226,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 219
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/martingrove.png",
+      "webPath": "/images/sponsors/martingrove.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/martingrove.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "3fe58ff21a83dbca052cfc49aff48eb4d6c12f5f2558497fbb10a762f09eb575",
+      "originalBytes": 87900,
+      "encodedImageSha256": "2279d0d960e5fc86e868d5dddfc314e7a0dcc440916d7d0b022857d20f1bfc38",
+      "sha256": "0b37f165efaa41ba7aee4d9db2bf0ad2ae186c71e387f81fc0e308485a88393d",
+      "bytes": 88122,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 222
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/milwaukee.png",
+      "webPath": "/images/sponsors/milwaukee.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/milwaukee.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "736ee642f9cd7e7b12a6fbb49ff119772be25cbc677b3a09b223bfbd9fb57908",
+      "originalBytes": 37957,
+      "encodedImageSha256": "4f563c7ebe8ff7698926a55dc596ad9967bc06842ea1451aa9b055b54ff277ca",
+      "sha256": "3c8991707bfae83233118f77987972293d01c1340a5d2fd080377d62a1e2afb2",
+      "bytes": 38177,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 220
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/optimist.png",
+      "webPath": "/images/sponsors/optimist.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/optimist.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "74bedc0302877829f7bf8b73487dae43634e8f58bacbaea6ab5f2690623ee222",
+      "originalBytes": 66204,
+      "encodedImageSha256": "7814b816538c56f07863702ec18d45d6dbbcbb761425297c1ad658c87d7a2ce3",
+      "sha256": "fb6ed80357dfdb9413e25e832afeab8a6e7e9aa16c24f377dcacb02d2c2b099d",
+      "bytes": 66423,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 219
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/righttech.png",
+      "webPath": "/images/sponsors/righttech.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/righttech.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "55650ed781aa543161408aadae82b388ff14e1404bfb74f50a648ff459ec5289",
+      "originalBytes": 14441,
+      "encodedImageSha256": "c5e83f6ac70ea82351afae50db8609fe88b0eae8d153d39f1d4886f1fc131274",
+      "sha256": "4fd45c8da061086ee1f301f931f4fa9b915d06735114399a2bcda1da09cf2a2b",
+      "bytes": 14653,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "JPEG COM",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 212
+      },
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/sponsors/rotary.png",
+      "webPath": "/images/sponsors/rotary.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/rotary.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "d4e87f0943df5bab4005c150caf42fdc14962df7d7a6fc8703a8e553006f9417",
+      "originalBytes": 213175,
+      "encodedImageSha256": "283325243948812449d88d9148b89bc6d0ad846ce722dced792649638ece5eca",
+      "sha256": "7cc38670acc4064d9c7f97c0b2c8fc82c440581d1d1ab0af2734bfa98c4b96b3",
+      "bytes": 213392,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 217
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/sandc.png",
+      "webPath": "/images/sponsors/sandc.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/sandc.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "803e3a848e0695f2d997675b2c8e72811614200e5c752a60fc34933f510139be",
+      "originalBytes": 2397,
+      "encodedImageSha256": "032e0ad9a2b95e8270d8b9b27c9f7cc194bcef0b89dbc6959c1d607f5df640c7",
+      "sha256": "07d2a4e605d37c87598ad01adf2d18ccc785a9458067c4baeebfad73846747c8",
+      "bytes": 2613,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 216
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/studioblackbox.png",
+      "webPath": "/images/sponsors/studioblackbox.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/studioblackbox.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "a7364ab1054b2fbac706a4b8965b6ca14ff4437be8355c579bf5306bcf08cf8f",
+      "originalBytes": 7603,
+      "encodedImageSha256": "683441947efc7b212ab6555d82cee48b47a681c784ca9e04695e0c5410712c22",
+      "sha256": "ad90c64120fffb7022f29e5d8055904976c3b1af2ece0f5a0e7ea2eb01d07b25",
+      "bytes": 7828,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 225
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/tdsb.png",
+      "webPath": "/images/sponsors/tdsb.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/tdsb.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "f6b669492c112d81f89a9dca12e9bdc3df9e05623ae32dd35d9a677df201cb41",
+      "originalBytes": 31423,
+      "encodedImageSha256": "de1adc875b141eeaeed39b079f036e3d67a3303ffb975fec6715c2e491896069",
+      "sha256": "7d4cb65c9313d5d3de241f37c7802f4429dc6fbf973781b9890d4f8869a4eeec",
+      "bytes": 31638,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 215
+      },
+      "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/sponsors/wellnesstree.png",
+      "webPath": "/images/sponsors/wellnesstree.png",
+      "referencedBy": [
+        "src/data/sponsors.ts"
+      ],
+      "origin": "Pre-existing user-provided project repository asset at public/images/sponsors/wellnesstree.png. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "81e33ab7a7a894f3173b11b1092113c8401013dfe0d9d02b3d57b0fc911e6c51",
+      "originalBytes": 65647,
+      "encodedImageSha256": "8ebdd874c43ebe00fa9009c93644fd62796400d41422457e3207b464a1006e9c",
+      "sha256": "25292c8ef0417ced9c569ecf517556dd4637399b4926556fd5f794b708838b4b",
+      "bytes": 65870,
+      "embedding": {
+        "tool": "Impeccable embed-prompt",
+        "storage": "PNG tEXt",
+        "embeddedOriginVerified": true,
+        "originalSegmentsPreserved": true,
+        "encodedImageUnchanged": true,
+        "bytesAdded": 223
+      },
+      "mediaType": "image/png"
+    }
+  ],
+  "validation": {
+    "allReferencedFilesPresent": true,
+    "allOriginsEmbedded": true,
+    "allOriginalSegmentsPreserved": true,
+    "allEncodedImageDataUnchanged": true,
+    "pixelsReencoded": false,
+    "impeccableScan": {
+      "directory": "public/images",
+      "rasters": 34,
+      "missing": 0
+    }
+  }
+}

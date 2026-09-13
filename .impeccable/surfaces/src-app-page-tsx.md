@@ -1,0 +1,22 @@
+---
+version: 1
+slug: "src-app-page-tsx"
+primary_target: "src/app/page.tsx"
+related_targets: ["src/app/about/page.tsx","src/app/history/page.tsx","src/app/sponsors/page.tsx","src/app/contact/page.tsx"]
+---
+
+# Motion and image-grid revision
+
+The user requested a complete layout redesign with advanced scroll animation and effects, preserving the same information, followed by orderly equal-sized image groups and a more expressive full-screen home introduction. This revision keeps the established Iron Bears palette, photographs and type identity. The code-first choice and equal student/sponsor/community priorities remain settled.
+
+THESIS: Follow the energy of a robot from the field, through its build, and into the community. Scrolling changes the home photographic composition and reveals the disciplines behind the machine.
+OWN-WORLD: Charcoal, orange and cream; Barlow Condensed and Manrope; genuine photographs and full-color sponsor marks, thin dividers, equal frames within repeated image groups. The circular home photo and bespoke SVG engineering rings are the hero's geometric exception. Preserve all thirteen seasons, sixteen sponsors, contact details and team facts.
+STORY: Compete; meet the students; build/code/lead; explore the robot archive; meet the supporters; connect.
+FIRST VIEWPORT: A stage sized to the viewport minus the header, subject to responsive minimum heights. A circular competition photograph sits beside the two-line headline, team/sponsor actions and scene controls. Segmented SVG rings, tick marks and a fine CSS grid frame the image. On enabled desktop scroll the circle expands to fill the stage, the photo centers and zooms to 1.12, rings rotate 110 degrees and scale to 1.7 while fading, and introductory text exits before decorative BUILT BY / CURIOSITY lettering enters. A gradient seam leads into the page; the sequence-progress line fades out at the end. Tablet/mobile retain the static, unpinned composition and accessible controls. At 380px and below the title reduces to 48px and action labels remain on one line.
+FORM: An interactive photographic documentary within the established visual world (original seed 211aeff0). The Build/Code/Lead sequence pins once and reveals matching images through vertical masks while descriptions change. Home season previews use equal columns and identical 4:3 frames without offsets or parallax, stacking at 600px. About uses a panoramic frame and sticky mission. History uses horizontal decade filters and uniform 4:3 records with consistent captions: three columns at 1024px and above, two at 640-1023px, one below 640px. Sponsors uses anchored tier labels and equal 16:9 logo plates without spanning exceptions, preserving each mark's optical sizing and contrasting ground. Contact uses large email/social rows.
+
+Motion budget: GSAP ScrollTrigger with native scrolling; no wheel interception, scroll smoothing loop or continuous decorative animation. Exactly two home pins when width is at least 900px and height at least 620px: the hero spans 140% scroll distance and the workshop spans 170%. Selected non-archive photo parallax is bounded to scale 1.12 / +/-5% translation. Repeated season images and sponsor marks have no parallax. Dynamic synchronization releases disconnected or unmarked parallax frames; media-query, preference and route changes revert owned timelines and restore responsive styles. Title clip and content reveals preserve opaque content by default; the decorative finale starts hidden.
+Continuity: filter changes use bounded Web Animations and immediately preserve pressed states/live counts. Navigation remains native Next links; routes without a hash reset to the top after prior pins are removed. Reserved image frames prevent layout shifts. Individual lazy image loads do not refresh ScrollTrigger; fonts, initial window load and explicit refresh events can update measurements.
+Control: persistent Pause/Enable motion control and OS reduced-motion support. Pausing removes GSAP pins, reveals all workshop chapter text, cancels active filter animations, and stops CSS spatial effects. Default informational content is visible without scripts.
+
+FINISH: Verify desktop/mobile layouts, hero start/mid/end scroll positions, interruption, reduced motion, theme switching, filtering, equal repeated image frames and route cleanup. Preserve the original raster files and their provenance; the added rings are inline SVG geometry. Record the current system in DESIGN.md and .impeccable/design.json after the bounded finish review.

@@ -1,0 +1,390 @@
+﻿.page {
+  padding-top: clamp(48px, 6vw, 88px);
+  padding-bottom: clamp(80px, 9vw, 132px);
+}
+.intro {
+  display: grid;
+  grid-template-columns: 1.22fr 0.78fr;
+  align-items: end;
+  gap: 40px 80px;
+  padding-bottom: clamp(48px, 5vw, 72px);
+}
+.title {
+  font-size: clamp(64px, 8.2vw, 96px);
+  line-height: 0.94;
+}
+.title > span {
+  display: block;
+}
+.title > span:last-child {
+  padding-left: 0.9em;
+  color: var(--accent-text);
+}
+.introCopy {
+  max-width: 42ch;
+  padding-bottom: 6px;
+}
+.contactRoutes {
+  border-top: 1px solid var(--line);
+}
+.contactRoute {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 32px 72px;
+  align-items: center;
+  padding-block: 34px;
+  border-bottom: 1px solid var(--line);
+  color: var(--foreground);
+  text-decoration: none;
+  min-height: 150px;
+  transition: background-color 180ms ease;
+}
+.contactRoute:hover {
+  background-color: var(--surface);
+}
+.routeCopy h2 {
+  margin: 0 0 10px;
+  font-size: 17px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+.routeCopy p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 34ch;
+}
+.routeAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: clamp(30px, 3.3vw, 48px);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.018em;
+}
+.routeAction > span {
+  overflow-wrap: anywhere;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
+}
+.routeAction > svg {
+  flex: 0 0 auto;
+  color: var(--accent-text);
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.teamRoute .routeAction {
+  color: var(--accent-text);
+}
+.contactRoute:hover .routeAction > svg {
+  transform: translate(5px, -5px);
+}
+.contactRoute:hover .routeAction > span {
+  text-decoration: underline;
+}
+.connection {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  align-items: stretch;
+  margin-block: clamp(64px, 7vw, 96px) clamp(72px, 8vw, 112px);
+}
+.teamFigure {
+  margin: 0;
+  min-width: 0;
+}
+.teamFrame {
+  overflow: hidden;
+  background: var(--surface-raised);
+  aspect-ratio: 4 / 3;
+}
+.teamImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.teamFigure figcaption {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  padding-top: 15px;
+  padding-right: 24px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.teamFigure figcaption > span:last-child {
+  color: var(--muted);
+}
+.contactNote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: center;
+  padding: clamp(28px, 4.2vw, 64px);
+  min-height: 0;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.contactNote h2 {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 4.2vw, 60px);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 0.98;
+  letter-spacing: -0.018em;
+  margin: 0 0 24px;
+}
+.contactNote p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 32ch;
+}
+.contactNote > svg {
+  margin-top: 32px;
+}
+.socialIntro {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px 48px;
+  padding-bottom: 40px;
+}
+.socialTitle {
+  font-size: clamp(50px, 6vw, 88px);
+}
+.socialTitle > span {
+  display: block;
+}
+.socialIntro p {
+  max-width: 28ch;
+  padding-bottom: 5px;
+}
+.socialLinks {
+  border-top: 1px solid var(--line);
+}
+.socialLinks > a {
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 36px;
+  align-items: center;
+  gap: 28px;
+  color: var(--foreground);
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  padding-block: 30px;
+  min-height: 112px;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease;
+}
+.socialLinks > a > svg {
+  flex: 0 0 auto;
+}
+.socialLinks > a > svg:nth-of-type(2) {
+  color: var(--accent-text);
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.socialLinks > a:hover {
+  color: var(--accent-text);
+  background-color: var(--surface);
+}
+.socialLinks > a:hover > svg:nth-of-type(2) {
+  transform: translate(5px, -5px);
+}
+.socialName {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 3.6vw, 48px);
+  line-height: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.socialDetail {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) and (min-width: 901px) {
+    .teamFrame {
+      animation: connection-open linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 100%;
+    }
+    @keyframes connection-open {
+      from {
+        clip-path: inset(0 12% 0 0);
+      }
+      to {
+        clip-path: inset(0);
+      }
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .intro,
+  .contactRoute {
+    column-gap: 36px;
+  }
+  .title {
+    font-size: 80px;
+  }
+  .routeAction {
+    font-size: 36px;
+  }
+  .connection {
+    grid-template-columns: 1.15fr 0.85fr;
+  }
+  .contactNote {
+    min-height: auto;
+    padding: 32px;
+  }
+  .contactNote h2 {
+    font-size: 46px;
+  }
+  .contactNote > svg {
+    width: 52px;
+    height: 52px;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 900px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .title {
+    font-size: clamp(64px, 11vw, 96px);
+  }
+  .introCopy {
+    padding-bottom: 0;
+    max-width: 62ch;
+  }
+  .contactRoute {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    padding-block: 28px;
+  }
+  .routeCopy p {
+    max-width: none;
+  }
+  .routeAction {
+    font-size: clamp(32px, 5vw, 44px);
+    gap: 20px;
+  }
+  .connection {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .teamFigure figcaption {
+    padding-right: 0;
+  }
+  .contactNote {
+    position: relative;
+    min-height: 0;
+    padding: 36px;
+    padding-right: 132px;
+  }
+  .contactNote h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .contactNote p {
+    max-width: 54ch;
+  }
+  .contactNote > svg {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+  }
+  .socialIntro {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
+  .socialIntro p {
+    max-width: none;
+  }
+  .socialLinks > a {
+    grid-template-columns: 32px 0.9fr 1.1fr 28px;
+    gap: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .title {
+    font-size: clamp(52px, 13.4vw, 76px);
+  }
+  .title > span:last-child {
+    padding-left: 0.45em;
+  }
+  .routeAction {
+    font-size: clamp(27px, 7.6vw, 40px);
+    gap: 12px;
+  }
+  .routeAction > svg {
+    width: 28px;
+    height: 28px;
+  }
+  .teamFigure figcaption {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .contactNote {
+    padding: 28px;
+  }
+  .contactNote h2 {
+    font-size: 43px;
+  }
+  .contactNote > svg {
+    display: none;
+  }
+  .socialTitle {
+    font-size: clamp(43px, 11vw, 60px);
+  }
+  .socialLinks > a {
+    grid-template-columns: 28px 1fr 28px;
+    gap: 10px 18px;
+    padding-block: 26px;
+  }
+  .socialLinks > a > svg:first-child {
+    width: 26px;
+    height: 26px;
+  }
+  .socialLinks > a > svg:nth-of-type(2) {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    width: 28px;
+    height: 28px;
+  }
+  .socialName {
+    font-size: 36px;
+  }
+  .socialDetail {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 13px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .teamFrame {
+    animation: none;
+    clip-path: none;
+  }
+  .contactRoute,
+  .routeAction > svg,
+  .socialLinks > a,
+  .socialLinks > a > svg:nth-of-type(2) {
+    transition: none;
+  }
+  .contactRoute:hover .routeAction > svg,
+  .socialLinks > a:hover > svg:nth-of-type(2) {
+    transform: none;
+  }
+}

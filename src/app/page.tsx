@@ -1,145 +1,176 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
-import Container from "@/components/Container";
-
-function Card({
-  title,
-  desc,
-  href,
-}: {
-  title: string;
-  desc: string;
-  href: string;
-}) {
-  return (
-    <Link
-      href={href}
-      className="group rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-primary/60 hover:bg-white/10"
-    >
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <h3 className="text-base font-semibold tracking-tight transition group-hover:text-primary">
-            {title}
-          </h3>
-          <p className="mt-2 text-sm text-zinc-300">{desc}</p>
-        </div>
-        <span className="text-sm text-zinc-400 transition group-hover:text-primary">
-          →
-        </span>
-      </div>
-    </Link>
-  );
-}
+import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
+import HeroShowcase from "@/components/HeroShowcase";
+import WorkshopStory from "@/components/WorkshopStory";
+import { sponsorTiers } from "@/data/sponsors";
 
 export default function HomePage() {
   return (
-    <main>
-      <section className="relative overflow-hidden">
-
-        <Container>
-          <div className="grid gap-8 py-12 sm:py-16 lg:grid-cols-2 lg:items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 rounded-full border border-primary/50 bg-primary/10 px-3 py-1 text-xs text-zinc-100">
-                <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                Robotics • Community • Competition
-              </div>
-
-              <h1 className="mt-5 text-3xl font-semibold tracking-tight sm:text-5xl">
-                <span className="text-primary">Team 854</span> — Iron Bears
-                <br />
-                Robotics
-              </h1>
-
-              <div className="mt-4 h-1 w-24 rounded-full bg-primary/70" />
-
-              <p className="mt-4 max-w-2xl text-base text-zinc-300 sm:text-lg">
-                We design, build, and program competitive robots while developing
-                real engineering skills, leadership, and community impact.
+    <main id="main-content">
+      <HeroShowcase />
+      <section className="home-story" id="our-team">
+        <div className="container">
+          <div className="story-heading" data-line-reveal>
+            <h2 className="section-title">
+              GREAT ROBOTS.
+              <br />
+              <span className="accent-text">EVEN BETTER PEOPLE.</span>
+            </h2>
+            <ArrowUpRight size={76} weight="thin" aria-hidden="true" />
+          </div>
+          <div className="story-grid">
+            <div className="story-copy" data-reveal>
+              <p className="body-copy">
+                We are the Iron Bears, a student-led robotics team at
+                Martingrove Collegiate Institute in Toronto, Ontario.
               </p>
-
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link
-                  href="/sponsors"
-                  className="inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-black transition hover:bg-primary-dark"
-                >
-                  Sponsor us
-                </Link>
-
-                <Link
-                  href="/about"
-                  className="inline-flex items-center justify-center rounded-xl border border-primary/60 bg-primary/10 px-6 py-3 text-sm font-semibold text-primary transition hover:bg-primary/20"
-                >
-                  Learn about the team
-                </Link>
-              </div>
-
-              <div className="mt-10 grid gap-4 sm:grid-cols-2">
-                <Card title="About" desc="Mission, values, and what we do." href="/about" />
-                <Card title="Sponsors" desc="Supporters and ways to partner." href="/sponsors" />
-                <Card title="History" desc="Robots by year + game archive." href="/history" />
-                <Card title="Contact" desc="Reach out to collaborate or visit." href="/contact" />
-              </div>
+              <p className="body-copy">
+                We design, build, and program competitive robots while
+                developing real engineering skills, leadership, and community
+                impact. Every season is a chance to learn something new,
+                together.
+              </p>
+              <Link href="/about" className="text-link">
+                Our team. Our story.{" "}
+                <ArrowUpRight size={20} aria-hidden="true" />
+              </Link>
             </div>
-
-            <div className="relative">
-              <div className="relative overflow-hidden rounded-2xl border border-primary/50 bg-white/5">
+            <figure className="story-photo" data-reveal>
+              <div className="story-photo-frame" data-parallax>
                 <Image
-                  src="/images/about/hero.jpg"
-                  alt="Team 854 robot on the field"
-                  width={1600}
-                  height={900}
-                  className="h-auto w-full object-cover"
-                  priority
+                  data-parallax-image
+                  src="/images/about/teamphoto.jpg"
+                  alt="Iron Bears students and mentors at Martingrove Collegiate Institute"
+                  fill
+                  sizes="(max-width: 800px) 100vw, 65vw"
                 />
               </div>
-              <div className="mt-3 text-xs text-zinc-400">
-                <span className="text-primary font-semibold">In action</span> • 2025 REEFSCAPE robot on the field
-              </div>
-            </div>
+              <figcaption>Different skills. One team.</figcaption>
+            </figure>
           </div>
-        </Container>
+        </div>
       </section>
-
-      <section className="mt-2">
-        <Container>
-          <div className="rounded-2xl border border-primary/25 bg-white/5 p-6 sm:p-8">
-            <h2 className="text-lg font-semibold tracking-tight">
-              What is <span className="text-primary">FIRST</span> Robotics?
-            </h2>
-            <p className="mt-2 max-w-3xl text-sm text-zinc-300">
-              FIRST Robotics Competition is a high-school robotics league where
-              teams build large robots to compete in a new game each season—like
-              a sport, but with engineering.
-            </p>
-
-            <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              {[
-                {
-                  title: "Build",
-                  body: "Mechanical design, CAD, fabrication, wiring.",
-                },
-                {
-                  title: "Code",
-                  body: "Controls, autonomy, vision, and strategy.",
-                },
-                {
-                  title: "Lead",
-                  body: "Outreach, sponsorships, teamwork, and impact.",
-                },
-              ].map((b) => (
-                <div
-                  key={b.title}
-                  className="rounded-xl border border-primary/30 bg-black/40 p-4"
-                >
-                  <div className="text-sm font-semibold text-primary">
-                    {b.title}
-                  </div>
-                  <div className="mt-1 text-sm text-zinc-300">{b.body}</div>
-                </div>
-              ))}
+      <div className="kinetic-divider" aria-hidden="true">
+        <div data-drift="left">
+          DESIGN. BUILD. COMPETE. <span>REPEAT.</span>
+        </div>
+      </div>
+      <WorkshopStory />
+      <section className="home-archive container">
+        <div className="section-heading-row" data-line-reveal>
+          <h2 className="section-title">
+            EVERY ROBOT
+            <br />
+            HAS A STORY.
+          </h2>
+          <Link href="/history" className="text-link">
+            Explore our history <ArrowUpRight size={20} aria-hidden="true" />
+          </Link>
+        </div>
+        <div className="archive-preview">
+          <a
+            href="https://www.thebluealliance.com/team/854/2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="robot-feature"
+            data-reveal
+            aria-label="View Team 854's 2026 REBUILT season on The Blue Alliance"
+          >
+            <div className="robot-feature-image">
+              <Image
+                src="/images/history/2026.jpg"
+                alt="Team 854's 2026 REBUILT robot"
+                fill
+                sizes="(max-width: 600px) 100vw, 50vw"
+              />
             </div>
+            <div className="robot-feature-caption">
+              <span className="robot-year">2026</span> <span>REBUILT</span>
+              <ArrowUpRight size={30} aria-hidden="true" />
+            </div>
+          </a>
+          <a
+            href="https://www.thebluealliance.com/team/854/2025"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="robot-feature"
+            data-reveal
+            aria-label="View Team 854's 2025 REEFSCAPE season on The Blue Alliance"
+          >
+            <div className="robot-feature-image">
+              <Image
+                src="/images/history/2025.jpg"
+                alt="Team 854's 2025 REEFSCAPE robot"
+                fill
+                sizes="(max-width: 600px) 100vw, 50vw"
+              />
+            </div>
+            <div className="robot-feature-caption">
+              <span className="robot-year">2025</span> <span>REEFSCAPE</span>
+              <ArrowUpRight size={30} aria-hidden="true" />
+            </div>
+          </a>
+        </div>
+      </section>
+      <section className="home-supporters">
+        <div className="container supporters-layout">
+          <div className="supporters-intro" data-reveal>
+            <h2 className="section-title">
+              BUILT
+              <br />
+              <span className="accent-text">TOGETHER.</span>
+            </h2>
+            <p className="body-copy">
+              Our sponsors make the season possible, supporting the tools,
+              parts, funding, and outreach behind every robot.
+            </p>
+            <Link href="/sponsors" className="text-link">
+              Meet all our supporters{" "}
+              <ArrowUpRight size={20} aria-hidden="true" />
+            </Link>
           </div>
-        </Container>
+          <div className="home-logo-strip">
+            {sponsorTiers[0].sponsors.map((s) => (
+              <a
+                key={s.name}
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`home-sponsor-logo logo-tone-${s.tone || "light"}`}
+                data-reveal
+                aria-label={`Visit ${s.name}`}
+              >
+                <Image
+                  src={s.logo}
+                  alt={s.name}
+                  width={260}
+                  height={94}
+                  sizes="(max-width: 600px) 65vw, 28vw"
+                />
+                <ArrowUpRight size={24} aria-hidden="true" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="home-invitation">
+        <div className="container invitation-inner">
+          <h2 className="section-title" data-line-reveal>
+            THERE’S A PLACE
+            <br />
+            FOR YOU HERE.
+          </h2>
+          <div className="invitation-bottom" data-reveal>
+            <p>
+              Bring your curiosity, share your expertise, or help make our next
+              robot possible.
+            </p>
+            <Link href="/contact" className="invitation-link">
+              Let’s connect <ArrowUpRight size={42} aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
       </section>
     </main>
   );

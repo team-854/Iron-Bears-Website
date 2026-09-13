@@ -1,0 +1,153 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "Iron Bears FRC Team 854 home" [ref=f3e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e6]:
+          - text: IRON BEARS
+          - generic [ref=f3e7]: FRC TEAM 854
+      - navigation "Main navigation" [ref=f3e8]:
+        - link "Home" [ref=f3e9] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=f3e10] [cursor=pointer]:
+          - /url: /about
+        - link "Sponsors" [ref=f3e11] [cursor=pointer]:
+          - /url: /sponsors
+        - link "History" [ref=f3e12] [cursor=pointer]:
+          - /url: /history
+        - link "Contact" [ref=f3e13] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f3e14]:
+        - button "Pause motion" [ref=f3e15] [cursor=pointer]
+        - button "Switch to light theme" [ref=f3e18] [cursor=pointer]
+        - link "Get involved" [ref=f3e21] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f3e24]:
+    - region [ref=f3e26]:
+      - generic [ref=f3e27]:
+        - img "Team 854's 2025 REEFSCAPE robot competing on the field" [ref=f3e30]
+        - generic [ref=f3e33]:
+          - heading "WE BUILD REAL ROBOTS." [level=1] [ref=f3e34]:
+            - generic [ref=f3e35]: WE BUILD
+            - generic [ref=f3e36]: REAL ROBOTS.
+          - generic [ref=f3e37]:
+            - paragraph [ref=f3e38]: Student-led. Hands-on. Team 854 turns curiosity into competitive robots and real engineering skills.
+            - generic [ref=f3e39]:
+              - link "Meet the team" [ref=f3e40] [cursor=pointer]:
+                - /url: /about
+              - link "Sponsor us" [ref=f3e43] [cursor=pointer]:
+                - /url: /sponsors
+        - link "Scroll into our world" [ref=f3e46] [cursor=pointer]:
+          - /url: "#our-team"
+      - generic [ref=f3e51]:
+        - paragraph [ref=f3e52]: Our 2025 REEFSCAPE robot, in its element.
+        - group "Explore the team in photos" [ref=f3e53]:
+          - button "Compete" [pressed] [ref=f3e54] [cursor=pointer]
+          - button "Build" [ref=f3e56] [cursor=pointer]
+          - button "Connect" [ref=f3e57] [cursor=pointer]
+    - generic [ref=f3e59]:
+      - heading "GREAT ROBOTS. EVEN BETTER PEOPLE." [level=2] [ref=f3e61]: GREAT ROBOTS.EVEN BETTER PEOPLE.
+      - generic [ref=f3e64]:
+        - generic [ref=f3e65]:
+          - paragraph [ref=f3e66]: We are the Iron Bears, a student-led robotics team at Martingrove Collegiate Institute in Toronto, Ontario.
+          - paragraph [ref=f3e67]: We design, build, and program competitive robots while developing real engineering skills, leadership, and community impact. Every season is a chance to learn something new, together.
+          - link "Our team. Our story." [ref=f3e68] [cursor=pointer]:
+            - /url: /about
+        - figure "Different skills. One team." [ref=f3e71]:
+          - img "Iron Bears students and mentors at Martingrove Collegiate Institute" [ref=f3e73]
+    - generic [ref=f3e76]: DESIGN. BUILD. COMPETE. REPEAT.
+    - region [ref=f3e78]:
+      - generic [ref=f3e79]:
+        - generic [ref=f3e80]:
+          - heading "THIS IS OUR KIND OF SPORT." [level=2] [ref=f3e81]: THIS IS OURKIND OF SPORT.
+          - paragraph [ref=f3e82]: FIRST Robotics Competition is a high-school robotics league where teams build large robots for a new game each season. Engineering meets competition.
+        - generic [ref=f3e83]:
+          - img "Hands-on robot assembly with Iron Bears students and mentors" [ref=f3e86]
+          - generic [ref=f3e90]:
+            - article [ref=f3e91]:
+              - heading "BUILD." [level=3] [ref=f3e92]
+              - paragraph [ref=f3e93]: Mechanical design, CAD, fabrication, and wiring. Make an idea into something real.
+            - article [ref=f3e94]:
+              - heading "CODE." [level=3] [ref=f3e95]
+              - paragraph [ref=f3e96]: Controls, autonomy, vision, and strategy. Give the robot a way to see, think, and move.
+            - article [ref=f3e97]:
+              - heading "LEAD." [level=3] [ref=f3e98]
+              - paragraph [ref=f3e99]: Outreach, sponsorships, teamwork, and impact. Take what we learn beyond the workshop.
+    - generic [ref=f3e100]:
+      - generic [ref=f3e101]:
+        - heading "EVERY ROBOT HAS A STORY." [level=2] [ref=f3e102]: EVERY ROBOTHAS A STORY.
+        - link "Explore our history" [ref=f3e103] [cursor=pointer]:
+          - /url: /history
+      - generic [ref=f3e106]:
+        - link "View Team 854's 2026 REBUILT season on The Blue Alliance" [ref=f3e107] [cursor=pointer]:
+          - /url: https://www.thebluealliance.com/team/854/2026
+          - img "Team 854's 2026 REBUILT robot" [ref=f3e109]
+          - generic [ref=f3e110]:
+            - generic [ref=f3e111]: "2026"
+            - generic [ref=f3e112]: REBUILT
+        - link "View Team 854's 2025 REEFSCAPE season on The Blue Alliance" [ref=f3e115] [cursor=pointer]:
+          - /url: https://www.thebluealliance.com/team/854/2025
+          - img "Team 854's 2025 REEFSCAPE robot" [ref=f3e117]
+          - generic [ref=f3e118]:
+            - generic [ref=f3e119]: "2025"
+            - generic [ref=f3e120]: REEFSCAPE
+    - generic [ref=f3e124]:
+      - generic [ref=f3e125]:
+        - heading "BUILT TOGETHER." [level=2] [ref=f3e126]: BUILTTOGETHER.
+        - paragraph [ref=f3e127]: Our sponsors make the season possible, supporting the tools, parts, funding, and outreach behind every robot.
+        - link "Meet all our supporters" [ref=f3e128] [cursor=pointer]:
+          - /url: /sponsors
+      - generic [ref=f3e131]:
+        - link "Visit Optimist International" [ref=f3e132] [cursor=pointer]:
+          - /url: https://www.optimist.org
+          - img "Optimist International" [ref=f3e133]
+        - link "Visit Gene Haas Foundation" [ref=f3e136] [cursor=pointer]:
+          - /url: https://www.ghaasfoundation.org
+          - img "Gene Haas Foundation" [ref=f3e137]
+        - link "Visit Hatch" [ref=f3e140] [cursor=pointer]:
+          - /url: https://www.hatch.com
+          - img "Hatch" [ref=f3e141]
+    - generic [ref=f3e145]:
+      - heading "THERE’S A PLACE FOR YOU HERE." [level=2] [ref=f3e146]: THERE’S A PLACEFOR YOU HERE.
+      - generic [ref=f3e147]:
+        - paragraph [ref=f3e148]: Bring your curiosity, share your expertise, or help make our next robot possible.
+        - link "Let’s connect" [ref=f3e149] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=f3e152]:
+    - generic [ref=f3e153]:
+      - generic [aria-hidden] [ref=f3e154]:
+        - generic [ref=f3e155]: IRON BEARS.
+        - generic [ref=f3e156]: "854"
+      - generic [ref=f3e157]:
+        - generic [ref=f3e158]:
+          - link "Iron Bears FRC Team 854 home" [ref=f3e159] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f3e160]:
+              - text: IRON BEARS
+              - generic [ref=f3e161]: FRC TEAM 854
+          - paragraph [ref=f3e162]: Student-led robotics.Martingrove Collegiate Institute.Toronto, Ontario.
+        - generic [ref=f3e163]:
+          - heading "Explore" [level=2] [ref=f3e164]
+          - link "About the team" [ref=f3e165] [cursor=pointer]:
+            - /url: /about
+          - link "Our robot history" [ref=f3e166] [cursor=pointer]:
+            - /url: /history
+          - link "Our sponsors" [ref=f3e167] [cursor=pointer]:
+            - /url: /sponsors
+        - generic [ref=f3e168]:
+          - heading "Stay connected" [level=2] [ref=f3e169]
+          - link "Instagram" [ref=f3e170] [cursor=pointer]:
+            - /url: https://www.instagram.com/team854/
+          - link "GitHub" [ref=f3e173] [cursor=pointer]:
+            - /url: https://github.com/team854
+          - link "Contact the team" [ref=f3e176] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=f3e179]:
+        - paragraph [ref=f3e180]: © 2026 Iron Bears Robotics
+        - paragraph [ref=f3e181]: Built on curiosity. Powered by teamwork.
+        - link "mci.robotics@gmail.com" [ref=f3e182] [cursor=pointer]:
+          - /url: mailto:mci.robotics@gmail.com
+  - button "Open Next.js Dev Tools" [ref=f3e188] [cursor=pointer]
+  - alert [ref=f3e192]

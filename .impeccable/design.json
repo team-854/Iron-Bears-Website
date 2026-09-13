@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-13T01:59:49.276Z",
+  "title": "Design System: Iron Bears Robotics",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "accent",
+        "tonalRamp": [
+          "oklch(15% 0.19585 43.690)",
+          "oklch(26.43% 0.19585 43.690)",
+          "oklch(37.86% 0.19585 43.690)",
+          "oklch(49.29% 0.19585 43.690)",
+          "oklch(60.71% 0.19585 43.690)",
+          "oklch(72.14% 0.19585 43.690)",
+          "oklch(83.57% 0.19585 43.690)",
+          "oklch(95% 0.19585 43.690)"
+        ]
+      },
+      "accent-ink": {
+        "role": "neutral",
+        "displayName": "accent ink",
+        "tonalRamp": [
+          "oklch(15% 0.00429 128.722)",
+          "oklch(26.43% 0.00429 128.722)",
+          "oklch(37.86% 0.00429 128.722)",
+          "oklch(49.29% 0.00429 128.722)",
+          "oklch(60.71% 0.00429 128.722)",
+          "oklch(72.14% 0.00429 128.722)",
+          "oklch(83.57% 0.00429 128.722)",
+          "oklch(95% 0.00429 128.722)"
+        ]
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "accent text",
+        "tonalRamp": [
+          "oklch(15% 0.16680 50.536)",
+          "oklch(26.43% 0.16680 50.536)",
+          "oklch(37.86% 0.16680 50.536)",
+          "oklch(49.29% 0.16680 50.536)",
+          "oklch(60.71% 0.16680 50.536)",
+          "oklch(72.14% 0.16680 50.536)",
+          "oklch(83.57% 0.16680 50.536)",
+          "oklch(95% 0.16680 50.536)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "background",
+        "tonalRamp": [
+          "oklch(15% 0.00429 128.722)",
+          "oklch(26.43% 0.00429 128.722)",
+          "oklch(37.86% 0.00429 128.722)",
+          "oklch(49.29% 0.00429 128.722)",
+          "oklch(60.71% 0.00429 128.722)",
+          "oklch(72.14% 0.00429 128.722)",
+          "oklch(83.57% 0.00429 128.722)",
+          "oklch(95% 0.00429 128.722)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "oklch(15% 0.00814 128.866)",
+          "oklch(26.43% 0.00814 128.866)",
+          "oklch(37.86% 0.00814 128.866)",
+          "oklch(49.29% 0.00814 128.866)",
+          "oklch(60.71% 0.00814 128.866)",
+          "oklch(72.14% 0.00814 128.866)",
+          "oklch(83.57% 0.00814 128.866)",
+          "oklch(95% 0.00814 128.866)"
+        ]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "surface raised",
+        "tonalRamp": [
+          "oklch(15% 0.01338 126.231)",
+          "oklch(26.43% 0.01338 126.231)",
+          "oklch(37.86% 0.01338 126.231)",
+          "oklch(49.29% 0.01338 126.231)",
+          "oklch(60.71% 0.01338 126.231)",
+          "oklch(72.14% 0.01338 126.231)",
+          "oklch(83.57% 0.01338 126.231)",
+          "oklch(95% 0.01338 126.231)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "foreground",
+        "tonalRamp": [
+          "oklch(15% 0.00802 98.880)",
+          "oklch(26.43% 0.00802 98.880)",
+          "oklch(37.86% 0.00802 98.880)",
+          "oklch(49.29% 0.00802 98.880)",
+          "oklch(60.71% 0.00802 98.880)",
+          "oklch(72.14% 0.00802 98.880)",
+          "oklch(83.57% 0.00802 98.880)",
+          "oklch(95% 0.00802 98.880)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.01572 119.191)",
+          "oklch(26.43% 0.01572 119.191)",
+          "oklch(37.86% 0.01572 119.191)",
+          "oklch(49.29% 0.01572 119.191)",
+          "oklch(60.71% 0.01572 119.191)",
+          "oklch(72.14% 0.01572 119.191)",
+          "oklch(83.57% 0.01572 119.191)",
+          "oklch(95% 0.01572 119.191)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "tonalRamp": [
+          "oklch(15% 0.01613 126.804)",
+          "oklch(26.43% 0.01613 126.804)",
+          "oklch(37.86% 0.01613 126.804)",
+          "oklch(49.29% 0.01613 126.804)",
+          "oklch(60.71% 0.01613 126.804)",
+          "oklch(72.14% 0.01613 126.804)",
+          "oklch(83.57% 0.01613 126.804)",
+          "oklch(95% 0.01613 126.804)"
+        ]
+      },
+      "light-background": {
+        "role": "neutral",
+        "displayName": "light background",
+        "tonalRamp": [
+          "oklch(15% 0.00793 106.547)",
+          "oklch(26.43% 0.00793 106.547)",
+          "oklch(37.86% 0.00793 106.547)",
+          "oklch(49.29% 0.00793 106.547)",
+          "oklch(60.71% 0.00793 106.547)",
+          "oklch(72.14% 0.00793 106.547)",
+          "oklch(83.57% 0.00793 106.547)",
+          "oklch(95% 0.00793 106.547)"
+        ]
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "light surface",
+        "tonalRamp": [
+          "oklch(15% 0.01084 118.028)",
+          "oklch(26.43% 0.01084 118.028)",
+          "oklch(37.86% 0.01084 118.028)",
+          "oklch(49.29% 0.01084 118.028)",
+          "oklch(60.71% 0.01084 118.028)",
+          "oklch(72.14% 0.01084 118.028)",
+          "oklch(83.57% 0.01084 118.028)",
+          "oklch(95% 0.01084 118.028)"
+        ]
+      },
+      "light-surface-raised": {
+        "role": "neutral",
+        "displayName": "light surface raised",
+        "tonalRamp": [
+          "oklch(15% 0.01507 119.123)",
+          "oklch(26.43% 0.01507 119.123)",
+          "oklch(37.86% 0.01507 119.123)",
+          "oklch(49.29% 0.01507 119.123)",
+          "oklch(60.71% 0.01507 119.123)",
+          "oklch(72.14% 0.01507 119.123)",
+          "oklch(83.57% 0.01507 119.123)",
+          "oklch(95% 0.01507 119.123)"
+        ]
+      },
+      "light-foreground": {
+        "role": "neutral",
+        "displayName": "light foreground",
+        "tonalRamp": [
+          "oklch(15% 0.01226 129.096)",
+          "oklch(26.43% 0.01226 129.096)",
+          "oklch(37.86% 0.01226 129.096)",
+          "oklch(49.29% 0.01226 129.096)",
+          "oklch(60.71% 0.01226 129.096)",
+          "oklch(72.14% 0.01226 129.096)",
+          "oklch(83.57% 0.01226 129.096)",
+          "oklch(95% 0.01226 129.096)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "light muted",
+        "tonalRamp": [
+          "oklch(15% 0.02508 127.776)",
+          "oklch(26.43% 0.02508 127.776)",
+          "oklch(37.86% 0.02508 127.776)",
+          "oklch(49.29% 0.02508 127.776)",
+          "oklch(60.71% 0.02508 127.776)",
+          "oklch(72.14% 0.02508 127.776)",
+          "oklch(83.57% 0.02508 127.776)",
+          "oklch(95% 0.02508 127.776)"
+        ]
+      },
+      "light-line": {
+        "role": "neutral",
+        "displayName": "light line",
+        "tonalRamp": [
+          "oklch(15% 0.02018 125.867)",
+          "oklch(26.43% 0.02018 125.867)",
+          "oklch(37.86% 0.02018 125.867)",
+          "oklch(49.29% 0.02018 125.867)",
+          "oklch(60.71% 0.02018 125.867)",
+          "oklch(72.14% 0.02018 125.867)",
+          "oklch(83.57% 0.02018 125.867)",
+          "oklch(95% 0.02018 125.867)"
+        ]
+      },
+      "light-accent-text": {
+        "role": "primary",
+        "displayName": "light accent text",
+        "tonalRamp": [
+          "oklch(15% 0.14930 42.494)",
+          "oklch(26.43% 0.14930 42.494)",
+          "oklch(37.86% 0.14930 42.494)",
+          "oklch(49.29% 0.14930 42.494)",
+          "oklch(60.71% 0.14930 42.494)",
+          "oklch(72.14% 0.14930 42.494)",
+          "oklch(83.57% 0.14930 42.494)",
+          "oklch(95% 0.14930 42.494)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Home display",
+        "purpose": "Home hero headline; route-specific mobile sizes remain in source."
+      },
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "General page titles, with local route adjustments."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Shared section headings now scale to 88px, with local workshop and mobile adjustments."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default Manrope text."
+      },
+      "reading": {
+        "displayName": "Reading copy",
+        "purpose": "Supporting paragraphs with a 65ch maximum shared measure."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Shared action links and buttons."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "title-reveal",
+        "value": "900ms power3.out",
+        "purpose": "Once-only 24% lower clip and 26px translated reveal; content stays opaque."
+      },
+      {
+        "name": "content-reveal",
+        "value": "750ms power3.out",
+        "purpose": "Once-only 34px settling movement with opacity fixed at 1."
+      },
+      {
+        "name": "hero-pin",
+        "value": "140% scroll distance; scrub 0.7",
+        "purpose": "Desktop circle expands to the stage; photo centers at scale 1.12, SVG rings rotate 110 degrees and scale 1.7 while fading, intro exits, decorative finale and gradient seam enter. Sequence-progress line fades at the end."
+      },
+      {
+        "name": "workshop-pin",
+        "value": "170% scroll distance; scrub 0.65",
+        "purpose": "One Build/Code/Lead sequence with vertical image masks and alternating descriptions."
+      },
+      {
+        "name": "photo-parallax",
+        "value": "scale 1.12; yPercent -5 to 5; scrub 0.7",
+        "purpose": "Bounded desktop motion of selected non-archive photographs; disconnected or unmarked frames release their triggers. Repeated season images and sponsor marks remain static."
+      },
+      {
+        "name": "filter-flip",
+        "value": "300–420ms cubic-bezier(0.16,1,0.3,1)",
+        "purpose": "Native Web Animations continuity for history filter changes; canceled on pause or replacement."
+      },
+      {
+        "name": "motion-gate",
+        "value": "(min-width: 900px) and (min-height: 620px)",
+        "purpose": "Hero/workshop pins, parallax and text drift only within this query when motion is enabled. Native scrolling is retained."
+      },
+      {
+        "name": "motion-control",
+        "value": "iron-bears-motion: full | reduced",
+        "purpose": "Persistent visitor preference; effective reduced motion restores normal-flow chapters, removes pins and stops spatial effects."
+      },
+      {
+        "name": "reserved-frame-refresh",
+        "value": "fonts ready; window load; explicit refresh event",
+        "purpose": "No per-image lazy-load refresh: frames reserve space, avoiding interruptions to pinned scrolling. Routes without a hash reset to top after prior pins are removed."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "motion-min-width",
+        "value": "900px"
+      },
+      {
+        "name": "motion-min-height",
+        "value": "620px"
+      },
+      {
+        "name": "sponsors-stack",
+        "value": "899px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "800px"
+      },
+      {
+        "name": "sponsors-single-column",
+        "value": "599px"
+      },
+      {
+        "name": "mobile-home",
+        "value": "600px"
+      },
+      {
+        "name": "history-two-columns",
+        "value": "1023px"
+      },
+      {
+        "name": "history-single-column",
+        "value": "639px"
+      },
+      {
+        "name": "narrow-home-title",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shared orange action with a lighter hover fill and theme-aware keyboard outline.",
+      "html": "<a class=\"ds-primary\" href=\"/about\">Meet the team <svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 22px;border:1px solid transparent;border-radius:3px;font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:13px;font-weight:750;line-height:1.4;text-decoration:none;transition:background-color 0.2s,color 0.2s,border-color 0.2s;background:var(--accent,#f26100);color:var(--accent-ink,#121311);}.ds-primary:hover{background:#ff8a3d;}.ds-primary svg{flex:0 0 auto;transition:transform 0.2s;}.ds-primary:hover svg{transform:translate(2px,-2px);}.ds-primary:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary svg{animation:none;transition-duration:0.01ms;}}"
+    },
+    {
+      "name": "Hero secondary action",
+      "kind": "button",
+      "refersTo": "button-hero-secondary",
+      "description": "The Sponsor us action retains its fixed dark surface and pale text in either page theme.",
+      "html": "<a class=\"ds-hero-secondary\" href=\"/sponsors\">Sponsor us <svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg></a>",
+      "css": ".ds-hero-secondary{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 22px;border:1px solid transparent;border-radius:3px;font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:13px;font-weight:750;line-height:1.4;text-decoration:none;transition:background-color 0.2s,color 0.2s,border-color 0.2s;color:#f4f3ed;border-color:#777c70;background:#121311a8;}.ds-hero-secondary:hover{background:#30342a;border-color:#f4f3ed;}.ds-hero-secondary svg{flex:0 0 auto;transition:transform 0.2s;}.ds-hero-secondary:hover svg{transform:translate(2px,-2px);}.ds-hero-secondary:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-hero-secondary,.ds-hero-secondary svg{animation:none;transition-duration:0.01ms;}}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Inline action with a lower rule and moving Phosphor arrow; text and rule take accent-text on hover.",
+      "html": "<a class=\"ds-text-link\" href=\"/history\">Explore our history <svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:18px;padding:9px 0;min-height:44px;font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:13px;font-weight:750;line-height:1.65;color:var(--foreground,#f4f3ed);text-decoration:none;border-bottom:1px solid var(--line,#393d34);}.ds-text-link:hover{color:var(--accent-text,#ff8a3d);border-color:var(--accent-text,#ff8a3d);}.ds-text-link svg{flex:0 0 auto;transition:transform 0.2s;}.ds-text-link:hover svg{transform:translate(2px,-2px);}.ds-text-link:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-text-link svg{animation:none;transition-duration:0.01ms;}}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Desktop links with the History route selected. Hover and current route expose the lower orange rule.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/\">Home</a><a href=\"/about\">About</a><a href=\"/sponsors\">Sponsors</a><a href=\"/history\" aria-current=\"page\">History</a><a href=\"/contact\">Contact</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:clamp(20px,2.4vw,36px);height:78px;}.ds-nav a{position:relative;display:flex;align-items:center;height:100%;font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:12px;font-weight:650;line-height:1.65;color:var(--foreground,#f4f3ed);text-decoration:none;}.ds-nav a::after{content:\"\";position:absolute;bottom:18px;left:0;right:0;height:2px;background:var(--accent,#f26100);transform:scaleX(0);transform-origin:left;transition:transform 0.2s;}.ds-nav a[aria-current=\"page\"]::after,.ds-nav a:hover::after{transform:scaleX(1);}.ds-nav a:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-nav a::after{animation:none;transition-duration:0.01ms;}}"
+    },
+    {
+      "name": "Theme control",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Dark-theme state of the header control. The application changes its accessible name and icon when the theme changes.",
+      "html": "<button class=\"ds-theme\" type=\"button\" aria-label=\"Switch to light theme\" title=\"Switch to light theme\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z\"></path></svg></button>",
+      "css": ".ds-theme{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;background:transparent;border:1px solid var(--line,#393d34);border-radius:3px;color:var(--foreground,#f4f3ed);font-family:var(--font-body,\"Manrope Variable\",sans-serif);cursor:pointer;}.ds-theme:hover{background:var(--surface,#1b1d19);}.ds-theme:disabled{opacity:0.5;cursor:default;}.ds-theme:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}"
+    },
+    {
+      "name": "Scene selector",
+      "kind": "custom",
+      "refersTo": "scene-button",
+      "description": "Home photo selection, shown with Compete pressed. Application state changes the photograph and live caption.",
+      "html": "<div class=\"ds-scenes\" role=\"group\" aria-label=\"Explore the team in photos\"><button type=\"button\" aria-pressed=\"true\">Compete<span class=\"ds-scene-rule\"></span></button><button type=\"button\" aria-pressed=\"false\">Build<span class=\"ds-scene-rule\"></span></button><button type=\"button\" aria-pressed=\"false\">Connect<span class=\"ds-scene-rule\"></span></button></div>",
+      "css": ".ds-scenes{display:flex;align-self:stretch;gap:32px;}.ds-scenes button{position:relative;min-width:64px;padding:20px 0;font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:12px;font-weight:750;line-height:1.65;background:transparent;color:var(--muted,#b2b5aa);border:0;cursor:pointer;}.ds-scenes button[aria-pressed=\"true\"],.ds-scenes button:hover{color:var(--foreground,#f4f3ed);}.ds-scene-rule{position:absolute;bottom:0;height:3px;background:var(--accent,#f26100);left:0;right:0;transform:scaleX(0);transform-origin:left;transition:transform 0.3s;}.ds-scenes button[aria-pressed=\"true\"] .ds-scene-rule{transform:scaleX(1);}.ds-scenes button:disabled{opacity:0.5;cursor:default;}.ds-scenes button:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(max-width:800px){.ds-scenes{justify-content:space-between;gap:24px;}.ds-scenes button{padding-block:16px;}}@media(prefers-reduced-motion:reduce){.ds-scene-rule{animation:none;transition-duration:0.01ms;}}"
+    },
+    {
+      "name": "Decade filters",
+      "kind": "custom",
+      "refersTo": "era-filter",
+      "description": "Horizontal outlined History filters with counts, orange pressed state and a two-column arrangement below 640px. Application filtering updates the equal-sized record grid and live count.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter seasons by decade\"><button type=\"button\" aria-pressed=\"true\"><span>All seasons</span><span class=\"ds-filter-count\" aria-hidden=\"true\">13</span></button><button type=\"button\" aria-pressed=\"false\"><span>2020s</span><span class=\"ds-filter-count\" aria-hidden=\"true\">04</span></button><button type=\"button\" aria-pressed=\"false\"><span>2010s</span><span class=\"ds-filter-count\" aria-hidden=\"true\">06</span></button><button type=\"button\" aria-pressed=\"false\"><span>2000s</span><span class=\"ds-filter-count\" aria-hidden=\"true\">03</span></button></div>",
+      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:10px;}.ds-filters button{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:46px;padding:12px 18px;border:1px solid var(--line,#393d34);border-radius:3px;background:transparent;color:var(--foreground,#f4f3ed);font-family:var(--font-body,\"Manrope Variable\",sans-serif);font-size:13px;font-weight:650;line-height:1.4;cursor:pointer;transition:color 160ms ease,background-color 160ms ease,border-color 160ms ease;}.ds-filters button:hover{border-color:var(--foreground,#f4f3ed);background:var(--surface-raised,#242720);}.ds-filters button[aria-pressed=\"true\"]{border-color:var(--accent-text,#ff8a3d);background:var(--accent,#f26100);color:var(--accent-ink,#121311);}.ds-filter-count{color:var(--muted,#b2b5aa);font-size:12px;font-variant-numeric:tabular-nums;}.ds-filters button[aria-pressed=\"true\"] .ds-filter-count{color:var(--accent-ink,#121311);}.ds-filters button:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(max-width:639px){.ds-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;}.ds-filters button{justify-content:space-between;padding-inline:16px;}}@media(prefers-reduced-motion:reduce){.ds-filters button{transition-duration:100ms;transition-property:color,background-color;}}"
+    },
+    {
+      "name": "Season card",
+      "kind": "card",
+      "refersTo": "season-card",
+      "description": "Uniform 4:3 archive record with a condensed year, reserved two-line game caption and external-link arrow. All archive columns use this frame; selected records use contain framing and photos have no parallax.",
+      "html": "<a class=\"ds-season\" href=\"https://www.thebluealliance.com/team/854/2026\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View Team 854's 2026 REBUILT season on The Blue Alliance (opens in a new tab)\"><div class=\"ds-season-image\"><img src=\"/images/history/2026.jpg\" alt=\"Team 854 robot from the 2026 REBUILT season\"></div><div class=\"ds-season-caption\"><h3 class=\"ds-season-heading\"><span class=\"ds-season-year\">2026</span><span class=\"ds-season-game\">REBUILT</span></h3><svg width=\"22\" height=\"22\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg></div></a>",
+      "css": ".ds-season{display:block;height:100%;color:var(--foreground,#f4f3ed);text-decoration:none;font-family:var(--font-body,\"Manrope Variable\",sans-serif);}.ds-season-image{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--surface-raised,#242720);}.ds-season-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.ds-season-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line,#393d34);}.ds-season-heading{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0;margin:0;}.ds-season-year{font-family:var(--font-display,\"Barlow Condensed\",\"Arial Narrow\",sans-serif);font-size:48px;font-weight:600;font-variant-numeric:tabular-nums;letter-spacing:-0.02em;line-height:1;transition:color 160ms ease;}.ds-season-game{min-height:3.2em;color:var(--muted,#b2b5aa);font-size:13px;font-weight:500;line-height:1.6;}.ds-season-caption svg{flex:none;margin-top:8px;color:var(--foreground,#f4f3ed);transition:color 160ms ease,transform 160ms ease;}.ds-season:hover .ds-season-year,.ds-season:hover .ds-season-caption svg{color:var(--accent-text,#ff8a3d);}.ds-season:hover .ds-season-caption svg{transform:translate(3px,-3px);}.ds-season:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}@media(max-width:639px){.ds-season-year{font-size:44px;}.ds-season-caption{margin-top:14px;padding-top:14px;gap:12px;}.ds-season-caption svg{width:22px;height:22px;}}@media(prefers-reduced-motion:reduce){.ds-season-year,.ds-season-caption svg{transition-duration:100ms;transition-property:color,background-color;}.ds-season:hover .ds-season-caption svg{transform:none;}}"
+    },
+    {
+      "name": "Motion control",
+      "kind": "button",
+      "refersTo": "motion-control",
+      "description": "Enabled-state preview of the persistent header control. The app switches between Pause motion and Enable motion, reverting pins and spatial effects when paused.",
+      "html": "<button type=\"button\" class=\"ds-motion\" aria-label=\"Pause motion\" title=\"Pause motion\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z\"></path></svg></button>",
+      "css": ".ds-motion{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;background:transparent;border:1px solid var(--line,#393d34);border-radius:3px;color:var(--foreground,#f4f3ed);cursor:pointer;}.ds-motion:hover{background:var(--surface,#1b1d19);}.ds-motion:focus-visible{outline:2px solid var(--accent-text,#ff8a3d);outline-offset:5px;}.ds-motion:disabled{opacity:0.5;cursor:default;}@media(max-width:600px){.ds-motion{width:38px;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A photographic programme for student-built machines and the people behind them.",
+    "overview": "The reviewed redesign uses genuine robot, workshop, and team photography with condensed display lettering and varied editorial sections. Charcoal, orange, and pale neutral text form the default theme; a complete light theme reverses the neutral roles while retaining the team accent. The original logo and full-color sponsor marks remain identity assets.\n\nThis record describes the current motion and grid revision: a circular photographic hero that expands across its stage, one Build/Code/Lead workshop sequence, uniform archive and sponsor grids, anchored sponsor tiers, and an orange home invitation. Shared tokens live in src/app/globals.css; route modules define local layouts and MotionSystem.tsx coordinates GSAP ScrollTrigger. The current surface contract is .impeccable/surfaces/src-app-page-tsx.md.",
+    "keyCharacteristics": [
+      "Locally loaded Barlow Condensed headings and Manrope body text.",
+      "Equal rectangular frames within repeated image groups, with a circular home hero and bespoke SVG engineering rings.",
+      "Theme-aware text, outlines, and controls with persistent light/dark selection.",
+      "Real scene selection, decade filtering, and direct contact links.",
+      "Native scrolling with bounded photographic motion and a persistent Pause/Enable motion control."
+    ],
+    "rules": [
+      {
+        "name": "Theme Roles",
+        "body": "Use the semantic text and surface properties when an element changes theme; retain fixed photographic overlays and sponsor grounds where the source explicitly does so.",
+        "section": "colors"
+      },
+      {
+        "name": "Original Marks",
+        "body": "Keep sponsor marks in their original colors and use each record's light or dark ground; do not recolor the marks to fit the page.",
+        "section": "colors"
+      },
+      {
+        "name": "Two Type Roles",
+        "body": "Use Barlow Condensed for display headings and Manrope for reading and controls; preserve local type size adjustments at narrow widths.",
+        "section": "typography"
+      },
+      {
+        "name": "Real Frames",
+        "body": "Keep repeated image groups in equal rectangular frames, retain the authored circular home hero, and honor each season's preserveFrame and position settings so the robot stays readable.",
+        "section": "shapes"
+      },
+      {
+        "name": "Visible State",
+        "body": "Retain visible keyboard focus, aria-current navigation, and aria-pressed selection alongside the implemented color or underline change.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do preserve the original logo, team photography, school identity, and complete sponsor recognition.",
+      "Do use semantic theme properties and the existing responsive control treatments.",
+      "Do retain explicit image framing, readable captions, and reduced-motion support."
+    ],
+    "donts": [
+      "Don't recolor sponsor marks or remove their contrasting grounds.",
+      "Don't crop away a robot when its source record requests preserveFrame.",
+      "Don't present the selective archive as a complete team history or infer a founding date from its first record."
+    ]
+  }
+}

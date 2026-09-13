@@ -1,219 +1,181 @@
+import type { Metadata } from "next";
 import Image from "next/image";
-import Container from "@/components/Container";
+import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
+import {
+  additionalSponsors,
+  sponsorTiers,
+  type Sponsor,
+} from "@/data/sponsors";
+import styles from "./sponsors.module.css";
 
-type Sponsor = {
-    name: string;
-    logo: string;
-    url: string;
+export const metadata: Metadata = {
+  title: "Sponsors | Team 854 Iron Bears",
+  description:
+    "Meet the sponsors and community supporters behind Iron Bears Robotics, and learn how to support Team 854.",
 };
 
-const tiers: Array<{
-    tier: string;
-    amount: string;
-    sponsors: Sponsor[];
-}> = [
-        {
-            tier: "Gold Sponsors",
-            amount: "$3000+",
-            sponsors: [
-                {
-                    name: "Optimist International",
-                    logo: "/images/sponsors/optimist.png",
-                    url: "https://www.optimist.org",
-                },
-                {
-                    name: "Gene Haas Foundation",
-                    logo: "/images/sponsors/haas.png",
-                    url: "https://www.ghaasfoundation.org",
-                },
-                {
-                    name: "Hatch",
-                    logo: "/images/sponsors/hatch.png",
-                    url: "https://www.hatch.com",
-                },
-            ],
-        },
-        {
-            tier: "Silver Sponsors",
-            amount: "$1500+",
-            sponsors: [
-                {
-                    name: "JRoberts Defence",
-                    logo: "/images/sponsors/jroberts.png",
-                    url: "https://www.jrobertsdefence.com",
-                },
-                {
-                    name: "Rotary Club of Etobicoke",
-                    logo: "/images/sponsors/rotary.png",
-                    url: "https://www.rotaryetobicoke.org/",
-                },
-                {
-                    name: "FIRST Canada",
-                    logo: "/images/sponsors/firstcanada.png",
-                    url: "https://www.firstcanada.org",
-                },
-                {
-                    name: "Studio Black Box",
-                    logo: "/images/sponsors/studioblackbox.png",
-                    url: "https://www.studioblackbox.com",
-                },
-                {
-                    name: "HamiCo",
-                    logo: "/images/sponsors/hamico.png",
-                    url: "https://www.team854.org/sponsors",
-                },
-                {
-                    name: "Wellness Tree Therapy",
-                    logo: "/images/sponsors/wellnesstree.png",
-                    url: "https://wellnesstreetherapy.ca/",
-                },
-            ],
-        },
-        {
-            tier: "Bronze Sponsors",
-            amount: "$500+",
-            sponsors: [
-                {
-                    name: "Right Tech Auto Repair",
-                    logo: "/images/sponsors/righttech.png",
-                    url: "https://righttech.ca",
-                },
-                {
-                    name: "S&C Electric Canada",
-                    logo: "/images/sponsors/sandc.png",
-                    url: "https://www.sandc.com",
-                },
-                {
-                    name: "Milwaukee",
-                    logo: "/images/sponsors/milwaukee.png",
-                    url: "https://www.milwaukeetool.com",
-                }
-            ],
-        },
-    ];
+function SponsorMark({ sponsor }: { sponsor: Sponsor }) {
+  const mark = sponsor.logo.split("/").pop()?.replace(".png", "");
 
-const additionalSponsors: Sponsor[] = [
-    {
-        name: "Frontier Metrology",
-        logo: "/images/sponsors/frontier.png",
-        url: "https://www.frontiermetrology.com",
-    },
-    {
-        name: "Baskin Robbins",
-        logo: "/images/sponsors/baskinrobbins.png",
-        url: "https://www.baskinrobbins.com",
-    },
-    {
-        name: "TDSB",
-        logo: "/images/sponsors/tdsb.png",
-        url: "https://www.tdsb.on.ca",
-    },
-    {
-        name: "Martingrove Collegiate Institute",
-        logo: "/images/sponsors/martingrove.png",
-        url: "https://schoolweb.tdsb.on.ca/martingrove",
-    },
-];
-
-function LogoCard({ sponsor }: { sponsor: Sponsor }) {
-    return (
-        <a
-            href={sponsor.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Visit ${sponsor.name} website`}
-            className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-6 transition
-                 hover:border-primary/60 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/60"
-        >
-            <div className="relative h-16 w-56 sm:h-20 sm:w-72">
-                <Image
-                    src={sponsor.logo}
-                    alt={`${sponsor.name} logo`}
-                    fill
-                    sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 320px"
-                    className="object-contain transition group-hover:scale-[1.03]"
-                />
-            </div>
-        </a>
-    );
+  return (
+    <li className={styles.sponsor}>
+      <a
+        href={sponsor.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Visit ${sponsor.name} website (opens in a new tab)`}
+        className={styles.sponsorLink}
+        data-mark={mark}
+      >
+        <div className={styles.logoPlate} data-tone={sponsor.tone ?? "light"}>
+          <div className={styles.logoFrame}>
+            <Image
+              src={sponsor.logo}
+              alt={`${sponsor.name} logo`}
+              fill
+              sizes="(max-width: 599px) 78vw, (max-width: 899px) 36vw, 360px"
+              className={styles.logo}
+            />
+          </div>
+        </div>
+        <div className={styles.sponsorCaption}>
+          <span>{sponsor.name}</span>
+          <ArrowUpRight size={18} weight="regular" aria-hidden="true" />
+        </div>
+      </a>
+    </li>
+  );
 }
 
 export default function SponsorsPage() {
-    return (
-        <main>
-            <Container>
-                <div className="py-12 sm:py-16">
-                    <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                        Sponsors
-                    </h1>
+  return (
+    <main id="main-content" className={styles.page}>
+      <header className={`container ${styles.intro}`}>
+        <h1 className={`page-title ${styles.heading}`}>
+          <span data-line-reveal>Powered by</span>
+          <span data-line-reveal>our sponsors.</span>
+        </h1>
+        <div className={styles.introBottom}>
+          <p className="body-copy" data-reveal>
+            Sponsors make our season possible, supporting tools, parts, funding,
+            and outreach. Thank you for supporting Team 854.
+          </p>
+          <a href="#become-a-sponsor" className="button button-primary">
+            Become a sponsor
+            <ArrowUpRight size={20} weight="regular" aria-hidden="true" />
+          </a>
+        </div>
+        <nav className={styles.tierNavigation} aria-label="Sponsorship tiers">
+          {sponsorTiers.map((tier, index) => (
+            <a key={tier.tier} href={`#sponsor-tier-${index}`}>
+              {tier.tier}
+              <ArrowUpRight size={16} weight="regular" aria-hidden="true" />
+            </a>
+          ))}
+          <a href="#additional-supporters">
+            Additional Supporters
+            <ArrowUpRight size={16} weight="regular" aria-hidden="true" />
+          </a>
+        </nav>
+      </header>
 
-                    <p className="mt-4 max-w-3xl text-zinc-300">
-                        Sponsors make our season possible — supporting tools, parts, funding,
-                        and outreach. Thank you for supporting{" "}
-                        <span className="text-primary font-semibold">Team 854</span>.
-                    </p>
+      <div className={styles.identityStrip} aria-hidden="true">
+        <div data-drift="left">
+          IRON BEARS / TEAM 854 / IRON BEARS / TEAM 854
+        </div>
+      </div>
 
-                    <div className="mt-12 space-y-16">
-                        {tiers.map((t) => (
-                            <section key={t.tier}>
-                                <div className="text-center">
-                                    <h2 className="text-4xl font-semibold tracking-tight text-primary sm:text-5xl">
-                                        {t.tier}
-                                    </h2>
+      <div className="container">
+        <div className={styles.sponsorProgramme}>
+          {sponsorTiers.map((tier, index) => (
+            <section
+              key={tier.tier}
+              id={`sponsor-tier-${index}`}
+              className={styles.tier}
+              aria-labelledby={`sponsor-tier-${index}-title`}
+            >
+              <div className={styles.tierHeading}>
+                <h2 id={`sponsor-tier-${index}-title`} data-line-reveal>
+                  {tier.tier}
+                </h2>
+                <p className={styles.amount}>{tier.amount}</p>
+                <span className={styles.tierRule} aria-hidden="true" />
+              </div>
+              <ul className={styles.sponsorGrid}>
+                {tier.sponsors.map((sponsor) => (
+                  <SponsorMark key={sponsor.name} sponsor={sponsor} />
+                ))}
+              </ul>
+            </section>
+          ))}
 
-                                    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-primary/70" />
+          <section
+            id="additional-supporters"
+            className={styles.tier}
+            aria-labelledby="additional-supporters-title"
+          >
+            <div className={styles.tierHeading}>
+              <h2 id="additional-supporters-title" data-line-reveal>
+                Additional Supporters
+              </h2>
+              <span className={styles.tierRule} aria-hidden="true" />
+            </div>
+            <ul className={styles.sponsorGrid}>
+              {additionalSponsors.map((sponsor) => (
+                <SponsorMark key={sponsor.name} sponsor={sponsor} />
+              ))}
+            </ul>
+          </section>
+        </div>
+      </div>
 
-                                    <div className="mt-3 text-sm text-zinc-200">
-                                        <span className="rounded-full border border-primary/60 bg-primary/15 px-4 py-1 font-semibold text-primary">
-                                            {t.amount}
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                                    {t.sponsors.map((s) => (
-                                        <LogoCard key={s.name} sponsor={s} />
-                                    ))}
-                                </div>
-                            </section>
-                        ))}
-
-                        <section>
-                            <div className="text-center">
-                                <h2 className="text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
-                                    Additional Supporters
-                                </h2>
-
-                                <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary/70" />
-                            </div>
-
-                            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                                {additionalSponsors.map((s) => (
-                                    <LogoCard key={s.name} sponsor={s} />
-                                ))}
-                            </div>
-                        </section>
-
-                        <div className="rounded-2xl border border-primary/35 bg-black/40 p-6">
-                            <h3 className="text-base font-semibold text-primary">
-                                Become a Sponsor
-                            </h3>
-                            <p className="mt-2 max-w-3xl text-sm text-zinc-300">
-                                Interested in supporting Iron Bears Robotics? We would love to
-                                partner with you and share a sponsorship package outlining
-                                benefits and impact. If you would like to contribute your skills
-                                to the team, we are always looking for new mentors!
-                            </p>
-                            <div className="mt-4 text-sm text-zinc-300">
-                                Email:{" "}
-                                <span className="font-semibold text-primary">
-                                    mci.robotics@gmail.com
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Container>
-        </main>
-    );
+      <section
+        id="become-a-sponsor"
+        className={styles.partner}
+        aria-labelledby="partner-title"
+      >
+        <figure className={styles.partnerFigure}>
+          <div className={styles.partnerImage} data-parallax>
+            <Image
+              src="/images/about/assembly1.jpg"
+              alt="Team members working together on a robot assembly"
+              fill
+              sizes="100vw"
+              data-parallax-image
+            />
+          </div>
+          <figcaption className="container">
+            Build season at Team 854.
+          </figcaption>
+        </figure>
+        <div className={`container ${styles.partnerCopy}`}>
+          <h2 id="partner-title" className="section-title" data-line-reveal>
+            Become
+            <br />a sponsor.
+          </h2>
+          <div className={styles.partnerInvitation} data-reveal>
+            <p>
+              Interested in supporting Iron Bears Robotics? We would love to
+              partner with you and share a sponsorship package outlining
+              benefits and impact.
+            </p>
+            <p>
+              If you would like to contribute your skills to the team, we are
+              always looking for new mentors!
+            </p>
+            <a
+              href="mailto:mci.robotics@gmail.com"
+              className="button button-primary"
+            >
+              Request the sponsorship package
+              <ArrowUpRight size={20} weight="regular" aria-hidden="true" />
+            </a>
+            <a href="mailto:mci.robotics@gmail.com" className={styles.email}>
+              mci.robotics@gmail.com
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
 }

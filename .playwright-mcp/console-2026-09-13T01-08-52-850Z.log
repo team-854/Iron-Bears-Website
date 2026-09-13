@@ -1,0 +1,346 @@
+[     160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[     311ms] [LOG] [Fast Refresh] done in 251ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[     402ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[     428ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  224474ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  224618ms] [LOG] [Fast Refresh] done in 216ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  266787ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  266925ms] [LOG] [Fast Refresh] done in 205ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  267982ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  268203ms] [LOG] [Fast Refresh] done in 295ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  329535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  329590ms] [LOG] [Fast Refresh] done in 160ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  329652ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  329682ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  329717ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <head>
+              <body>
+                <a>
+                <Navbar>
+                <MotionSystem>
+                ...
+                  <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentTrieNode>
+                    <HomePage>
+                      <main id="main-content">
+                        ...
+                          <div className="hero-images">
+                            <div className="hero-image...">
+                              <img
+                                alt={"Team 854's 2025 REEFSCAPE robot competing on the field"}
+                                aria-hidden={false}
+                                fetchPriority="high"
++                               loading={undefined}
+-                               loading="eager"
+                                width={undefined}
+                                height={undefined}
+                                decoding="async"
+                                data-nimg="fill"
+                                className="hero-photo is-active"
+                                style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                sizes="100vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fhero.jpg&w=640&q=75 640w, /_next/image?..."}
+                                src={"/_next/image?url=%2Fimages%2Fabout%2Fhero.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              ...
+                              <img
+                                alt=""
+                                aria-hidden={true}
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={undefined}
+                                height={undefined}
+                                decoding="async"
+                                data-nimg="fill"
+                                className={"hero-photo "}
+                                style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                sizes="100vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fassembly1.jpg&w=640&q=75 640w, /_next/i..."}
+                                src={"/_next/image?url=%2Fimages%2Fabout%2Fassembly1.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              <img
+                                alt=""
+                                aria-hidden={true}
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={undefined}
+                                height={undefined}
+                                decoding="async"
+                                data-nimg="fill"
+                                className={"hero-photo "}
+                                style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                sizes="100vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=640&q=75 640w, /_next/i..."}
+                                src={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                        ...
+                          <figure className="story-photo" data-reveal={true}>
+                            <div className="story-phot..." data-parallax={true}>
+                              <img
+                                data-parallax-image={true}
+                                alt="Iron Bears students and mentors at Martingrove Collegiate Institute"
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={undefined}
+                                height={undefined}
+                                decoding="async"
+                                data-nimg="fill"
+                                className={undefined}
+                                style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                sizes="(max-width: 800px) 100vw, 65vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=640&q=75 640w, /_next/i..."}
+                                src={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                            ...
+                        <div>
+                        ...
+                          <div className="workshop-p..." aria-hidden={false}>
+                            <img
+                              alt="Hands-on robot assembly with Iron Bears students and mentors"
+                              fetchPriority={undefined}
++                             loading="lazy"
+-                             loading="eager"
+                              width={undefined}
+                              height={undefined}
+                              decoding="async"
+                              data-nimg="fill"
+                              className={undefined}
+                              style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined,objectPosition:"...", ...}}
+                              sizes="(max-width: 899px) 100vw, 60vw"
+                              srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fassembly1.jpg&w=384&q=75 384w, /_next/ima..."}
+                              src={"/_next/image?url=%2Fimages%2Fabout%2Fassembly1.jpg&w=3840&q=75"}
+                              ref={function}
+                              onLoad={function onLoad}
+                              onError={function onError}
+                            >
+                          <div className="workshop-p..." aria-hidden={true}>
+                            <img
+                              alt=""
+                              fetchPriority={undefined}
++                             loading="lazy"
+-                             loading="eager"
+                              width={undefined}
+                              height={undefined}
+                              decoding="async"
+                              data-nimg="fill"
+                              className={undefined}
+                              style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined,objectPosition:"...", ...}}
+                              sizes="(max-width: 899px) 100vw, 60vw"
+                              srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fdemonstration.jpg&w=384&q=75 384w, /_next..."}
+                              src={"/_next/image?url=%2Fimages%2Fabout%2Fdemonstration.jpg&w=3840&q=75"}
+                              ref={function}
+                              onLoad={function onLoad}
+                              onError={function onError}
+                            >
+                          <div className="workshop-p..." aria-hidden={true}>
+                            <img
+                              alt=""
+                              fetchPriority={undefined}
++                             loading="lazy"
+-                             loading="eager"
+                              width={undefined}
+                              height={undefined}
+                              decoding="async"
+                              data-nimg="fill"
+                              className={undefined}
+                              style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined,objectPosition:"...", ...}}
+                              sizes="(max-width: 899px) 100vw, 60vw"
+                              srcSet={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=384&q=75 384w, /_next/ima..."}
+                              src={"/_next/image?url=%2Fimages%2Fabout%2Fteamphoto.jpg&w=3840&q=75"}
+                              ref={function}
+                              onLoad={function onLoad}
+                              onError={function onError}
+                            >
+                        <section className="home-archi...">
+                          <div>
+                          <div className="archive-pr...">
+                            <a href="https://ww..." target="_blank" rel="noopener n..." className="robot-feature" ...>
+                              <div className="robot-feat..." data-parallax={true}>
+                                <img
+                                  data-parallax-image={true}
+                                  alt={"Team 854's 2026 REBUILT robot"}
+                                  fetchPriority={undefined}
++                                 loading="lazy"
+-                                 loading="eager"
+                                  width={undefined}
+                                  height={undefined}
+                                  decoding="async"
+                                  data-nimg="fill"
+                                  className={undefined}
+                                  style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                  sizes="(max-width: 700px) 100vw, 60vw"
+                                  srcSet={"/_next/image?url=%2Fimages%2Fhistory%2F2026.jpg&w=384&q=75 384w, /_next/im..."}
+                                  src={"/_next/image?url=%2Fimages%2Fhistory%2F2026.jpg&w=3840&q=75"}
+                                  ref={function}
+                                  onLoad={function onLoad}
+                                  onError={function onError}
+                                >
+                              ...
+                            <a href="https://ww..." target="_blank" rel="noopener n..." className="robot-feat..." ...>
+                              <div className="robot-feat...">
+                                <img
+                                  alt={"Team 854's 2025 REEFSCAPE robot"}
+                                  fetchPriority={undefined}
++                                 loading="lazy"
+-                                 loading="eager"
+                                  width={undefined}
+                                  height={undefined}
+                                  decoding="async"
+                                  data-nimg="fill"
+                                  className={undefined}
+                                  style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                                  sizes="(max-width: 700px) 100vw, 35vw"
+                                  srcSet={"/_next/image?url=%2Fimages%2Fhistory%2F2025.jpg&w=256&q=75 256w, /_next/im..."}
+                                  src={"/_next/image?url=%2Fimages%2Fhistory%2F2025.jpg&w=3840&q=75"}
+                                  ref={function}
+                                  onLoad={function onLoad}
+                                  onError={function onError}
+                                >
+                              ...
+                        ...
+                          <div className="home-logo-...">
+                            <a href="https://ww..." target="_blank" rel="noopener n..." className="home-spons..." ...>
+                              <img
+                                alt="Optimist International"
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={260}
+                                height={94}
+                                decoding="async"
+                                data-nimg="1"
+                                className={undefined}
+                                style={{color:"transparent"}}
+                                sizes="(max-width: 600px) 65vw, 28vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fsponsors%2Foptimist.png&w=256&q=75 256w, /_next..."}
+                                src={"/_next/image?url=%2Fimages%2Fsponsors%2Foptimist.png&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              ...
+                            <a href="https://ww..." target="_blank" rel="noopener n..." className="home-spons..." ...>
+                              <img
+                                alt="Gene Haas Foundation"
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={260}
+                                height={94}
+                                decoding="async"
+                                data-nimg="1"
+                                className={undefined}
+                                style={{color:"transparent"}}
+                                sizes="(max-width: 600px) 65vw, 28vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fsponsors%2Fhaas.png&w=256&q=75 256w, /_next/ima..."}
+                                src={"/_next/image?url=%2Fimages%2Fsponsors%2Fhaas.png&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              ...
+                            <a href="https://ww..." target="_blank" rel="noopener n..." className="home-spons..." ...>
+                              <img
+                                alt="Hatch"
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={260}
+                                height={94}
+                                decoding="async"
+                                data-nimg="1"
+                                className={undefined}
+                                style={{color:"transparent"}}
+                                sizes="(max-width: 600px) 65vw, 28vw"
+                                srcSet={"/_next/image?url=%2Fimages%2Fsponsors%2Fhatch.png&w=256&q=75 256w, /_next/im..."}
+                                src={"/_next/image?url=%2Fimages%2Fsponsors%2Fhatch.png&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              ...
+                        ...
+                <Footer>
+                  <footer className="site-footer">
+                    ...
+                      <div className="footer-ide...">
+                        <LinkComponent>
+                          <LinkComponent className="brand" href="/" aria-label="Iron Bears...">
+                            <a className="brand" aria-label="Iron Bears..." ref={function} onClick={function onClick} ...>
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
++                               loading="lazy"
+-                               loading="eager"
+                                width={52}
+                                height={52}
+                                decoding="async"
+                                data-nimg="1"
+                                className={undefined}
+                                style={{color:"transparent"}}
+                                sizes={undefined}
+                                srcSet={"/_next/image?url=%2Fimages%2Flogo.png&w=64&q=75 1x, /_next/image?url=%2Fimag..."}
+                                src={"/_next/image?url=%2Fimages%2Flogo.png&w=128&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+                              >
+                              ...
+                        ...
+      ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 1493311ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1493382ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1494029ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1494102ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1559671ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1559874ms] [LOG] [Fast Refresh] done in 281ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1569854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1569925ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1569991ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1570015ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1571046ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1571081ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1571894ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1571898ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1643332ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1643354ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 1643989ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297

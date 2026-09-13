@@ -1,0 +1,1417 @@
+﻿[
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 16,
+    "snippet": "font-size: clamp(68px, 8.2vw, 96px) has fluid endpoint 68px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "68px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 72,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 88,
+    "snippet": "font-size: clamp(22px, 2.65vw, 34px) has fluid endpoints 22px and 34px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "22px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 127,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 171,
+    "snippet": "font-size: clamp(38px, 4.2vw, 58px) has fluid endpoints 38px and 58px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "38px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 198,
+    "snippet": "font-size: clamp(52px, 6vw, 88px) has fluid endpoint 52px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "52px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 220,
+    "snippet": "font-size: clamp(32px, 3.8vw, 52px) has fluid endpoints 32px and 52px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 284,
+    "snippet": "font-size: 80px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "80px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 302,
+    "snippet": "font-size: clamp(60px, 11vw, 96px) has fluid endpoint 60px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "60px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 320,
+    "snippet": "font-size: 76px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "76px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 330,
+    "snippet": "font-size: 60px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "60px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 344,
+    "snippet": "font-size: 46px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "46px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 364,
+    "snippet": "font-size: clamp(52px, 13.4vw, 76px) has fluid endpoints 52px and 76px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "52px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 374,
+    "snippet": "font-size: 23px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "23px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 386,
+    "snippet": "font-size: clamp(43px, 11vw, 60px) has fluid endpoints 43px and 60px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "43px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 396,
+    "snippet": "font-size: 40px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "40px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 405,
+    "snippet": "font-size: 37px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "37px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\about\\about.module.css",
+    "line": 408,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 65,
+    "snippet": "font-size: clamp(30px, 3.3vw, 48px) has fluid endpoint 30px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "30px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 117,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 137,
+    "snippet": "font-size: clamp(40px, 4.2vw, 60px) has fluid endpoints 40px and 60px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "40px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 145,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 161,
+    "snippet": "font-size: clamp(50px, 6vw, 88px) has fluid endpoint 50px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "50px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 203,
+    "snippet": "font-size: clamp(32px, 3.6vw, 48px) has fluid endpoint 32px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 210,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 237,
+    "snippet": "font-size: 80px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "80px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 240,
+    "snippet": "font-size: 36px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "36px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 250,
+    "snippet": "font-size: 46px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "46px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 279,
+    "snippet": "font-size: clamp(32px, 5vw, 44px) has fluid endpoints 32px and 44px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 322,
+    "snippet": "font-size: clamp(52px, 13.4vw, 76px) has fluid endpoints 52px and 76px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "52px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 328,
+    "snippet": "font-size: clamp(27px, 7.6vw, 40px) has fluid endpoints 27px and 40px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "27px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 343,
+    "snippet": "font-size: 43px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "43px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 349,
+    "snippet": "font-size: clamp(43px, 11vw, 60px) has fluid endpoints 43px and 60px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "43px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\contact\\contact.module.css",
+    "line": 367,
+    "snippet": "font-size: 36px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "36px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "codex-grid-background",
+    "name": "Decorative grid-line background",
+    "description": "A decorative grid or line-field background drawn with hairline linear-gradient layers tiled by a fixed pixel cell is a recurring generated-UI signature. Reserve grid overlays for actual canvas, map, blueprint, or measurement surfaces; elsewhere use product structure or a plain surface.",
+    "severity": "advisory",
+    "category": "slop",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 376,
+    "snippet": "two-axis grid-line gradient background",
+    "advisory": true
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 128,
+    "snippet": "font-size: clamp(44px, 5vw, 72px) has fluid endpoints 44px and 72px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "44px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 221,
+    "snippet": "font-size: 25px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "25px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 231,
+    "snippet": "font-size: 9px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "9px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 246,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 275,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 381,
+    "snippet": "Undocumented color #6a70542e is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#6a70542e"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 384,
+    "snippet": "Undocumented color #000 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#000"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 398,
+    "snippet": "Undocumented color #697058 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#697058"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 407,
+    "snippet": "Undocumented color #a1a58d is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#a1a58d"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 456,
+    "snippet": "font-size: clamp(72px, 7.5vw, 96px) has fluid endpoint 72px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 475,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 489,
+    "snippet": "Undocumented color #777c70 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#777c70"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 493,
+    "snippet": "Undocumented color #30342a is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#30342a"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 505,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 516,
+    "snippet": "Undocumented color #686c5e is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#686c5e"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 535,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 547,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 577,
+    "snippet": "font-size: clamp(72px, 7.5vw, 96px) has fluid endpoint 72px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 655,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 669,
+    "snippet": "font-size: clamp(52px, 6.6vw, 96px) has fluid endpoint 52px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "52px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 691,
+    "snippet": "font-size: clamp(48px, 4.5vw, 68px) has fluid endpoint 68px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "68px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 731,
+    "snippet": "font-size: clamp(40px, 5vw, 76px) has fluid endpoints 40px and 76px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "40px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 836,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 906,
+    "snippet": "font-size: clamp(58px, 7.5vw, 96px) has fluid endpoint 58px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "58px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 926,
+    "snippet": "font-size: 44px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "44px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 951,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 963,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 988,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1016,
+    "snippet": "font-size: 80px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "80px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1091,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1109,
+    "snippet": "font-size: 60px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "60px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1157,
+    "snippet": "font-size: 22px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "22px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1167,
+    "snippet": "font-size: 8px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "8px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1195,
+    "snippet": "font-size: clamp(56px, 15vw, 84px) has fluid endpoints 56px and 84px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "56px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1211,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1229,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1241,
+    "snippet": "font-size: 50px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "50px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1270,
+    "snippet": "font-size: 38px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "38px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1294,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1311,
+    "snippet": "font-size: clamp(50px, 13.5vw, 72px) has fluid endpoints 50px and 72px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "50px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1323,
+    "snippet": "font-size: 36px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "36px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\globals.css",
+    "line": 1336,
+    "snippet": "font-size: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 48,
+    "snippet": "font-size: 0.75rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.75rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 69,
+    "snippet": "font-size: clamp(3.5rem, 8vw, 6rem) has fluid endpoint 3.5rem off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "3.5rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 99,
+    "snippet": "font-size: clamp(2.5rem, 4vw, 3.5rem) has fluid endpoints 2.5rem and 3.5rem off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "2.5rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 144,
+    "snippet": "Undocumented color #fff is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#fff",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 254,
+    "snippet": "font-size: 0.75rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.75rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 291,
+    "snippet": "font-size: 0.875rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.875rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 313,
+    "snippet": "font-size: 2.75rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "2.75rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 365,
+    "snippet": "font-size: clamp(3.25rem, 13.5vw, 5rem) has fluid endpoints 3.25rem and 5rem off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "3.25rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 375,
+    "snippet": "font-size: 0.6875rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.6875rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 383,
+    "snippet": "font-size: 3.5rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "3.5rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 386,
+    "snippet": "font-size: 2.375rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "2.375rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\app\\sponsors\\sponsors.module.css",
+    "line": 389,
+    "snippet": "font-size: 0.875rem is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "0.875rem",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 62,
+    "snippet": "Undocumented color rgb(255 255 255 / 28%) is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(255 255 255 / 28%)",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 105,
+    "snippet": "font-size: clamp(72px, 7.5vw, 96px) has fluid endpoint 72px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 111,
+    "snippet": "font-size: clamp(32px, 3.4vw, 48px) has fluid endpoint 32px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 138,
+    "snippet": "font-size: clamp(40px, 4.6vw, 60px) has fluid endpoints 40px and 60px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "40px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 148,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 198,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 210,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 217,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 327,
+    "snippet": "font-size: 72px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 341,
+    "snippet": "font-size: clamp(60px, 14vw, 80px) has fluid endpoints 60px and 80px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "60px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 370,
+    "snippet": "font-size: 72px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 373,
+    "snippet": "font-size: 36px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "36px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 392,
+    "snippet": "font-size: 40px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "40px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\Jonat\\Desktop\\Files\\854 Website\\iron-bears-site\\src\\components\\HistoryArchive.module.css",
+    "line": 417,
+    "snippet": "font-size: 44px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "44px",
+    "importedBy": [
+      "HistoryArchive.tsx"
+    ]
+  }
+]
