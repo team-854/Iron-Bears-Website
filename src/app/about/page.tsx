@@ -66,17 +66,17 @@ export default function AboutPage() {
       <section className={`container ${styles.mission}`} aria-labelledby="mission-title">
         <figure className={styles.figure}>
           <Image
-            src="/images/about/teamphoto.jpg"
-            alt="Iron Bears students and mentors gathered around their robot at Martingrove Collegiate Institute"
-            width={4032}
-            height={3024}
+            src="/images/2026/team.jpg"
+            alt="Iron Bears team members together at a 2026 robotics competition"
+            width={2160}
+            height={2880}
             sizes="(max-width: 800px) calc(100vw - 40px), 47vw"
             priority
             className={styles.teamImage}
           />
           <figcaption className={styles.caption}>
             <span>Team 854 / Iron Bears</span>
-            <span>Martingrove Collegiate Institute</span>
+            <span>2026 competition season</span>
           </figcaption>
         </figure>
         <div className={styles.missionCopy}>

@@ -29,9 +29,12 @@ export default function HomePage() {
             <Link href="/history" className="text-link">Explore our history <ArrowRight size={19} aria-hidden="true" /></Link>
           </div>
           <div className="archive-preview">
-            {[{ year: 2026, game: "REBUILT" }, { year: 2025, game: "REEFSCAPE" }].map((season) => (
+            {[
+              { year: 2026, game: "REBUILT", image: "/images/2026/robot-blue.jpg", position: "50% 45%" },
+              { year: 2025, game: "REEFSCAPE", image: "/images/history/2025.jpg", position: "50% 65%" },
+            ].map((season) => (
               <a key={season.year} href={`https://www.thebluealliance.com/team/854/${season.year}`} target="_blank" rel="noopener noreferrer" className="robot-feature" aria-label={`View Team 854's ${season.year} ${season.game} season on The Blue Alliance`}>
-                <div className="robot-feature-image"><Image src={`/images/history/${season.year}.jpg`} alt={`Team 854's ${season.year} ${season.game} robot`} fill sizes="(max-width: 700px) 100vw, 50vw" style={{ objectPosition: season.year === 2025 ? "50% 65%" : "50% 50%" }} /></div>
+                <div className="robot-feature-image"><Image src={season.image} alt={`Team 854's ${season.year} ${season.game} robot`} fill sizes="(max-width: 700px) 100vw, 50vw" style={{ objectPosition: season.position }} /></div>
                 <div className="robot-feature-caption"><div><span className="robot-year">{season.year}</span><h3>{season.game}</h3></div><ArrowUpRight size={26} aria-hidden="true" /></div>
               </a>
             ))}

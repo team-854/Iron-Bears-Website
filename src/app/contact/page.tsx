@@ -58,16 +58,16 @@ export default function ContactPage() {
         <div className={`container ${styles.connectionGrid}`}>
           <figure className={styles.teamFigure}>
             <Image
-              src="/images/about/teamphoto.jpg"
-              alt="The Iron Bears students and mentors with their robot at Martingrove Collegiate Institute"
-              width={4032}
-              height={3024}
+              src="/images/2026/team.jpg"
+              alt="The Iron Bears team gathered at a 2026 robotics competition"
+              width={2160}
+              height={2880}
               sizes="(max-width: 800px) calc(100vw - 40px), 48vw"
               className={styles.teamImage}
             />
             <figcaption>
               <span>The team behind the robots.</span>
-              <span>FRC Team 854 / Toronto, ON</span>
+              <span>FRC Team 854 / 2026 season</span>
             </figcaption>
           </figure>
           <div className={styles.contactNote}>

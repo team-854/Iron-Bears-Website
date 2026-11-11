@@ -21,7 +21,7 @@
 .teamImage,
 .workshopImage,
 .communityImage { display: block; width: 100%; height: auto; background: var(--surface-raised); border-radius: 4px; }
-.teamImage { aspect-ratio: 4 / 3; object-fit: contain; }
+.teamImage { aspect-ratio: 1; object-fit: cover; object-position: 50% 100%; }
 .workshopImage { aspect-ratio: 3 / 2; object-fit: cover; }
 .communityImage { aspect-ratio: 1700 / 952; object-fit: contain; }
 .caption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 5px 16px; padding-top: 12px; color: var(--muted); font-size: 10px; font-weight: 600; line-height: 1.6; }

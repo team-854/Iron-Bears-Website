@@ -7,7 +7,12 @@ export type Season = {
 };
 
 export const seasons: readonly Season[] = [
-  { year: 2026, game: "REBUILT", image: "/images/history/2026.jpg" },
+  {
+    year: 2026,
+    game: "REBUILT",
+    image: "/images/2026/robot-field.jpg",
+    position: "50% 66%",
+  },
   {
     year: 2025,
     game: "REEFSCAPE",

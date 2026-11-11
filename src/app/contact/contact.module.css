@@ -16,7 +16,7 @@
 .connection { padding-block: 64px; background: var(--surface); }
 .connectionGrid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); align-items: center; gap: 64px; }
 .teamFigure { margin: 0; min-width: 0; }
-.teamImage { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; background: var(--surface-raised); border-radius: 4px; }
+.teamImage { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 50% 100%; background: var(--surface-raised); border-radius: 4px; }
 .teamFigure figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 16px; padding-top: 12px; color: var(--muted); font-size: 10px; font-weight: 600; line-height: 1.6; }
 .contactNote :global(.section-title) { margin-bottom: 22px; }
 .contactNote :global(.body-copy) { max-width: 43ch; }

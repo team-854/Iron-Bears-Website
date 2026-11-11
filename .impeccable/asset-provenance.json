@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "inventoryScope": "Unique public/images raster paths referenced by current src/app, src/components and src/data source files. Existing project assets only.",
-  "assetCount": 34,
+  "inventoryScope": "Public/images raster assets retained from the original project plus user-supplied 2026 photos. ReferencedBy lists current source uses; original assets remain preserved.",
+  "assetCount": 37,
   "assets": [
     {
       "sourcePath": "public/images/about/assembly1.jpg",
@@ -82,8 +82,6 @@
       "sourcePath": "public/images/about/teamphoto.jpg",
       "webPath": "/images/about/teamphoto.jpg",
       "referencedBy": [
-        "src/app/about/page.tsx",
-        "src/app/contact/page.tsx",
         "src/app/page.tsx",
         "src/components/HeroShowcase.tsx"
       ],
@@ -397,10 +395,7 @@
     {
       "sourcePath": "public/images/history/2026.jpg",
       "webPath": "/images/history/2026.jpg",
-      "referencedBy": [
-        "src/app/page.tsx",
-        "src/data/seasons.ts"
-      ],
+      "referencedBy": [],
       "origin": "Pre-existing user-provided project repository asset at public/images/history/2026.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
       "copyrightOwnership": "unknown",
       "generated": false,
@@ -827,18 +822,78 @@
         "bytesAdded": 223
       },
       "mediaType": "image/png"
+    },
+    {
+      "sourcePath": "public/images/2026/robot-blue.jpg",
+      "webPath": "/images/2026/robot-blue.jpg",
+      "referencedBy": [
+        "src/app/page.tsx"
+      ],
+      "source": "user-upload",
+      "suppliedOn": "2026-11-10",
+      "origin": "Updated 2026 team photograph supplied by the user in chat on November 10, 2026. Original creator and copyright ownership unknown. Original file preserved unchanged; no image generation, pixel changes, or metadata embedding performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "71ed4e8866b3b4c7f8eb3c469a483eac1f7044e53db31b3c765ef3226b3ca6bd",
+      "originalBytes": 225396,
+      "sha256": "71ed4e8866b3b4c7f8eb3c469a483eac1f7044e53db31b3c765ef3226b3ca6bd",
+      "bytes": 225396,
+      "width": 1496,
+      "height": 1496,
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/2026/robot-field.jpg",
+      "webPath": "/images/2026/robot-field.jpg",
+      "referencedBy": [
+        "src/data/seasons.ts"
+      ],
+      "source": "user-upload",
+      "suppliedOn": "2026-11-10",
+      "origin": "Updated 2026 team photograph supplied by the user in chat on November 10, 2026. Original creator and copyright ownership unknown. Original file preserved unchanged; no image generation, pixel changes, or metadata embedding performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "d06d7fd0e8f2e1212d513d70c9c04494ac48eb95a95d2bfcc09bf5f4a3019c6f",
+      "originalBytes": 2587987,
+      "sha256": "d06d7fd0e8f2e1212d513d70c9c04494ac48eb95a95d2bfcc09bf5f4a3019c6f",
+      "bytes": 2587987,
+      "width": 2160,
+      "height": 2880,
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/2026/team.jpg",
+      "webPath": "/images/2026/team.jpg",
+      "referencedBy": [
+        "src/app/about/page.tsx",
+        "src/app/contact/page.tsx"
+      ],
+      "source": "user-upload",
+      "suppliedOn": "2026-11-10",
+      "origin": "Updated 2026 team photograph supplied by the user in chat on November 10, 2026. Original creator and copyright ownership unknown. Original file preserved unchanged; no image generation, pixel changes, or metadata embedding performed.",
+      "copyrightOwnership": "unknown",
+      "generated": false,
+      "originalSha256": "718e35fc0afbfeca960d52a7e2e8bdccb7580d77dc91d47aeac10002759a9e2d",
+      "originalBytes": 2505701,
+      "sha256": "718e35fc0afbfeca960d52a7e2e8bdccb7580d77dc91d47aeac10002759a9e2d",
+      "bytes": 2505701,
+      "width": 2160,
+      "height": 2880,
+      "mediaType": "image/jpeg"
     }
   ],
   "validation": {
     "allReferencedFilesPresent": true,
-    "allOriginsEmbedded": true,
+    "allOriginsEmbedded": false,
     "allOriginalSegmentsPreserved": true,
     "allEncodedImageDataUnchanged": true,
     "pixelsReencoded": false,
     "impeccableScan": {
       "directory": "public/images",
       "rasters": 34,
-      "missing": 0
-    }
+      "missing": 0,
+      "scope": "Historical scan of the 34 original project rasters, before the three user uploads were added."
+    },
+    "userUploadOrigins": "The three 2026 user uploads are recorded in this sidecar and retained byte-for-byte without embedding metadata."
   }
 }

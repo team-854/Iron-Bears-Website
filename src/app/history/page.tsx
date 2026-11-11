@@ -50,6 +50,7 @@ export default function HistoryPage() {
               fill
               sizes="(max-width: 760px) calc(100vw - 48px), 58vw"
               className={styles.featurePhoto}
+              style={{ objectPosition: featured.position }}
               priority
               fetchPriority="high"
             />

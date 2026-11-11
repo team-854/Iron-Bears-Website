@@ -48,8 +48,9 @@ Preserve the Team 854 / Iron Bears identity, Martingrove Collegiate Institute af
 ## Evidence on Hand
 
 - `public/images/logo.png`: existing Iron Bears logo.
-- `public/images/about/hero.jpg`: robot in competition.
-- `public/images/about/teamphoto.jpg`: team group photo.
+- `public/images/about/hero.jpg`: the 2025 robot in competition, retained as the default homepage hero at the user's request.
+- `public/images/about/teamphoto.jpg`: earlier team group photo, retained in the workshop and Connect hero scene.
+- `public/images/2026/`: three updated photos supplied by the user on November 10, 2026. `robot-blue.jpg` illustrates the home season preview, `robot-field.jpg` illustrates the 2026 History feature and archive entry, and `team.jpg` illustrates About and Contact. Original image files are preserved unchanged.
 - `public/images/about/demonstration.jpg`: robot demonstration.
 - `public/images/about/assembly1.jpg`: hands-on robot assembly.
 - `public/images/history/`: robot photos for selected seasons from 2003 through 2026; their year, game, image-framing, and external-link mappings live in `src/data/seasons.ts`. `src/components/HistoryArchive.tsx` implements decade filtering.

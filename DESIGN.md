@@ -189,7 +189,9 @@ The global keyboard-focus treatment is a 3px outline with a 5px offset. It follo
 
 Cards and image frames are rectangular with restrained 4px or 5px corners; filters retain 3px corners. Theme and motion controls are round, while the mobile-menu control uses the ordinary control radius. Buttons are compact rounded rectangles. Orange lower borders on workshop, robot, and sponsor images repeat a 4px rule. Navigation and scene selection use short orange underlines.
 
-Cover crops fill ordinary photographs. Team images and sponsor marks use contain sizing where the source calls for it. Each archived season's `preserveFrame` and `position` fields remain authoritative; contained archive images also receive interior padding.
+Cover crops fill ordinary photographs. The updated 2026 team photo on About and Contact uses a square cover frame with `object-position: 50% 100%`, cropping the ceiling while retaining the full group. Other team images and sponsor marks use contain sizing where the source calls for it. Each archived season's `preserveFrame` and `position` fields remain authoritative; contained archive images also receive interior padding.
+
+The user-supplied 2026 blue-bumper robot photo appears in the home season preview, and the field photo appears in the 2026 History feature and archive entry. These additions preserve the 2025 robot as the default homepage hero, all other hero scene choices, and the earlier workshop group photo. Display framing uses CSS; the three supplied files remain unchanged.
 
 **The Image Frames Rule.** Keep repeated media wells consistent within each group, and preserve the authored crop or contain setting for every record.
 
