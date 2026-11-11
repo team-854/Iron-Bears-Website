@@ -203,7 +203,7 @@ Cover crops fill ordinary photographs. Team images and sponsor marks use contain
 - **Archive:** filters expose pressed state and a live visible count. Selection rearranges cards using bounded Web Animations: 420ms for nearby repositioning or 300ms for an incoming record. Season cards use 4:3 images, Manrope years, game captions, and external-link arrows. Cover images scale to 1.025 on hover; preserve-frame images retain contain framing.
 - **Sponsors:** all sixteen records retain their marks, tiers, amounts, external links, and optical sizing. Logo plates use fixed contrasting grounds and contain sizing. Hover changes the card border and caption; the logo does not animate. Tier jumps remain native anchors.
 - **Preferences and motion:** theme and motion choices are retained locally when storage is available. Motion defaults to the operating system preference; the visitor can choose Pause motion or Enable motion. `MotionSystem` only reflects the effective preference onto the document. It creates no GSAP timelines, parallax, scroll pins, or scroll interception. Reduced motion disables smooth scrolling and shortens CSS transitions; active archive animations are cancelled. The OS media query also suppresses CSS animation and transition duration.
-- **Contact:** two bordered email cards lead to actual mailto destinations. The published social links remain direct destinations or the explicitly labeled YouTube search. There is no contact form or input component.
+- **Contact:** two bordered email cards lead to actual mailto destinations. The social links point directly to the team's Instagram, GitHub, and YouTube destinations; YouTube displays the @Team854 handle. There is no contact form or input component.
 
 ## Do's and Don'ts
 

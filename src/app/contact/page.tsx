@@ -105,10 +105,10 @@ export default function ContactPage() {
             <ArrowUpRight size={22} aria-hidden="true" />
             <span className="sr-only">(opens in a new tab)</span>
           </a>
-          <a href="https://www.youtube.com/results?search_query=Martingrove+Robotics" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@Team854" target="_blank" rel="noopener noreferrer">
             <YoutubeLogo size={26} aria-hidden="true" />
             <span className={styles.socialName}>YouTube</span>
-            <span className={styles.socialDetail}>Search for Martingrove Robotics</span>
+            <span className={styles.socialDetail}>@Team854</span>
             <ArrowUpRight size={22} aria-hidden="true" />
             <span className="sr-only">(opens in a new tab)</span>
           </a>
