@@ -16,15 +16,14 @@ export default function HistoryPage() {
 
   return (
     <main id="main-content" className={styles.page}>
-      <div className="container">
-        <header className={styles.intro}>
-          <h1 className={styles.title} data-line-reveal>
-            Our history.
-            <br />
-            <span>In robots.</span>
+      <header className={styles.intro}>
+        <div className="container">
+          <p className="eyebrow">Team 854 / The robot archive</p>
+          <h1 className={`page-title ${styles.title}`}>
+            Our history. <span>In robots.</span>
           </h1>
-          <div className={styles.introDetail} data-reveal>
-            <p className="body-copy">
+          <div className={styles.introDetail}>
+            <p>
               A different challenge every season. Explore the machines we have
               designed, built, and brought to the field, then visit The Blue
               Alliance for the full story of each season.
@@ -34,12 +33,12 @@ export default function HistoryPage() {
               <ArrowDown size={20} aria-hidden="true" />
             </a>
           </div>
-        </header>
-
+        </div>
+      </header>
+      <div className="container">
         <section className={styles.feature} aria-labelledby="featured-season">
           <a
             className={styles.featureImage}
-            data-parallax
             href={seasonUrl(featured.year)}
             target="_blank"
             rel="noopener noreferrer"
@@ -49,9 +48,8 @@ export default function HistoryPage() {
               src={featured.image}
               alt="Team 854's 2026 robot on the competition field with its red 854 bumper"
               fill
-              sizes="(max-width: 1439px) calc(100vw - 48px), 1320px"
+              sizes="(max-width: 760px) calc(100vw - 48px), 58vw"
               className={styles.featurePhoto}
-              data-parallax-image
               priority
               fetchPriority="high"
             />
@@ -60,22 +58,19 @@ export default function HistoryPage() {
             </span>
           </a>
           <div className={styles.featureCaption}>
-            <h2
-              id="featured-season"
-              className={styles.featureHeading}
-              data-line-reveal
-            >
+            <p className="eyebrow">Latest robot / {featured.year}</p>
+            <h2 id="featured-season" className={styles.featureHeading}>
               <span className={styles.featureYear}>{featured.year}</span>
               <span className={styles.featureGame}>{featured.game}</span>
             </h2>
-            <div className={styles.featureDetail} data-reveal>
+            <div className={styles.featureDetail}>
               <p>
                 Our latest chapter on the field. See Team 854&apos;s events,
                 matches, and results from the {featured.year} season on The Blue
                 Alliance.
               </p>
               <a
-                className="text-link"
+                className="button button-primary"
                 href={seasonUrl(featured.year)}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,8 +82,11 @@ export default function HistoryPage() {
             </div>
           </div>
         </section>
-
-        <HistoryArchive />
+      </div>
+      <div className={styles.archiveBand}>
+        <div className="container">
+          <HistoryArchive />
+        </div>
       </div>
     </main>
   );

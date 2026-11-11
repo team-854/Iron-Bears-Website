@@ -5,8 +5,8 @@ const subscribe = (callback: () => void) => {
   window.addEventListener("iron-bears-theme", callback);
   return () => window.removeEventListener("iron-bears-theme", callback);
 };
-const getSnapshot = () => document.documentElement.dataset.theme === "light";
-const getServerSnapshot = () => false;
+const getSnapshot = () => document.documentElement.dataset.theme !== "dark";
+const getServerSnapshot = () => true;
 export default function ThemeToggle() {
   const isLight = useSyncExternalStore(
     subscribe,

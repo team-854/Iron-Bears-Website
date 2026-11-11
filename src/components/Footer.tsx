@@ -5,10 +5,6 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="container">
-        <div className="footer-wordmark" aria-hidden="true">
-          <span>IRON BEARS.</span>
-          <span>854</span>
-        </div>
         <div className="footer-top">
           <div className="footer-identity">
             <Link

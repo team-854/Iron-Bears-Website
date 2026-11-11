@@ -99,9 +99,12 @@ export default function HistoryArchive() {
       aria-labelledby="season-archive-title"
     >
       <header className={styles.archiveHeading}>
-        <h2 id="season-archive-title" data-line-reveal>
-          The season archive.
-        </h2>
+        <div>
+          <p className="eyebrow">Explore the machines</p>
+          <h2 id="season-archive-title" className="section-title">
+            The season archive.
+          </h2>
+        </div>
         <p className={styles.archiveNote}>
           Choose a decade. Meet the machines.
         </p>

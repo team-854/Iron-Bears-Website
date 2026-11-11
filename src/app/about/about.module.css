@@ -1,420 +1,61 @@
-﻿.page {
-  padding-bottom: clamp(72px, 8vw, 128px);
-}
+.page { background: var(--background); }
 .intro {
-  padding-top: clamp(48px, 6vw, 88px);
+  --focus-ring: #ff8a3d;
+  padding-block: 64px 68px;
+  background: #121311;
+  color: #f4f3ed;
 }
-.introHeader {
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 32px 80px;
-  align-items: end;
-  padding-bottom: 44px;
-}
-.title {
-  max-width: 900px;
-  font-size: clamp(68px, 8.2vw, 96px);
-  line-height: 0.94;
-}
-.title > span,
-.missionTitle > span,
-.buildTitle > span,
-.communityTitle > span {
-  display: block;
-}
-.title > span:last-child {
-  padding-left: 1.12em;
-}
-.title em {
-  color: var(--accent-text);
-  font-style: normal;
-}
-.introAside {
-  max-width: 310px;
-  padding-bottom: 4px;
-}
-.introDetail {
-  color: var(--muted);
-  font-size: 15px;
-  line-height: 1.8;
-  margin: 0 0 22px;
-}
-.teamFigure,
-.workshopFigure,
-.communityFigure {
-  margin-block: 0;
-  min-width: 0;
-}
-.teamFrame,
-.workshopFrame,
-.communityFrame {
-  position: relative;
-  overflow: hidden;
-  background: var(--surface-raised);
-}
-.teamFrame {
-  aspect-ratio: 1.85;
-}
-.teamImage {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 84%;
-}
-.caption {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px 24px;
-  flex-wrap: wrap;
-  padding-top: 15px;
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1.5;
-}
-.caption span:first-child {
-  color: var(--foreground);
-}
-.introStatement {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 60px;
-  padding-block: clamp(48px, 6vw, 80px) clamp(64px, 8vw, 112px);
-}
-.description {
-  color: var(--foreground);
-  font-size: clamp(22px, 2.65vw, 34px);
-  font-weight: 500;
-  line-height: 1.55;
-  letter-spacing: -0.025em;
-  max-width: 49ch;
-  margin: 0;
-}
-.teamNumber {
-  color: var(--accent-text);
-  font-family: var(--font-display);
-  font-size: 96px;
-  font-weight: 600;
-  line-height: 1;
-  padding-left: 36px;
-  border-left: 1px solid var(--line);
-}
-.mission {
-  background: var(--surface);
-  border-block: 1px solid var(--line);
-}
-.missionGrid {
-  display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: clamp(64px, 9vw, 136px);
-  align-items: start;
-  padding-block: clamp(64px, 7vw, 100px);
-}
-.missionSticky {
-  position: sticky;
-  top: calc(var(--header-height) + 28px);
-}
-.missionTitle {
-  font-size: clamp(48px, 4.6vw, 64px);
-  margin-bottom: 24px;
-}
-.missionTitle > span:last-child {
-  color: var(--accent-text);
-}
-.missionSticky > p {
-  font-size: 14px;
-  max-width: 55ch;
-  line-height: 1.75;
-}
-.workshopFigure {
-  padding-top: 28px;
-}
-.workshopFrame {
-  aspect-ratio: 2.3;
-}
+.intro :global(.eyebrow) { color: #ff8a3d; }
+.title { margin-top: 18px; font-size: clamp(56px, 6.8vw, 88px); line-height: 1.05; }
+.title span { color: #f26100; }
+.introCopy { max-width: 60ch; margin-top: 22px; color: #c3c5bc; font-size: 17px; line-height: 1.75; }
+.mission,
+.buildGrid,
+.communityGrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 64px; }
+.mission { padding-block: 80px; }
+.missionCopy :global(.section-title),
+.communityCopy :global(.section-title) { margin-bottom: 24px; }
+.missionCopy :global(.body-copy) + :global(.body-copy) { margin-top: 16px; }
+.missionCopy :global(.text-link) { margin-top: 26px; }
+.figure { margin: 0; min-width: 0; }
+.teamImage,
 .workshopImage,
-.communityImage {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.workshopImage {
-  object-position: 50% 46%;
-}
-.values h3 {
-  margin: 0;
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--muted);
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--line);
-}
-.values ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.values li {
-  min-height: 245px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-block: 38px;
-  border-bottom: 1px solid var(--line);
-}
-.values h4 {
-  font-family: var(--font-display);
-  text-transform: uppercase;
-  font-size: clamp(38px, 4.2vw, 58px);
-  font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.018em;
-  margin: 0 0 18px;
-  max-width: 15ch;
-  text-wrap: balance;
-}
-.values p {
-  color: var(--muted);
-  margin: 0;
-  font-size: 15px;
-  line-height: 1.8;
-  max-width: 40ch;
-}
-.build {
-  padding-block: clamp(72px, 9vw, 132px);
-}
-.buildHeader {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 40px 80px;
-  align-items: end;
-  padding-bottom: clamp(40px, 5vw, 64px);
-}
-.buildTitle,
-.communityTitle {
-  font-size: clamp(52px, 6vw, 88px);
-}
-.buildHeader > p {
-  max-width: 40ch;
-  padding-bottom: 6px;
-}
-.activities {
-  margin: 0;
-}
-.activities > div {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  align-items: center;
-  gap: 32px 80px;
-  padding-block: 32px;
-  border-top: 1px solid var(--line);
-}
-.activities > div:last-child {
-  border-bottom: 1px solid var(--line);
-}
-.activities dt {
-  font-family: var(--font-display);
-  font-size: clamp(32px, 3.8vw, 52px);
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 1.05;
-  letter-spacing: -0.018em;
-  max-width: 25ch;
-}
-.activities dd {
-  color: var(--muted);
-  margin: 0;
-  max-width: 38ch;
-  font-size: 15px;
-  line-height: 1.8;
-}
-.communityHeader {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 40px 80px;
-  align-items: end;
-  padding-bottom: 44px;
-}
-.communityTitle > span:last-child {
-  color: var(--accent-text);
-}
-.communityCopy > p {
-  margin: 0 0 24px;
-  max-width: 40ch;
-}
-.communityFrame {
-  aspect-ratio: 2.2;
-}
-.communityImage {
-  object-position: 50% 52%;
-}
-@supports (animation-timeline: view()) {
-  @media (prefers-reduced-motion: no-preference) and (min-width: 901px) {
-    .teamFrame {
-      animation: team-frame-open linear both;
-      animation-timeline: view();
-      animation-range: entry 0% entry 100%;
-    }
-    @keyframes team-frame-open {
-      from {
-        clip-path: inset(0 6% 0 6%);
-      }
-      to {
-        clip-path: inset(0);
-      }
-    }
-  }
-}
-@media (max-height: 780px) {
-  .missionSticky {
-    position: static;
-  }
-}
+.communityImage { display: block; width: 100%; height: auto; background: var(--surface-raised); border-radius: 4px; }
+.teamImage { aspect-ratio: 4 / 3; object-fit: contain; }
+.workshopImage { aspect-ratio: 3 / 2; object-fit: cover; }
+.communityImage { aspect-ratio: 1700 / 952; object-fit: contain; }
+.caption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 5px 16px; padding-top: 12px; color: var(--muted); font-size: 10px; font-weight: 600; line-height: 1.6; }
+.valuesSection { padding-block: 64px; background: var(--surface); }
+.values { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; padding: 0; margin: 32px 0 0; }
+.values li { padding-top: 22px; border-top: 1px solid var(--line); }
+.values h3 { margin: 0 0 12px; font-family: var(--font-body); font-size: 17px; font-weight: 800; line-height: 1.4; text-transform: uppercase; }
+.values p { color: var(--muted); font-size: 14px; line-height: 1.8; }
+.build { padding-block: 80px; }
+.sectionHeader { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; gap: 64px; margin-bottom: 36px; }
+.sectionHeader > p { padding-bottom: 4px; }
+.activities { margin: 0; }
+.activities > div { padding-block: 21px; border-bottom: 1px solid var(--line); }
+.activities > div:first-child { padding-top: 0; }
+.activities dt { font-size: 16px; font-weight: 800; line-height: 1.5; text-transform: uppercase; }
+.activities dd { color: var(--muted); margin: 6px 0 0; font-size: 14px; line-height: 1.8; }
+.community { padding-block: 72px; background: var(--surface); }
+.communityGrid { grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); }
+.communityCopy :global(.button) { margin-top: 26px; }
 @media (max-width: 1100px) {
-  .introHeader,
-  .buildHeader,
-  .activities > div,
-  .communityHeader {
-    column-gap: 40px;
-  }
-  .title {
-    font-size: 80px;
-  }
-  .missionGrid {
-    column-gap: 52px;
-  }
+  .mission, .buildGrid, .communityGrid, .sectionHeader { gap: 36px; }
+  .values { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 36px; }
 }
-@media (max-width: 900px) {
-  .introHeader,
-  .missionGrid,
-  .buildHeader,
-  .communityHeader {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .introHeader {
-    gap: 28px;
-    padding-bottom: 32px;
-  }
-  .title {
-    font-size: clamp(60px, 11vw, 96px);
-  }
-  .introAside {
-    max-width: 54ch;
-  }
-  .introDetail {
-    margin-bottom: 14px;
-  }
-  .teamFrame {
-    aspect-ratio: 4 / 3;
-  }
-  .teamImage {
-    object-fit: contain;
-  }
-  .introStatement {
-    gap: 30px;
-  }
-  .teamNumber {
-    font-size: 76px;
-    padding-left: 28px;
-  }
-  .missionSticky {
-    position: static;
-  }
-  .missionGrid {
-    gap: 44px;
-  }
-  .missionTitle {
-    font-size: 60px;
-  }
-  .missionSticky > p {
-    max-width: 65ch;
-    font-size: 15px;
-  }
-  .workshopFrame {
-    aspect-ratio: 2;
-  }
-  .values li {
-    min-height: 190px;
-  }
-  .values h4 {
-    max-width: none;
-    font-size: 46px;
-  }
-  .buildHeader,
-  .communityHeader {
-    gap: 28px;
-  }
-  .buildHeader > p,
-  .communityCopy > p {
-    max-width: 62ch;
-  }
-  .activities > div {
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 28px;
-  }
-  .communityFrame {
-    aspect-ratio: 16 / 10;
-  }
+@media (max-width: 800px) {
+  .intro { padding-block: 48px 52px; }
+  .mission, .buildGrid, .communityGrid, .sectionHeader { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .mission, .build { padding-block: 56px; }
+  .missionCopy { grid-row: 1; }
+  .sectionHeader { gap: 22px; margin-bottom: 30px; }
+  .valuesSection, .community { padding-block: 52px; }
+  .introCopy { font-size: 16px; }
 }
-@media (max-width: 560px) {
-  .title {
-    font-size: clamp(52px, 13.4vw, 76px);
-  }
-  .title > span:last-child {
-    padding-left: 0.55em;
-  }
-  .introStatement {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  .description {
-    font-size: 23px;
-  }
-  .teamNumber {
-    display: none;
-  }
-  .caption {
-    flex-direction: column;
-    gap: 4px;
-  }
-  .missionTitle,
-  .buildTitle,
-  .communityTitle {
-    font-size: clamp(43px, 11vw, 60px);
-  }
-  .workshopFrame {
-    aspect-ratio: 3 / 2;
-  }
-  .values li {
-    min-height: 0;
-    padding-block: 30px;
-  }
-  .values h4 {
-    font-size: 40px;
-    max-width: 15ch;
-  }
-  .activities > div {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 16px;
-    padding-block: 28px;
-  }
-  .activities dt {
-    font-size: 37px;
-  }
-  .activities dd {
-    font-size: 14px;
-    max-width: 45ch;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .missionSticky {
-    position: static;
-  }
-  .teamFrame {
-    animation: none;
-    clip-path: none;
-  }
+@media (max-width: 480px) {
+  .values { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .title { font-size: clamp(48px, 13vw, 62px); }
+  .caption { flex-direction: column; }
 }

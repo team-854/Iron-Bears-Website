@@ -1,211 +1,222 @@
----
+﻿---
 name: Iron Bears Robotics
-description: The reviewed photographic website for FRC Team 854.
+description: The reference-led photographic website for FRC Team 854.
 colors:
-  "accent": "#f26100"
-  "accent-ink": "#121311"
-  "accent-text": "#ff8a3d"
-  "background": "#121311"
-  "surface": "#1b1d19"
-  "surface-raised": "#242720"
-  "foreground": "#f4f3ed"
-  "muted": "#b2b5aa"
-  "line": "#393d34"
-  "light-background": "#f5f5ef"
-  "light-surface": "#ebede5"
-  "light-surface-raised": "#e0e3d8"
-  "light-foreground": "#191c16"
-  "light-muted": "#585f50"
-  "light-line": "#c8cec0"
-  "light-accent-text": "#a53d00"
+  accent: "#f26100"
+  accent-ink: "#121311"
+  accent-hover: "#ff8a3d"
+  accent-text: "#a53d00"
+  background: "#f5f5ef"
+  surface: "#ebede5"
+  surface-raised: "#ffffff"
+  foreground: "#191c16"
+  muted: "#585f50"
+  line: "#c8cec0"
+  dark-background: "#121311"
+  dark-surface: "#1b1d19"
+  dark-surface-raised: "#242720"
+  dark-foreground: "#f4f3ed"
+  dark-muted: "#b2b5aa"
+  dark-line: "#393d34"
+  dark-accent-text: "#ff8a3d"
 typography:
   display:
-    fontFamily: "\"Barlow Condensed\", \"Arial Narrow\", sans-serif"
-    fontSize: "clamp(72px, 7.5vw, 96px)"
-    fontWeight: 700
-    lineHeight: 0.94
-    letterSpacing: "-0.018em"
+    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
+    fontSize: "clamp(80px, 9vw, 128px)"
+    fontWeight: 800
+    lineHeight: 0.95
+    letterSpacing: "-0.01em"
   headline:
-    fontFamily: "\"Barlow Condensed\", \"Arial Narrow\", sans-serif"
-    fontSize: "clamp(64px, 8vw, 96px)"
-    fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-0.018em"
+    fontFamily: '"Barlow Condensed", "Arial Narrow", sans-serif'
+    fontSize: "clamp(60px, 7vw, 88px)"
+    fontWeight: 800
+    lineHeight: 1.05
+    letterSpacing: "-0.01em"
   title:
-    fontFamily: "\"Barlow Condensed\", \"Arial Narrow\", sans-serif"
-    fontSize: "clamp(48px, 6.2vw, 88px)"
-    fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-0.018em"
+    fontFamily: '"Manrope Variable", sans-serif'
+    fontSize: "clamp(30px, 3.1vw, 42px)"
+    fontWeight: 800
+    lineHeight: 1.18
+    letterSpacing: "-0.025em"
   body:
-    fontFamily: "\"Manrope Variable\", sans-serif"
+    fontFamily: '"Manrope Variable", sans-serif'
     fontSize: "16px"
     fontWeight: 400
-    lineHeight: 1.65
+    lineHeight: 1.75
   reading:
-    fontFamily: "\"Manrope Variable\", sans-serif"
-    fontSize: "clamp(15px, 1.2vw, 17px)"
+    fontFamily: '"Manrope Variable", sans-serif'
+    fontSize: "16px"
     fontWeight: 400
-    lineHeight: 1.8
+    lineHeight: 1.85
   label:
-    fontFamily: "\"Manrope Variable\", sans-serif"
-    fontSize: "13px"
-    fontWeight: 750
+    fontFamily: '"Manrope Variable", sans-serif'
+    fontSize: "12px"
+    fontWeight: 800
     lineHeight: 1.4
+    letterSpacing: "0.045em"
 rounded:
-  "media": "0px"
-  "control": "3px"
+  filter: "3px"
+  control: "4px"
+  card: "5px"
+  round: "50%"
 spacing:
-  "8": "8px"
-  "12": "12px"
-  "16": "16px"
-  "20": "20px"
-  "24": "24px"
-  "28": "28px"
-  "32": "32px"
-  "48": "48px"
-  "64": "64px"
-  "gutter": "clamp(24px, 4.5vw, 68px)"
+  small-gap: "14px"
+  card-padding: "24px"
+  card-gap: "28px"
+  gutter: "40px"
+  mobile-gutter: "24px"
+  section: "96px"
+  tablet-section: "64px"
+  mobile-section: "56px"
 components:
   button-primary:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.accent-ink}"
     typography: "{typography.label}"
     rounded: "{rounded.control}"
-    padding: "14px 22px"
+    padding: "14px 24px"
   button-primary-hover:
-    backgroundColor: "{colors.accent-text}"
-  button-hero-secondary:
-    backgroundColor: "#121311a8"
+    backgroundColor: "{colors.accent-hover}"
+  button-secondary:
+    backgroundColor: "transparent"
     textColor: "{colors.foreground}"
     typography: "{typography.label}"
     rounded: "{rounded.control}"
-    padding: "14px 22px"
-  text-link:
-    textColor: "{colors.foreground}"
+    padding: "14px 24px"
+  button-hero-secondary:
+    backgroundColor: "#12131140"
+    textColor: "{colors.dark-foreground}"
     typography: "{typography.label}"
-    padding: "9px 0"
+    rounded: "{rounded.control}"
+    padding: "14px 24px"
+  button-dark:
+    backgroundColor: "{colors.dark-background}"
+    textColor: "{colors.dark-foreground}"
+    typography: "{typography.label}"
+    rounded: "{rounded.control}"
+    padding: "14px 24px"
   navigation-link:
-    textColor: "{colors.foreground}"
+    textColor: "{colors.dark-muted}"
     height: "78px"
   icon-button:
     backgroundColor: "transparent"
-    textColor: "{colors.foreground}"
-    rounded: "{rounded.control}"
-    size: "42px"
+    textColor: "#d2d5cc"
+    rounded: "{rounded.round}"
+    size: "40px"
   scene-button:
     backgroundColor: "transparent"
-    textColor: "{colors.muted}"
-    padding: "20px 0"
+    textColor: "#c3c6bc"
+    padding: "18px 0"
   scene-button-selected:
-    textColor: "{colors.foreground}"
+    textColor: "#ffffff"
   era-filter:
-    backgroundColor: "transparent"
+    backgroundColor: "{colors.background}"
     textColor: "{colors.foreground}"
-    rounded: "{rounded.control}"
-    padding: "12px 18px"
+    rounded: "{rounded.filter}"
+    padding: "10px 16px"
   era-filter-selected:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.accent-ink}"
-  motion-control:
-    backgroundColor: "transparent"
+  season-card:
+    backgroundColor: "{colors.background}"
     textColor: "{colors.foreground}"
     rounded: "{rounded.control}"
-    size: "42px"
-  season-card:
-    textColor: "{colors.foreground}"
-    rounded: "{rounded.media}"
 ---
 
 # Design System: Iron Bears Robotics
 
 ## Overview
 
-**Creative North Star: "A photographic programme for student-built machines and the people behind them."**
+**Creative North Star: "Team 854, on the field and in the workshop."**
 
-The reviewed redesign uses genuine robot, workshop, and team photography with condensed display lettering and varied editorial sections. Charcoal, orange, and pale neutral text form the default theme; a complete light theme reverses the neutral roles while retaining the team accent. The original logo and full-color sponsor marks remain identity assets.
+The user chose Simbotics as the visual reference while retaining Iron Bears photography, color identity, and existing content. The implemented system pairs a broad photographic introduction and emphatic italic display type with clear, uppercase section headings and regular image-card grids. Light neutral reading sections alternate with tinted bands; orange actions and rules connect them to the fixed charcoal header, hero, page introductions, and footer.
 
-This record describes the current motion and grid revision: a circular photographic hero that expands across its stage, one Build/Code/Lead workshop sequence, uniform archive and sponsor grids, anchored sponsor tiers, and an orange home invitation. Shared tokens live in src/app/globals.css; route modules define local layouts and MotionSystem.tsx coordinates GSAP ScrollTrigger. The current surface contract is .impeccable/surfaces/src-app-page-tsx.md.
+This is a code-led record of the reference-led redesign. Shared styles live in `src/app/globals.css`, with route-specific layouts in the adjacent CSS modules. It supersedes the former circular hero, engineering rings, and pinned scroll choreography. The surface composition and verification plan live in `.impeccable/surfaces/src-app-page-tsx.md`; this documentation does not certify visual QA.
 
 **Key Characteristics:**
 
-- Locally loaded Barlow Condensed headings and Manrope body text.
-- Equal rectangular frames within repeated image groups, with a circular home hero and bespoke SVG engineering rings.
-- Theme-aware text, outlines, and controls with persistent light/dark selection.
-- Real scene selection, decade filtering, and direct contact links.
-- Native scrolling with bounded photographic motion and a persistent Pause/Enable motion control.
+- Existing robot, student, workshop, and sponsor imagery remains the evidence for the team story.
+- Barlow Condensed provides italic display titles; Manrope supplies uppercase section headings, reading text, and controls.
+- A light default theme and locally retained dark option share the same orange identity.
+- Full-width color bands and restrained rounded cards organize normal document flow.
+- Scene selection, decade filtering, theme selection, and motion preferences retain visible and accessible state.
 
 ## Colors
 
 ### Primary
 
-Accent orange supplies primary actions, selection fills, and navigation marks. Accent-ink remains dark on orange controls in both themes. Accent-text is the lighter orange used for text and focus in the dark theme; light-accent-text supplies the darker text and focus color in the light theme.
+Team orange carries primary actions, image-edge rules, selected filters, the home banner, and the invitation band. Dark accent ink keeps text readable on orange fills. The text accent is darker on the light canvas; the dark theme switches that text role to the lighter orange also used for hover fills.
 
 ### Neutral
 
-Background is the canvas; surface and surface-raised separate sections and media wells. Foreground carries primary text, muted carries supporting copy, and line supplies dividers and neutral control outlines. The light-prefixed entries are the source's overrides under data-theme="light", not an additional independent palette.
+The unprefixed frontmatter colors describe the default light theme. The dark-prefixed colors map to the overrides under `data-theme="dark"`. Background is the reading canvas, surface marks alternating bands, surface-raised grounds cards and images, foreground carries primary text, muted carries supporting copy, and line supplies borders.
 
-The competition hero keeps its dark photographic treatment in both themes. Sponsor grounds are also fixed: Sponsors uses white and dark plates, while Home uses slightly warmer light and dark plates. Their exact local values remain in the component styles.
+Header and footer use fixed dark-surface colors, and the photographic hero and route introductions use fixed dark-background colors in both themes. White and dark logo plates preserve the contrast of original sponsor marks; the Home and Sponsors components retain their specific local dark grounds.
 
-**The Theme Roles Rule.** Use the semantic text and surface properties when an element changes theme; retain fixed photographic overlays and sponsor grounds where the source explicitly does so.
+The sidecar's tonal ramps are synthesized preview metadata, not additional application tokens.
 
-**The Original Marks Rule.** Keep sponsor marks in their original colors and use each record's light or dark ground; do not recolor the marks to fit the page.
+**The Theme Roles Rule.** Use semantic color properties for theme-changing content; preserve the fixed dark identity bands and the individual sponsor-logo grounds.
+
+**The Original Marks Rule.** Keep sponsor marks in their original colors, proportions, and contrasting grounds.
 
 ## Typography
 
-Display and headline roles use locally loaded Barlow Condensed; the imported faces are weights 600 and 700. Manrope Variable supplies body, supporting copy, and controls, including the intermediate weights used in navigation and actions. The frontmatter records the shared type rules, with the display role describing the home hero and the headline/title roles describing general headings.
+The locally imported Barlow Condensed faces are upright bold (700) and italic extra-bold (800). The italic face supplies the home title, route titles, and orange team banner; the upright face supplies the compact brand wordmark. Manrope Variable supplies the rest of the interface, including extra-bold uppercase section headings. Display and headline italics are recorded as metadata in the sidecar because the frontmatter typography schema has no font-style field.
 
-General headings are uppercase with balanced wrapping. Shared section titles now scale to 88px; the hero and general page title roles remain capped at 96px. Route titles and the narrow layouts retain their local adjustments; the home hero title becomes 48px at 380px and below. Body copy has a maximum measure of 65ch, with shorter measures in split layouts. Supporting labels and captions commonly use 12–14px; condensed years and sponsor tier headings provide a distinct local hierarchy.
+The hero uses a tight two-line title with an orange second line. Shared page titles use the headline role, while About and Contact have local size adjustments. The section-title role is deliberately smaller and wider than the condensed hero. Reading copy has a maximum measure of 65ch. Eyebrows are uppercase labels with wide tracking and a short skewed orange bar; buttons and navigation also use uppercase text.
 
-**The Two Type Roles Rule.** Use Barlow Condensed for display headings and Manrope for reading and controls; preserve local type size adjustments at narrow widths.
+At 1100px and 800px, the home title takes explicit sizes of 108px and 96px. At 600px it uses `clamp(72px, 17vw, 98px)`; local page titles retain their own narrow-screen rules. Do not apply the display font to the archive years or sponsor tiers: those now use Manrope.
+
+**The Type Roles Rule.** Use italic Barlow Condensed for the large identity titles and Manrope for section headings, cards, reading, and controls.
 
 ## Layout
 
-The centered container explicitly limits both width and max-width to 1456px, including fluid gutters from the spacing tokens. Full-width photographic and orange sections sit outside this container. Major sections use generous fluid spacing, with the exact responsive value defined by the section.
+The centered container has a maximum width of 1360px, including fixed 40px side gutters. Gutters reduce to 24px at 800px and 18px at 360px. Shared section spacing steps from 96px to 64px and then 56px at the 800px and 600px breakpoints. Full-width photographs and color bands sit outside the container.
 
-Home pairs its circular competition image with an asymmetric team story, masked workshop chapters, two equal 4:3 season previews, a sticky supporter introduction, and an orange invitation. The paired previews have no vertical offset or image parallax and stack at 600px. About combines a panoramic frame with a sticky mission column. History places horizontal decade filters above an even three-column grid, changing to two columns below 1024px and one below 640px. All archive images use 4:3 frames and the same caption structure, with reserved two-line game-label space. Sponsors places sticky tier labels beside two-column logo rows; every plate is 16:9 without a spanning final item. Sponsor headings become static by 899px and marks become one column by 599px. Contact uses large email and social rows.
+The sticky header has a 78px content height, becoming 72px at 800px. At that breakpoint the desktop links yield to a mobile menu; the separate header contact action disappears at 1100px. The home hero spans the available width with a cover photograph behind left-aligned text, actions, and a bottom caption/scene-control strip. Desktop minimum height is `clamp(660px, calc(100svh - 80px), 820px)`, with explicit tablet and mobile heights. It has no circular mask or scroll pin.
 
-The sticky header is 78px high, becoming 72px at 800px, where desktop navigation gives way to the mobile menu. The home hero stage uses viewport height minus the header, with a 640px minimum on desktop and larger source-defined minimums for stacked tablet/mobile content. Its initial circular photo sits beside the title within an SVG orbit of segmented rings and tick marks over a fine grid. On small screens this composition remains static and unpinned, with photograph, scene buttons, and actions accessible. Reserved image frames combine cover crops and contain sizing for marks and selected archive photographs.
+Home uses a three-part orange banner, split team story, three workshop cards, two season previews, three featured sponsor marks, and an orange invitation. Workshop cards, season previews, and the home sponsor strip stack at 600px. About uses ordinary two-column image/text sections and a four-column values list, reducing the values to two columns at 1100px and one at 480px. Its major image/text sections stack at 800px.
+
+History uses a latest-season feature followed by decade controls and a regular archive grid. The grid has three columns, two at 1023px, and one at 599px; all archive image wells remain 4:3. Sponsors has horizontal tier jump links and tier headings above three-column logo grids, reducing to two columns at 899px and one at 599px. Logo plates are consistently 16:9. Contact pairs two email cards, a team photograph and invitation, then ruled social rows; the email cards stack at 600px. There are no sticky mission columns or sticky sponsor tier labels.
 
 ## Elevation & Depth
 
-The interface has no authored card shadow or decorative blur system. Tonal sections, photographic contrast, and thin borders establish separation. The hero layers dark directional gradients over its photograph for legibility. The sticky header uses a 95% background-color mix without backdrop blur.
+Tonal bands, dark photo overlays, borders, and orange image-edge rules provide most separation. Workshop cards alone use a faint authored shadow (`0 5px 20px #12131108`). The hero uses directional dark gradients for text contrast. Navigation and footer are opaque dark surfaces, with no backdrop blur.
 
-Keyboard focus uses an accent-text outline (2px) with an offset (5px), increased to 6px on sponsor links. Selection uses orange with dark text; scrollbar colors follow the line and canvas properties. These browser-surface treatments follow the active theme where appropriate.
+The global keyboard-focus treatment is a 3px outline with a 5px offset. It follows accent-text on theme-changing surfaces; fixed dark identity bands set a light-orange focus-ring override so focus stays visible in the default light theme. History and sponsor links use their local 2px outline with the same offset. Hover states change border, fill, or text color; selected photographs also have small scale feedback. These effects do not change page structure.
 
 ## Shapes
 
-Repeated media frames and logo plates are square-cornered and equal-sized within each group. The home hero is the circular exception: its clip expands to fill the stage during the desktop scroll sequence. Main controls and decade filters use the control radius. Filters wrap horizontally and form a two-column control grid below 640px. Dividers and outlined controls use thin borders (1px); selected navigation and scene controls use short orange rules. Full-width sections and unboxed captioned images carry most page structure.
+Cards and image frames are rectangular with restrained 4px or 5px corners; filters retain 3px corners. Theme and motion controls are round, while the mobile-menu control uses the ordinary control radius. Buttons are compact rounded rectangles. Orange lower borders on workshop, robot, and sponsor images repeat a 4px rule. Navigation and scene selection use short orange underlines.
 
-**The Real Frames Rule.** Keep repeated image groups in equal rectangular frames, retain the authored circular home hero, and honor each season's preserveFrame and position settings so the robot stays readable.
+Cover crops fill ordinary photographs. Team images and sponsor marks use contain sizing where the source calls for it. Each archived season's `preserveFrame` and `position` fields remain authoritative; contained archive images also receive interior padding.
+
+**The Image Frames Rule.** Keep repeated media wells consistent within each group, and preserve the authored crop or contain setting for every record.
 
 ## Components
 
-- **Primary and secondary actions:** shared primary links use orange with dark text and a lighter hover fill. The home hero's secondary link uses a fixed dark translucent fill and pale text. Shared actions have a minimum height of 52px; the mobile hero reduces its actions to 48px.
-- **Text links:** an inline label and Phosphor arrow sit above a thin rule, with theme-aware orange on hover and a 44px minimum height.
-- **Navigation and theme control:** desktop links reveal an orange underline on hover and for the current route. The mobile menu exposes expanded state, closes on navigation, and returns focus to its trigger on Escape. The 42px theme control names the theme it will activate and persists the choice locally.
-- **Scene selector:** Compete, Build, and Connect are buttons with pressed state. The selected label becomes foreground text with an orange lower rule; selection updates the real image and live caption.
-- **History filters and media links:** horizontal outlined filter buttons use orange fills and dark text when pressed. Pressed state and counts update immediately; bounded Web Animations preserve continuity when records move. Archive photographs have no parallax. Equal 4:3 season cards retain explicit framing, condensed years, consistent game captions, and arrows.
-- **Sponsor marks:** equal 16:9 plates, fixed contrasting grounds, and individual optical sizes preserve all original logos. Logos retain contain proportions; logo pixels and frames stay static. Hover feedback belongs to the caption and arrow. Tier jump links, sticky labels, and a parallax assembly photograph connect recognition to the invitation.
-- **Motion control:** the header's Pause motion / Enable motion button persists the visitor's choice locally. Pausing or an effective reduced-motion preference removes GSAP pins, returns all workshop text to normal flow, cancels active filter animations, and stops spatial CSS effects. Explicit visitor choice can override the OS default.
-- **Contact:** team and school email addresses are mailto links, with wrapping for narrow layouts. Social rows use actual destinations or the explicitly labeled YouTube search. There is no contact form or input component.
-
-GSAP ScrollTrigger follows native scrolling without wheel interception or a scroll-smoothing loop. At widths of at least 900px and heights of at least 620px, Home has exactly two pins: a hero sequence over 140% scroll distance and one Build/Code/Lead workshop sequence over 170%. The hero aperture expands to fill its stage while the photograph centers and scales to 1.12; its engineering rings rotate 110 degrees, scale to 1.7, and fade with the grid. The introductory text and controls exit before decorative BUILT BY / CURIOSITY lettering enters, and a gradient seam connects the image to the next section. The sequence-progress line fades at the end to leave that seam unbroken. The workshop uses vertical image masks and changing chapter descriptions. Ordinary photo parallax is bounded to scale 1.12 with vertical translation from -5% to +5%; workshop image transitions settle from 1.15 to 1. Repeated archive images and sponsor logos remain static.
-
-Content is opaque by default; only the decorative hero finale is initially hidden. Once-only title clips settle over 900ms and translated content over 750ms, using power3.out; reveals keep opacity at 1. Decorative text drifts only within the desktop motion query. Filter FLIP transitions use 300–420ms with exponential ease-out. Route changes, preference changes, and media-query exits revert owned GSAP contexts; dynamic parallax synchronization releases disconnected or unmarked frames. Route changes without a hash reset scroll to the top after previous pins are removed. Fonts, initial window load, and explicit motion-refresh events trigger measurement; individual lazy image loads do not refresh pins because image frames reserve their space. Paused/reduced layouts are static, readable, and unpinned, with semantic states and links preserved.
-
-**The Visible State Rule.** Retain visible keyboard focus, aria-current navigation, and aria-pressed selection alongside the implemented color or underline change.
+- **Actions:** the shared primary button uses orange and dark ink, with a lighter orange hover. Secondary actions use a neutral outline; the hero secondary uses a fixed translucent dark fill and pale outline. The dark variant sits on the orange invitation band. Shared actions have a 49px minimum height, with 14px by 24px padding and uppercase Manrope labels. Inline arrow icons move 3px on hover.
+- **Text links:** orange text, an inline arrow, and a 44px minimum height create a lighter action. Hover adds an underline.
+- **Navigation:** desktop links are muted until hovered or current; the current route has an orange underline. Mobile links show current-route orange text. The menu exposes expanded state, closes on route selection, and returns focus to its trigger on Escape. An open mobile menu is hidden when the viewport grows beyond 800px. Theme and motion controls use 40px circular outlines, shrinking with the narrow header.
+- **Scene selector:** Compete, Build, and Connect update the full-width photograph and polite live caption. Buttons expose pressed state and an orange selected underline. Photo changes use a 650ms opacity transition and never advance automatically.
+- **Workshop and home robot cards:** image wells sit above padded captions, separated by an orange lower image border. Hover scales the cover image to 1.035 over 400ms. The three workshop descriptions remain visible together in normal document flow.
+- **Archive:** filters expose pressed state and a live visible count. Selection rearranges cards using bounded Web Animations: 420ms for nearby repositioning or 300ms for an incoming record. Season cards use 4:3 images, Manrope years, game captions, and external-link arrows. Cover images scale to 1.025 on hover; preserve-frame images retain contain framing.
+- **Sponsors:** all sixteen records retain their marks, tiers, amounts, external links, and optical sizing. Logo plates use fixed contrasting grounds and contain sizing. Hover changes the card border and caption; the logo does not animate. Tier jumps remain native anchors.
+- **Preferences and motion:** theme and motion choices are retained locally when storage is available. Motion defaults to the operating system preference; the visitor can choose Pause motion or Enable motion. `MotionSystem` only reflects the effective preference onto the document. It creates no GSAP timelines, parallax, scroll pins, or scroll interception. Reduced motion disables smooth scrolling and shortens CSS transitions; active archive animations are cancelled. The OS media query also suppresses CSS animation and transition duration.
+- **Contact:** two bordered email cards lead to actual mailto destinations. The published social links remain direct destinations or the explicitly labeled YouTube search. There is no contact form or input component.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- Do preserve the original logo, team photography, school identity, and complete sponsor recognition.
-- Do use semantic theme properties and the existing responsive control treatments.
-- Do retain explicit image framing, readable captions, and reduced-motion support.
+- **Do** preserve the existing Iron Bears logo, team photography, school identity, and complete sponsor recognition.
+- **Do** keep theme-aware content on semantic color properties and retain the fixed dark identity bands.
+- **Do** retain accessible selected states, keyboard focus, local preference controls, and each image's authored framing.
+- **Do** use normal document flow and the existing responsive image-card grids for this reference-led design.
 
 ### Don't:
 
-- Don't recolor sponsor marks or remove their contrasting grounds.
-- Don't crop away a robot when its source record requests preserveFrame.
-- Don't present the selective archive as a complete team history or infer a founding date from its first record.
+- **Don't** reintroduce the superseded circular hero, engineering rings, pinned workshop sequence, or photo parallax.
+- **Don't** recolor sponsor marks or remove their contrasting grounds.
+- **Don't** substitute display typography for the Manrope section headings and card labels.
+- **Don't** present the selective archive as a complete team history or infer a founding date from its earliest entry.

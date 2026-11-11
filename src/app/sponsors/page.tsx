@@ -33,7 +33,7 @@ function SponsorMark({ sponsor }: { sponsor: Sponsor }) {
               src={sponsor.logo}
               alt={`${sponsor.name} logo`}
               fill
-              sizes="(max-width: 599px) 78vw, (max-width: 899px) 36vw, 360px"
+              sizes="(max-width: 599px) 78vw, (max-width: 899px) 36vw, 28vw"
               className={styles.logo}
             />
           </div>
@@ -50,13 +50,14 @@ function SponsorMark({ sponsor }: { sponsor: Sponsor }) {
 export default function SponsorsPage() {
   return (
     <main id="main-content" className={styles.page}>
-      <header className={`container ${styles.intro}`}>
+      <header className={styles.intro}>
+        <div className="container">
+        <p className="eyebrow">The community behind Team 854</p>
         <h1 className={`page-title ${styles.heading}`}>
-          <span data-line-reveal>Powered by</span>
-          <span data-line-reveal>our sponsors.</span>
+          Powered by <span>our sponsors.</span>
         </h1>
         <div className={styles.introBottom}>
-          <p className="body-copy" data-reveal>
+          <p>
             Sponsors make our season possible, supporting tools, parts, funding,
             and outreach. Thank you for supporting Team 854.
           </p>
@@ -65,6 +66,10 @@ export default function SponsorsPage() {
             <ArrowUpRight size={20} weight="regular" aria-hidden="true" />
           </a>
         </div>
+        </div>
+      </header>
+      <div className={styles.navigationBand}>
+        <div className="container">
         <nav className={styles.tierNavigation} aria-label="Sponsorship tiers">
           {sponsorTiers.map((tier, index) => (
             <a key={tier.tier} href={`#sponsor-tier-${index}`}>
@@ -77,11 +82,6 @@ export default function SponsorsPage() {
             <ArrowUpRight size={16} weight="regular" aria-hidden="true" />
           </a>
         </nav>
-      </header>
-
-      <div className={styles.identityStrip} aria-hidden="true">
-        <div data-drift="left">
-          IRON BEARS / TEAM 854 / IRON BEARS / TEAM 854
         </div>
       </div>
 
@@ -95,11 +95,10 @@ export default function SponsorsPage() {
               aria-labelledby={`sponsor-tier-${index}-title`}
             >
               <div className={styles.tierHeading}>
-                <h2 id={`sponsor-tier-${index}-title`} data-line-reveal>
+                <h2 id={`sponsor-tier-${index}-title`}>
                   {tier.tier}
                 </h2>
                 <p className={styles.amount}>{tier.amount}</p>
-                <span className={styles.tierRule} aria-hidden="true" />
               </div>
               <ul className={styles.sponsorGrid}>
                 {tier.sponsors.map((sponsor) => (
@@ -115,10 +114,9 @@ export default function SponsorsPage() {
             aria-labelledby="additional-supporters-title"
           >
             <div className={styles.tierHeading}>
-              <h2 id="additional-supporters-title" data-line-reveal>
+              <h2 id="additional-supporters-title">
                 Additional Supporters
               </h2>
-              <span className={styles.tierRule} aria-hidden="true" />
             </div>
             <ul className={styles.sponsorGrid}>
               {additionalSponsors.map((sponsor) => (
@@ -134,26 +132,26 @@ export default function SponsorsPage() {
         className={styles.partner}
         aria-labelledby="partner-title"
       >
+        <div className={`container ${styles.partnerLayout}`}>
         <figure className={styles.partnerFigure}>
-          <div className={styles.partnerImage} data-parallax>
+          <div className={styles.partnerImage}>
             <Image
               src="/images/about/assembly1.jpg"
               alt="Team members working together on a robot assembly"
               fill
-              sizes="100vw"
-              data-parallax-image
+              sizes="(max-width: 899px) 100vw, 50vw"
             />
           </div>
-          <figcaption className="container">
+          <figcaption>
             Build season at Team 854.
           </figcaption>
         </figure>
-        <div className={`container ${styles.partnerCopy}`}>
-          <h2 id="partner-title" className="section-title" data-line-reveal>
-            Become
-            <br />a sponsor.
+        <div className={styles.partnerCopy}>
+          <p className="eyebrow">Build the next chapter</p>
+          <h2 id="partner-title" className="section-title">
+            Become a sponsor.
           </h2>
-          <div className={styles.partnerInvitation} data-reveal>
+          <div className={styles.partnerInvitation}>
             <p>
               Interested in supporting Iron Bears Robotics? We would love to
               partner with you and share a sponsorship package outlining
@@ -174,6 +172,7 @@ export default function SponsorsPage() {
               mci.robotics@gmail.com
             </a>
           </div>
+        </div>
         </div>
       </section>
     </main>
