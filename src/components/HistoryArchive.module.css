@@ -164,4 +164,3 @@
   .seasonCaption { padding: 20px; }
 }
 @media (prefers-reduced-motion: reduce) { .seasonPhoto, .filter, .imageArrow { transition: none; } .season:hover .seasonPhoto { transform: none; } }
-:global(html[data-motion="reduced"]) .seasonPhoto { transition: none; transform: none !important; }

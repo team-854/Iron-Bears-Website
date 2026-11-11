@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import { seasons, seasonUrl } from "@/data/seasons";
 import styles from "./HistoryArchive.module.css";
-import { useReducedMotion } from "./MotionToggle";
+import { useReducedMotion } from "./MotionSystem";
 
 const eras = [
   { label: "All seasons", value: "all" },

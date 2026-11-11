@@ -18,7 +18,7 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "try{var t=localStorage.getItem('iron-bears-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;var m=localStorage.getItem('iron-bears-motion');if(m==='reduced'||m==='full')document.documentElement.dataset.motion=m}catch(e){}",
+              "try{var t=localStorage.getItem('iron-bears-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}",
           }}
         />
       </head>

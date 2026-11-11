@@ -139,7 +139,7 @@ This is a code-led record of the reference-led redesign. Shared styles live in `
 - Barlow Condensed provides italic display titles; Manrope supplies uppercase section headings, reading text, and controls.
 - A light default theme and locally retained dark option share the same orange identity.
 - Full-width color bands and restrained rounded cards organize normal document flow.
-- Scene selection, decade filtering, theme selection, and motion preferences retain visible and accessible state.
+- Scene selection, decade filtering, and theme selection retain visible and accessible state; motion follows the operating system preference.
 
 ## Colors
 
@@ -187,7 +187,7 @@ The global keyboard-focus treatment is a 3px outline with a 5px offset. It follo
 
 ## Shapes
 
-Cards and image frames are rectangular with restrained 4px or 5px corners; filters retain 3px corners. Theme and motion controls are round, while the mobile-menu control uses the ordinary control radius. Buttons are compact rounded rectangles. Orange lower borders on workshop, robot, and sponsor images repeat a 4px rule. Navigation and scene selection use short orange underlines.
+Cards and image frames are rectangular with restrained 4px or 5px corners; filters retain 3px corners. The theme control is round, while the mobile-menu control uses the ordinary control radius. Buttons are compact rounded rectangles. Orange lower borders on workshop, robot, and sponsor images repeat a 4px rule. Navigation and scene selection use short orange underlines.
 
 Cover crops fill ordinary photographs. The updated 2026 team photo on About and Contact uses a square cover frame with `object-position: 50% 100%`, cropping the ceiling while retaining the full group. Other team images and sponsor marks use contain sizing where the source calls for it. Each archived season's `preserveFrame` and `position` fields remain authoritative; contained archive images also receive interior padding.
 
@@ -199,12 +199,12 @@ The user-supplied 2026 blue-bumper robot photo appears in the home season previe
 
 - **Actions:** the shared primary button uses orange and dark ink, with a lighter orange hover. Secondary actions use a neutral outline; the hero secondary uses a fixed translucent dark fill and pale outline. The dark variant sits on the orange invitation band. Shared actions have a 49px minimum height, with 14px by 24px padding and uppercase Manrope labels. Inline arrow icons move 3px on hover.
 - **Text links:** orange text, an inline arrow, and a 44px minimum height create a lighter action. Hover adds an underline.
-- **Navigation:** desktop links are muted until hovered or current; the current route has an orange underline. Mobile links show current-route orange text. The menu exposes expanded state, closes on route selection, and returns focus to its trigger on Escape. An open mobile menu is hidden when the viewport grows beyond 800px. Theme and motion controls use 40px circular outlines, shrinking with the narrow header.
+- **Navigation:** desktop links are muted until hovered or current; the current route has an orange underline. Mobile links show current-route orange text. The menu exposes expanded state, closes on route selection, and returns focus to its trigger on Escape. An open mobile menu is hidden when the viewport grows beyond 800px. The theme control uses a 40px circular outline, shrinking with the narrow header.
 - **Scene selector:** Compete, Build, and Connect update the full-width photograph and polite live caption. Buttons expose pressed state and an orange selected underline. Photo changes use a 650ms opacity transition and never advance automatically.
 - **Workshop and home robot cards:** image wells sit above padded captions, separated by an orange lower image border. Hover scales the cover image to 1.035 over 400ms. The three workshop descriptions remain visible together in normal document flow.
 - **Archive:** filters expose pressed state and a live visible count. Selection rearranges cards using bounded Web Animations: 420ms for nearby repositioning or 300ms for an incoming record. Season cards use 4:3 images, Manrope years, game captions, and external-link arrows. Cover images scale to 1.025 on hover; preserve-frame images retain contain framing.
 - **Sponsors:** all sixteen records retain their marks, tiers, amounts, external links, and optical sizing. Logo plates use fixed contrasting grounds and contain sizing. Hover changes the card border and caption; the logo does not animate. Tier jumps remain native anchors.
-- **Preferences and motion:** theme and motion choices are retained locally when storage is available. Motion defaults to the operating system preference; the visitor can choose Pause motion or Enable motion. `MotionSystem` only reflects the effective preference onto the document. It creates no GSAP timelines, parallax, scroll pins, or scroll interception. Reduced motion disables smooth scrolling and shortens CSS transitions; active archive animations are cancelled. The OS media query also suppresses CSS animation and transition duration.
+- **Preferences and motion:** the theme choice is retained locally when storage is available. Motion automatically follows the operating system's `prefers-reduced-motion` setting, with no site-level control or stored motion override. `MotionSystem` reflects that setting onto the document. It creates no GSAP timelines, parallax, scroll pins, or scroll interception. Reduced motion disables smooth scrolling and shortens CSS transitions; active archive animations are cancelled. The OS media query also suppresses CSS animation and transition duration.
 - **Contact:** two bordered email cards lead to actual mailto destinations. The social links point directly to the team's Instagram, GitHub, and YouTube destinations; YouTube displays the @Team854 handle. There is no contact form or input component.
 
 ## Do's and Don'ts
@@ -213,7 +213,7 @@ The user-supplied 2026 blue-bumper robot photo appears in the home season previe
 
 - **Do** preserve the existing Iron Bears logo, team photography, school identity, and complete sponsor recognition.
 - **Do** keep theme-aware content on semantic color properties and retain the fixed dark identity bands.
-- **Do** retain accessible selected states, keyboard focus, local preference controls, and each image's authored framing.
+- **Do** retain accessible selected states, keyboard focus, the theme control, automatic reduced-motion support, and each image's authored framing.
 - **Do** use normal document flow and the existing responsive image-card grids for this reference-led design.
 
 ### Don't:

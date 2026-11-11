@@ -79,8 +79,8 @@ button:disabled { cursor: default; opacity: .5; }
 .desktop-nav a:hover, .desktop-nav a[aria-current="page"] { color: #f4f3ed; }
 .desktop-nav a[aria-current="page"]::after { content: ""; position: absolute; bottom: 15px; left: 0; right: 0; height: 2px; background: var(--accent); }
 .header-actions { display: flex; align-items: center; gap: 10px; }
-.theme-toggle, .motion-toggle, .menu-toggle { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 40px; height: 40px; color: #d2d5cc; background: transparent; border: 1px solid #45493f; border-radius: 50%; transition: color .2s, border-color .2s; }
-.theme-toggle:hover, .motion-toggle:hover, .menu-toggle:hover { border-color: #ff8a3d; color: #ff8a3d; }
+.theme-toggle, .menu-toggle { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 40px; height: 40px; color: #d2d5cc; background: transparent; border: 1px solid #45493f; border-radius: 50%; transition: color .2s, border-color .2s; }
+.theme-toggle:hover, .menu-toggle:hover { border-color: #ff8a3d; color: #ff8a3d; }
 .header-contact { display: inline-flex; align-items: center; gap: 10px; min-height: 42px; padding: 10px 18px; margin-left: 8px; background: var(--accent); color: #121311; border-radius: 4px; text-transform: uppercase; font-size: 11px; font-weight: 800; letter-spacing: .04em; }
 .header-contact:hover { background: #ff8a3d; }
 .menu-toggle { display: none; border-radius: 4px; }
@@ -207,7 +207,7 @@ button:disabled { cursor: default; opacity: .5; }
   .brand-type > span { font-size: 8px; }
   .header-inner { gap: 10px; }
   .header-actions { gap: 7px; }
-  .theme-toggle, .motion-toggle, .menu-toggle { width: 35px; height: 35px; }
+  .theme-toggle, .menu-toggle { width: 35px; height: 35px; }
   .section-space { padding-block: 56px; }
   .page-title { font-size: 62px; }
   .section-title { font-size: 31px; }
@@ -244,7 +244,7 @@ button:disabled { cursor: default; opacity: .5; }
   .brand-type { font-size: 20px; }
   .brand img { width: 34px; height: 34px; }
   .header-actions { gap: 5px; }
-  .theme-toggle, .motion-toggle, .menu-toggle { width: 32px; height: 34px; }
+  .theme-toggle, .menu-toggle { width: 32px; height: 34px; }
 }
 :root[data-motion-state="reduced"] { scroll-behavior: auto; }
 :root[data-motion-state="reduced"] *, :root[data-motion-state="reduced"] *::before, :root[data-motion-state="reduced"] *::after { animation: none !important; transition-duration: .01ms !important; }

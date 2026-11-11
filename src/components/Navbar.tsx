@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, List, X } from "@phosphor-icons/react";
 import ThemeToggle from "./ThemeToggle";
-import MotionToggle from "./MotionToggle";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
@@ -62,7 +61,6 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="header-actions">
-          <MotionToggle />
           <ThemeToggle />
           <Link href="/contact" className="header-contact">
             Get involved <ArrowUpRight size={17} aria-hidden="true" />

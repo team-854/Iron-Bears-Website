@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 2,
-  "generatedAt": "2026-11-11T00:43:05.174Z",
+  "generatedAt": "2026-11-11T01:18:23.047Z",
   "title": "Design System: Iron Bears Robotics",
   "extensions": {
     "colorMeta": {
@@ -312,7 +312,7 @@
       {
         "name": "reduced-transition",
         "value": ".01ms",
-        "purpose": "Global reduced-motion CSS transition duration. No scroll pins exist."
+        "purpose": "CSS transition duration when the operating system requests reduced motion. No site-level motion control or scroll pins exist."
       }
     ],
     "breakpoints": [
@@ -404,14 +404,6 @@
       "css": ".ds-nav{display:flex;align-items:stretch;gap:28px;height:78px;background:#1b1d19;--focus-ring:#ff8a3d;}.ds-nav a{position:relative;display:inline-flex;align-items:center;color:#b2b5aa;font-family:var(--font-body,\"Manrope Variable\",sans-serif);text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:.1em;text-decoration:none;}.ds-nav a:hover,.ds-nav a[aria-current=\"page\"]{color:#f4f3ed;}.ds-nav a[aria-current=\"page\"]::after{content:\"\";position:absolute;bottom:15px;left:0;right:0;height:2px;background:var(--accent,#f26100);}.ds-nav a:focus-visible{outline:3px solid var(--focus-ring,var(--accent-text,#a53d00));outline-offset:5px;}@media(max-width:1100px){.ds-nav{gap:20px;}}"
     },
     {
-      "name": "Motion control",
-      "kind": "button",
-      "refersTo": "icon-button",
-      "description": "Round header control shown enabled. The application changes its icon, name, document state, and stored preference.",
-      "html": "<div class=\"ds-control-ground\"><button class=\"ds-motion\" type=\"button\" aria-label=\"Pause motion\" title=\"Pause motion\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z\"></path></svg></button></div>",
-      "css": ".ds-control-ground{background:#1b1d19;--focus-ring:#ff8a3d;}.ds-motion{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:40px;height:40px;color:#d2d5cc;background:transparent;border:1px solid #45493f;border-radius:50%;transition:color .2s,border-color .2s;cursor:pointer;}.ds-motion:hover{border-color:#ff8a3d;color:#ff8a3d;}.ds-motion:focus-visible{outline:3px solid var(--focus-ring,var(--accent-text,#a53d00));outline-offset:5px;}.ds-motion:disabled{cursor:default;opacity:.5;}@media(max-width:600px){.ds-motion{width:35px;height:35px;}}@media(max-width:360px){.ds-motion{width:32px;height:34px;}}@media(prefers-reduced-motion:reduce){.ds-motion{animation:none!important;transition-duration:.01ms!important;}}"
-    },
-    {
       "name": "Scene selector",
       "kind": "custom",
       "refersTo": "scene-button",
@@ -444,7 +436,7 @@
       "Barlow Condensed provides italic display titles; Manrope supplies uppercase section headings, reading text, and controls.",
       "A light default theme and locally retained dark option share the same orange identity.",
       "Full-width color bands and restrained rounded cards organize normal document flow.",
-      "Scene selection, decade filtering, theme selection, and motion preferences retain visible and accessible state."
+      "Scene selection, decade filtering, and theme selection retain visible and accessible state; motion follows the operating system preference."
     ],
     "rules": [
       {
@@ -471,7 +463,7 @@
     "dos": [
       "**Do** preserve the existing Iron Bears logo, team photography, school identity, and complete sponsor recognition.",
       "**Do** keep theme-aware content on semantic color properties and retain the fixed dark identity bands.",
-      "**Do** retain accessible selected states, keyboard focus, local preference controls, and each image's authored framing.",
+      "**Do** retain accessible selected states, keyboard focus, the theme control, automatic reduced-motion support, and each image's authored framing.",
       "**Do** use normal document flow and the existing responsive image-card grids for this reference-led design."
     ],
     "donts": [
