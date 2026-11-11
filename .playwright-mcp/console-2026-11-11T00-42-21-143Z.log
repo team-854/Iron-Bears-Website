@@ -1,0 +1,30 @@
+[  326730ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/contact?_rsc=1r34m:1
+[  326747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/history?_rsc=1r34m:1
+[  329763ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/4f54c069b5df9415.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  329763ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/c8381d8938930abd.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  329763ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/38ddfea7779fda92.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  344536ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/about?_rsc=1r34m:1
+[  344781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/contact?_rsc=1r34m:1
+[  345302ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/history?_rsc=1r34m:1
+[  348306ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/4f54c069b5df9415.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  348306ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/c8381d8938930abd.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  348306ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/38ddfea7779fda92.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  352827ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/4f54c069b5df9415.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  352827ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/c8381d8938930abd.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  352827ms] [WARNING] The resource http://127.0.0.1:3001/_next/static/chunks/38ddfea7779fda92.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:3001/:1
+[  353631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/sponsors?_rsc=1r34m:1
+[  354541ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/?_rsc=1r34m:1
+[  354553ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/about?_rsc=1r34m:1
+[  355960ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/history?_rsc=1r34m:1
+[  356940ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3001/about?_rsc=vusbg:1
+[  356940ms] [ERROR] Failed to fetch RSC payload for http://127.0.0.1:3001/about. Falling back to browser navigation. TypeError: Failed to fetch
+    at b (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1:47363)
+    at R (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1:46173)
+    at R (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1:95334)
+    at d (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1:93142)
+    at y (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1:98245)
+    at c (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:2:3628)
+    at Object.action (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:2:6482)
+    at g (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:2:5677)
+    at http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:2:6219
+    at Object.dispatch (http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:2:6442) @ http://127.0.0.1:3001/_next/static/chunks/a8caf86c79dc84cd.js:1
