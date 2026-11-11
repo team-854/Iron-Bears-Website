@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react";
 const scenes = [
-  { name: "Compete", image: "/images/2026/stemleycup-25.jpg", alt: "Team 854's 2026 REBUILT robot with red bumpers competing at STEMley Cup", caption: "Our 2026 REBUILT robot at STEMley Cup.", credit: "@jfreemanphotos", position: "50% 74%" },
+  { name: "Compete", image: "/images/2026/stemleycup-73.jpg", alt: "Team 854's 2026 REBUILT robot carrying yellow game pieces with red bumpers at STEMley Cup", caption: "Our 2026 REBUILT robot at STEMley Cup.", credit: "@jfreemanphotos" },
   { name: "Build", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot in the workshop", caption: "From the first idea to the final assembly.", position: "60% 50%" },
   { name: "Connect", image: "/images/about/teamphoto.jpg", alt: "Iron Bears students and mentors together at Martingrove Collegiate Institute", caption: "The people behind every robot we build.", position: "50% 40%" },
 ];
@@ -16,7 +16,7 @@ export default function HeroShowcase() {
         {scenes.map((scene, index) => (
           <div key={scene.name} className={`hero-frame hero-frame-${scene.name.toLowerCase()} ${active === index ? "is-active" : ""}`}>
             <Image src={scene.image} alt={index === active ? scene.alt : ""}
-              aria-hidden={index !== active} fill sizes={index === 0 ? "(max-width: 800px) 260vw, 180vw" : "100vw"} priority={index === 0}
+              aria-hidden={index !== active} fill sizes="100vw" priority={index === 0}
               className="hero-photo" style={{ objectPosition: scene.position }} />
           </div>
         ))}

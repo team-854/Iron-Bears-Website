@@ -97,8 +97,9 @@ button:disabled { cursor: default; opacity: .5; }
 .hero-images { overflow: hidden; }
 .hero-frame { position: absolute; inset: 0; opacity: 0; transition: opacity .65s ease; }
 .hero-frame.is-active { opacity: 1; }
-/* Zoom around Team 854 while leaving the left side clear for the headline. */
-.hero-frame-compete { left: -14%; right: auto; width: 180%; }
+/* Keep the close-up robot on the right and blend the photograph into the text area. */
+.hero-frame-compete { left: 35%; mask-image: linear-gradient(90deg, transparent, #000 18%); }
+.hero-frame-compete .hero-photo { object-position: 0% 54%; }
 .hero-photo { object-fit: cover; }
 .hero-shade { background: linear-gradient(90deg, rgba(18,19,17,.92) 0%, rgba(18,19,17,.75) 35%, rgba(18,19,17,.18) 72%), linear-gradient(0deg, rgba(18,19,17,.75), transparent 40%); }
 .hero-content { padding-block: 100px 118px; }
@@ -195,7 +196,8 @@ button:disabled { cursor: default; opacity: .5; }
   .hero-showcase { min-height: 0; }
   .hero-content { padding-block: 56px 440px; }
   .hero-images { top: auto; bottom: 66px; height: 360px; }
-  .hero-frame-compete { left: -78%; width: 260%; }
+  .hero-frame-compete { left: 0; mask-image: none; }
+  .hero-frame-compete .hero-photo { object-position: 50% 50%; }
   .hero-content h1 { font-size: 96px; }
   .hero-shade { top: auto; bottom: 66px; height: 360px; background: linear-gradient(180deg, #121311 0%, transparent 28%, transparent 80%, #12131180 100%); }
   .hero-tagline { font-size: 19px; }

@@ -6,7 +6,7 @@ import MotionSystem from "@/components/MotionSystem";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const socialImage = {
-  url: "/images/2026/stemleycup-22.jpg",
+  url: "/images/2026/stemleycup-73.jpg",
   width: 2000,
   height: 1334,
   alt: "Team 854's 2026 REBUILT robot at STEMley Cup. Photo: @jfreemanphotos",
