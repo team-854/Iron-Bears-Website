@@ -24,12 +24,12 @@ export default function HistoryPage() {
           </h1>
           <div className={styles.introDetail}>
             <p>
-              A different challenge every season. Explore the machines we have
-              designed, built, and brought to the field, then visit The Blue
-              Alliance for the full story of each season.
+              Here are some of the robots we&apos;ve built over the years.
+              Select a season to see our events, matches, and results on The
+              Blue Alliance.
             </p>
             <a href="#season-archive" className={styles.archiveJump}>
-              Explore the archive
+              Browse past seasons
               <ArrowDown size={20} aria-hidden="true" />
             </a>
           </div>
@@ -69,9 +69,8 @@ export default function HistoryPage() {
             </h2>
             <div className={styles.featureDetail}>
               <p>
-                Our latest chapter on the field. See Team 854&apos;s events,
-                matches, and results from the {featured.year} season on The Blue
-                Alliance.
+                See how the {featured.year} season went, with match results
+                and event details on The Blue Alliance.
               </p>
               <a
                 className="button button-primary"

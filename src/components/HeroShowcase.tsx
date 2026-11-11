@@ -5,8 +5,8 @@ import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react";
 const scenes = [
   { name: "Compete", image: "/images/2026/stemleycup-73.jpg", alt: "Team 854's 2026 REBUILT robot carrying yellow game pieces with red bumpers at STEMley Cup", caption: "Our 2026 REBUILT robot at STEMley Cup.", credit: "@jfreemanphotos" },
-  { name: "Build", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot in the workshop", caption: "From the first idea to the final assembly.", position: "60% 50%" },
-  { name: "Connect", image: "/images/about/teamphoto.jpg", alt: "Iron Bears students and mentors together at Martingrove Collegiate Institute", caption: "The people behind every robot we build.", position: "50% 40%" },
+  { name: "Build", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot in the workshop", caption: "Working on the robot with our mentors.", position: "60% 50%" },
+  { name: "Connect", image: "/images/about/teamphoto.jpg", alt: "Iron Bears students and mentors together at Martingrove Collegiate Institute", caption: "The team at Martingrove Collegiate Institute.", position: "50% 40%" },
 ];
 export default function HeroShowcase() {
   const [active, setActive] = useState(0);
@@ -25,8 +25,8 @@ export default function HeroShowcase() {
       <div className="container hero-content">
         <p className="eyebrow">Toronto, Ontario · FRC Team 854</p>
         <h1 id="hero-title"><span>TEAM 854</span><span>IRON BEARS</span></h1>
-        <p className="hero-tagline">We build real robots.</p>
-        <p className="hero-description">Student-led. Hands-on. Team 854 turns curiosity into competitive robots and real engineering skills.</p>
+        <p className="hero-tagline">Built by students.</p>
+        <p className="hero-description">We’re Martingrove’s robotics team. Each season, we build a robot to take on a new FIRST Robotics Competition challenge.</p>
         <div className="hero-actions">
           <Link href="/about" className="button button-primary">Meet the team <ArrowRight size={18} aria-hidden="true" /></Link>
           <Link href="/sponsors" className="button hero-secondary">Sponsor us <ArrowRight size={18} aria-hidden="true" /></Link>

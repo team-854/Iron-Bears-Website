@@ -54,7 +54,6 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} Iron Bears Robotics</p>
-          <p>Built on curiosity. Powered by teamwork.</p>
           <a href="mailto:mci.robotics@gmail.com">mci.robotics@gmail.com</a>
         </div>
       </div>

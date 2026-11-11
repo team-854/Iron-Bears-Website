@@ -58,8 +58,8 @@ export default function SponsorsPage() {
         </h1>
         <div className={styles.introBottom}>
           <p>
-            Sponsors make our season possible, supporting tools, parts, funding,
-            and outreach. Thank you for supporting Team 854.
+            Thank you to the businesses and organizations that support our
+            students with funding, tools, and parts.
           </p>
           <a href="#become-a-sponsor" className="button button-primary">
             Become a sponsor
@@ -147,19 +147,18 @@ export default function SponsorsPage() {
           </figcaption>
         </figure>
         <div className={styles.partnerCopy}>
-          <p className="eyebrow">Build the next chapter</p>
+          <p className="eyebrow">Support Team 854</p>
           <h2 id="partner-title" className="section-title">
             Become a sponsor.
           </h2>
           <div className={styles.partnerInvitation}>
             <p>
-              Interested in supporting Iron Bears Robotics? We would love to
-              partner with you and share a sponsorship package outlining
-              benefits and impact.
+              Email us for our sponsorship package to learn how you can help
+              and what we offer sponsors.
             </p>
             <p>
-              If you would like to contribute your skills to the team, we are
-              always looking for new mentors!
+              You can also help as a mentor. Tell us about your experience and
+              how you&apos;d like to work with our students.
             </p>
             <a
               href="mailto:mci.robotics@gmail.com"

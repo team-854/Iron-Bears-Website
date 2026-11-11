@@ -14,17 +14,17 @@ export default function HomePage() {
       </div>
       <section className="home-story section-space" id="our-team">
         <div className="container story-grid">
-          <div><p className="eyebrow">Who we are</p><h2 className="section-title">Great robots.<br />Even better people.</h2></div>
+          <div><p className="eyebrow">Who we are</p><h2 className="section-title">Meet the<br />Iron Bears.</h2></div>
           <div className="story-copy">
-            <p className="body-copy">We are the Iron Bears, a student-led robotics team at Martingrove Collegiate Institute in Toronto, Ontario.</p>
-            <p className="body-copy">We design, build, and program competitive robots while developing real engineering skills, leadership, and community impact. Every season is a chance to learn something new, together.</p>
-            <Link href="/about" className="text-link">Our team. Our story. <ArrowRight size={19} aria-hidden="true" /></Link>
+            <p className="body-copy">We’re based at Martingrove Collegiate Institute in Toronto. Students lead the work, with mentors helping us learn along the way.</p>
+            <p className="body-copy">There’s a lot of trying, testing, and figuring things out. Whether we’re working on the robot or talking to sponsors, we learn by doing.</p>
+            <Link href="/about" className="text-link">More about the team <ArrowRight size={19} aria-hidden="true" /></Link>
           </div>
         </div>
         <div className="container">
           <figure className="team-portrait">
             <Image src="/images/2026/stemleycup-117.jpg" alt="The Iron Bears team gathered for a group photo at STEMley Cup" width={1024} height={683} sizes="(max-width: 800px) calc(100vw - 48px), (max-width: 1360px) calc(100vw - 80px), 1280px" />
-            <figcaption><span>The people behind 854.</span><span>Team photo at STEMley Cup</span></figcaption>
+            <figcaption><span>Iron Bears, together at STEMley Cup.</span><span>2026 season</span></figcaption>
           </figure>
         </div>
       </section>
@@ -33,8 +33,8 @@ export default function HomePage() {
       <section className="home-archive section-space">
         <div className="container">
           <div className="section-heading-row">
-            <div><p className="eyebrow">On the field</p><h2 className="section-title">Every robot has a story.</h2></div>
-            <Link href="/history" className="text-link">Explore our history <ArrowRight size={19} aria-hidden="true" /></Link>
+            <div><p className="eyebrow">Recent seasons</p><h2 className="section-title">Our robots.</h2></div>
+            <Link href="/history" className="text-link">Browse past seasons <ArrowRight size={19} aria-hidden="true" /></Link>
           </div>
           <div className="archive-preview">
             {[
@@ -51,7 +51,7 @@ export default function HomePage() {
       </section>
       <section className="home-supporters section-space">
         <div className="container">
-          <div className="supporters-intro"><p className="eyebrow">Our supporters</p><h2 className="section-title">Built together.</h2><p className="body-copy">Our sponsors make the season possible, supporting the tools, parts, funding, and outreach behind every robot.</p></div>
+          <div className="supporters-intro"><p className="eyebrow">Our supporters</p><h2 className="section-title">Thanks for backing us.</h2><p className="body-copy">Our sponsors help pay for parts and tools, and support our outreach. We’re grateful for their help each season.</p></div>
           <div className="home-logo-strip">
             {sponsorTiers[0].sponsors.map((sponsor) => (
               <a key={sponsor.name} href={sponsor.url} target="_blank" rel="noopener noreferrer" className={`home-sponsor-logo logo-tone-${sponsor.tone || "light"}`} aria-label={`Visit ${sponsor.name}`}>
@@ -59,13 +59,13 @@ export default function HomePage() {
               </a>
             ))}
           </div>
-          <Link href="/sponsors" className="text-link">Meet all our supporters <ArrowRight size={19} aria-hidden="true" /></Link>
+          <Link href="/sponsors" className="text-link">See all our sponsors <ArrowRight size={19} aria-hidden="true" /></Link>
         </div>
       </section>
       <section className="home-invitation">
         <div className="container invitation-inner">
-          <div><h2 className="section-title">There’s a place for you here.</h2><p>Bring your curiosity, share your expertise, or help make our next robot possible.</p></div>
-          <Link href="/contact" className="button button-dark">Let’s connect <ArrowRight size={20} aria-hidden="true" /></Link>
+          <div><h2 className="section-title">Want to get involved?</h2><p>Ask us about joining the team, mentoring, or becoming a sponsor.</p></div>
+          <Link href="/contact" className="button button-dark">Contact the team <ArrowRight size={20} aria-hidden="true" /></Link>
         </div>
       </section>
     </main>

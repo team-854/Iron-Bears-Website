@@ -100,13 +100,13 @@ export default function HistoryArchive() {
     >
       <header className={styles.archiveHeading}>
         <div>
-          <p className="eyebrow">Explore the machines</p>
+          <p className="eyebrow">Through the years</p>
           <h2 id="season-archive-title" className="section-title">
             The season archive.
           </h2>
         </div>
         <p className={styles.archiveNote}>
-          Choose a decade. Meet the machines.
+          Filter by decade to find a season.
         </p>
       </header>
       <div className={styles.toolbar}>

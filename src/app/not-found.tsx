@@ -10,8 +10,8 @@ export default function NotFound() {
     >
       <h1 className="page-title">Page not found.</h1>
       <p className="body-copy">
-        Error 404. This page may have moved, or the link may be incorrect. Let’s
-        get you back to the team.
+        This page may have moved, or the link may be incorrect. Check the
+        address or head back to the homepage.
       </p>
       <Link
         href="/"

@@ -11,7 +11,7 @@ import styles from "./contact.module.css";
 export const metadata: Metadata = {
   title: "Contact | Iron Bears",
   description:
-    "Connect with Team 854 Iron Bears at Martingrove Collegiate Institute. Get in touch about sponsorship, mentoring, collaboration, or an event.",
+    "Contact the Iron Bears about sponsorship, mentoring, or an event. Find email addresses for Team 854 and Martingrove Collegiate Institute.",
 };
 
 export default function ContactPage() {
@@ -21,12 +21,10 @@ export default function ContactPage() {
         <div className="container">
           <p className="eyebrow">Get in touch</p>
           <h1 className={`page-title ${styles.title}`}>
-            Let&apos;s build<br /><span>something.</span>
+            Talk to<br /><span>the Iron Bears.</span>
           </h1>
           <p className={styles.introCopy}>
-            A partnership. A new skill. A connection with your community. Get in
-            touch with the Iron Bears about sponsoring, mentoring,
-            collaborating, or inviting us to your next event.
+            Have a question or an idea for the team? Send us an email.
           </p>
         </div>
       </header>
@@ -34,8 +32,8 @@ export default function ContactPage() {
       <section className={`container ${styles.contactRoutes}`} aria-label="Contact the Iron Bears">
         <a href="mailto:mci.robotics@gmail.com" className={styles.contactRoute}>
           <div className={styles.routeCopy}>
-            <h2>Talk to the team</h2>
-            <p>For robotics, sponsorship, mentorship, and event inquiries.</p>
+            <h2>Email the team</h2>
+            <p>For questions about robotics, sponsorship, mentoring, or events.</p>
           </div>
           <div className={styles.routeAction}>
             <span>mci.robotics@gmail.com</span>
@@ -66,7 +64,7 @@ export default function ContactPage() {
               className={styles.teamImage}
             />
             <figcaption>
-              <span>The team behind the robots.</span>
+              <span>Iron Bears Robotics</span>
               <span>FRC Team 854 / 2026 season</span>
             </figcaption>
           </figure>
@@ -74,11 +72,11 @@ export default function ContactPage() {
             <p className="eyebrow">Get involved</p>
             <h2 id="get-involved-title" className="section-title">Interested<br />in robotics?</h2>
             <p className="body-copy">
-              Students, sponsors, and community members: tell us a little about
-              yourself and how you&apos;d like to get involved.
+              Whether you&apos;re a student, a potential sponsor, or a mentor,
+              tell us a little about yourself and what you&apos;d like to do.
             </p>
             <a href="mailto:mci.robotics@gmail.com" className="button button-primary">
-              Talk to the team <ArrowUpRight size={18} aria-hidden="true" />
+              Email the team <ArrowUpRight size={18} aria-hidden="true" />
             </a>
           </div>
         </div>
@@ -87,8 +85,8 @@ export default function ContactPage() {
       <section className={`container ${styles.socialSection}`} aria-labelledby="social-title">
         <div className={styles.socialIntro}>
           <p className="eyebrow">Stay connected</p>
-          <h2 id="social-title" className="section-title">Follow the build.</h2>
-          <p className="body-copy">Find the Iron Bears beyond the workshop.</p>
+          <h2 id="social-title" className="section-title">Find us online.</h2>
+          <p className="body-copy">Team updates, robot code, and videos.</p>
         </div>
         <div className={styles.socialLinks}>
           <a href="https://www.instagram.com/team854/" target="_blank" rel="noopener noreferrer">

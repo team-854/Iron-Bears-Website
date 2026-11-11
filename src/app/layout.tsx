@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.team854.org"),
   title: "FRC 854 | Iron Bears Robotics",
   description:
-    "Meet Iron Bears, FRC Team 854 at Martingrove Collegiate Institute in Toronto. Student-built robots, real engineering, and a community that makes it possible.",
+    "Iron Bears is FRC Team 854 at Martingrove Collegiate Institute in Toronto. Meet the team, see our robots, and find out how to get involved.",
   openGraph: {
     type: "website",
     siteName: "Iron Bears Robotics",

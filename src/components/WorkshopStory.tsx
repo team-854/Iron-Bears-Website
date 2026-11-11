@@ -1,8 +1,8 @@
 import Image from "next/image";
 const chapters = [
-  { title: "Build.", copy: "Mechanical design, CAD, fabrication, and wiring. Make an idea into something real.", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot", position: "48% 50%" },
-  { title: "Code.", copy: "Controls, autonomy, vision, and strategy. Give the robot a way to see, think, and move.", image: "/images/about/demonstration.jpg", alt: "Team 854 demonstrating their robot at school", position: "50% 50%" },
-  { title: "Lead.", copy: "Outreach, sponsorships, teamwork, and impact. Take what we learn beyond the workshop.", image: "/images/about/teamphoto.jpg", alt: "The Iron Bears team at Martingrove Collegiate Institute", position: "50% 40%" },
+  { title: "Build.", copy: "Design parts in CAD, make them in the shop, then assemble and wire the robot.", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot", position: "48% 50%" },
+  { title: "Code.", copy: "Write and test the software for driving, using cameras, and running autonomous routines.", image: "/images/about/demonstration.jpg", alt: "Team 854 demonstrating their robot at school", position: "50% 50%" },
+  { title: "Lead.", copy: "Reach out to sponsors, organize outreach, and help keep the team running.", image: "/images/about/teamphoto.jpg", alt: "The Iron Bears team at Martingrove Collegiate Institute", position: "50% 40%" },
 ];
 export default function WorkshopStory() {
   return (
@@ -10,7 +10,7 @@ export default function WorkshopStory() {
       <div className="container">
         <div className="workshop-heading">
           <div><p className="eyebrow">Inside Team 854</p><h2 className="section-title" id="workshop-title">This is our<br />kind of sport.</h2></div>
-          <p className="body-copy">FIRST Robotics Competition is a high-school robotics league where teams build large robots for a new game each season. Engineering meets competition.</p>
+          <p className="body-copy">FIRST Robotics Competition gives high-school teams a new game each season. Getting ready takes mechanical work, programming, and plenty of planning.</p>
         </div>
         <div className="workshop-grid">
           {chapters.map((chapter) => (

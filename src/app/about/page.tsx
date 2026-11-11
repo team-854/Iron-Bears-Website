@@ -7,44 +7,44 @@ import styles from "./about.module.css";
 export const metadata: Metadata = {
   title: "About the Team | Iron Bears",
   description:
-    "Meet the Iron Bears: FRC Team 854, a student-led robotics team at Martingrove Collegiate Institute in Toronto. We build great robots and better people.",
+    "Meet the students and mentors of FRC Team 854 at Martingrove Collegiate Institute in Toronto, and see what goes into building our robots.",
 };
 
 const values = [
   {
     name: "Curiosity & learning",
-    detail: "Ask questions. Try an idea. Learn from the result.",
+    detail: "We learn by asking questions and trying things.",
   },
   {
     name: "Craftsmanship",
-    detail: "Take care in the work, from the first sketch to the final assembly.",
+    detail: "We take care with the details, from design to assembly.",
   },
   {
     name: "Respect and inclusion",
-    detail: "Make room for different perspectives and learn from each other.",
+    detail: "We listen to each other and make room for different ideas.",
   },
   {
     name: "Community service",
-    detail: "Share what we learn and put our skills to work for others.",
+    detail: "We share what we know and use our skills to help others.",
   },
 ];
 
 const activities = [
   {
     name: "CAD and fabrication",
-    detail: "Turn a design into parts, mechanisms, and a working robot.",
+    detail: "Design parts in CAD, then make and assemble them.",
   },
   {
     name: "Electronics and wiring",
-    detail: "Connect the power, sensors, and controls that bring it to life.",
+    detail: "Wire the robot's power, sensors, and control systems.",
   },
   {
-    name: "Programming + autonomy",
-    detail: "Write the code that turns a strategy into movement.",
+    name: "Programming and autonomy",
+    detail: "Program driver controls and routines the robot can run on its own.",
   },
   {
-    name: "Outreach + sponsorship",
-    detail: "Tell our story, build relationships, and connect with our community.",
+    name: "Outreach and sponsorship",
+    detail: "Introduce people to the team and talk with potential sponsors.",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function AboutPage() {
             The people<br />behind <span>854.</span>
           </h1>
           <p className={styles.introCopy}>
-            Students, mentors, and a shared drive to make something that moves.
+            A student-led team, with mentors to help us along the way.
           </p>
         </div>
       </header>
@@ -82,21 +82,20 @@ export default function AboutPage() {
         <div className={styles.missionCopy}>
           <p className="eyebrow">Who we are</p>
           <h2 id="mission-title" className="section-title">
-            Great robots.<br />Better people.
+            Learning<br />by doing.
           </h2>
           <p className="body-copy">
-            We&apos;re the Iron Bears. A student-led robotics team from
-            Martingrove Collegiate Institute in Toronto, Ontario, bringing ideas
-            to life through FIRST Robotics Competition.
+            We&apos;re the Iron Bears, a robotics team at Martingrove Collegiate
+            Institute in Toronto, Ontario. We design, build, and program robots
+            for FIRST Robotics Competition.
           </p>
           <p className="body-copy">
-            Our mission is to build great robots and better people through
-            teamwork, engineering, and competition. Each season is a chance to
-            build new skills, learn alongside mentors, and use engineering to
-            create a positive community impact.
+            Working with mentors, we learn engineering through the problems in
+            front of us. We also learn how to work as a team, take responsibility,
+            and share what we know.
           </p>
           <Link href="/contact" className="text-link">
-            Get to know the team <ArrowUpRight size={18} aria-hidden="true" />
+            Contact the team <ArrowUpRight size={18} aria-hidden="true" />
           </Link>
         </div>
       </section>
@@ -120,12 +119,11 @@ export default function AboutPage() {
         <div className={styles.sectionHeader}>
           <div>
             <p className="eyebrow">Hands-on learning</p>
-            <h2 id="build-title" className="section-title">Find your part<br />in the build.</h2>
+            <h2 id="build-title" className="section-title">What we work on.</h2>
           </div>
           <p className="body-copy">
-            A competitive robot brings a lot of disciplines together.
-            There&apos;s work to do at the drawing board, on the workbench, in
-            the code, and out in the community.
+            There&apos;s plenty to do, from making parts and writing code to
+            running outreach and finding sponsors.
           </p>
         </div>
         <div className={styles.buildGrid}>
@@ -157,15 +155,15 @@ export default function AboutPage() {
       <section className={styles.community} aria-labelledby="community-title">
         <div className={`container ${styles.communityGrid}`}>
           <div className={styles.communityCopy}>
-            <p className="eyebrow">Beyond the workshop</p>
-            <h2 id="community-title" className="section-title">Built here.<br />Shared beyond.</h2>
+            <p className="eyebrow">Outreach</p>
+            <h2 id="community-title" className="section-title">Sharing what<br />we do.</h2>
             <p className="body-copy">
-              Robotics connects our school to a wider community. Through
-              demonstrations, outreach, and mentorship, we share the excitement
-              of engineering beyond the competition field.
+              We demonstrate our robots and share what we&apos;ve learned with
+              our school and community. If you&apos;d like to work with us or
+              invite the team to an event, get in touch.
             </p>
             <Link href="/contact" className="button button-primary">
-              Connect with us <ArrowUpRight size={18} aria-hidden="true" />
+              Contact the team <ArrowUpRight size={18} aria-hidden="true" />
             </Link>
           </div>
           <figure className={styles.figure}>
@@ -178,7 +176,7 @@ export default function AboutPage() {
               className={styles.communityImage}
             />
             <figcaption className={styles.caption}>
-              <span>Sharing the work</span>
+              <span>At Martingrove</span>
               <span>CRESCENDO robot demonstration</span>
             </figcaption>
           </figure>
