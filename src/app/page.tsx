@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import HeroShowcase from "@/components/HeroShowcase";
 import WorkshopStory from "@/components/WorkshopStory";
+import CompetitionGallery from "@/components/CompetitionGallery";
 import { sponsorTiers } from "@/data/sponsors";
 export default function HomePage() {
   return (
@@ -20,8 +21,15 @@ export default function HomePage() {
             <Link href="/about" className="text-link">Our team. Our story. <ArrowRight size={19} aria-hidden="true" /></Link>
           </div>
         </div>
+        <div className="container">
+          <figure className="team-portrait">
+            <Image src="/images/2026/stemleycup-117.jpg" alt="The Iron Bears team gathered for a group photo at STEMley Cup" width={1024} height={683} sizes="(max-width: 800px) calc(100vw - 48px), (max-width: 1360px) calc(100vw - 80px), 1280px" />
+            <figcaption><span>The people behind 854.</span><span>Team photo at STEMley Cup</span></figcaption>
+          </figure>
+        </div>
       </section>
       <WorkshopStory />
+      <CompetitionGallery />
       <section className="home-archive section-space">
         <div className="container">
           <div className="section-heading-row">
