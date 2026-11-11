@@ -37,27 +37,30 @@ export default function HistoryPage() {
       </header>
       <div className="container">
         <section className={styles.feature} aria-labelledby="featured-season">
-          <a
-            className={styles.featureImage}
-            href={seasonUrl(featured.year)}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`View Team 854's ${featured.year} ${featured.game} season on The Blue Alliance (opens in a new tab)`}
-          >
-            <Image
-              src={featured.image}
-              alt="Team 854's 2026 robot on the competition field with its red 854 bumper"
-              fill
-              sizes="(max-width: 760px) calc(100vw - 48px), 58vw"
-              className={styles.featurePhoto}
-              style={{ objectPosition: featured.position }}
-              priority
-              fetchPriority="high"
-            />
-            <span className={styles.imageArrow} aria-hidden="true">
-              <ArrowUpRight size={28} weight="regular" />
-            </span>
-          </a>
+          <figure className={styles.featureFigure}>
+            <a
+              className={styles.featureImage}
+              href={seasonUrl(featured.year)}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View Team 854's ${featured.year} ${featured.game} season on The Blue Alliance (opens in a new tab)`}
+            >
+              <Image
+                src="/images/2026/stemleycup-49.jpg"
+                alt="Team 854's 2026 robot collecting yellow balls at STEMley Cup, with its blue 854 bumpers"
+                fill
+                sizes="(max-width: 760px) calc(100vw - 48px), 58vw"
+                className={styles.featurePhoto}
+                style={{ objectPosition: "100% 60%" }}
+                priority
+                fetchPriority="high"
+              />
+              <span className={styles.imageArrow} aria-hidden="true">
+                <ArrowUpRight size={28} weight="regular" />
+              </span>
+            </a>
+            <figcaption className={styles.photoCredit}>STEMley Cup · Photo: @jfreemanphotos</figcaption>
+          </figure>
           <div className={styles.featureCaption}>
             <p className="eyebrow">Latest robot / {featured.year}</p>
             <h2 id="featured-season" className={styles.featureHeading}>

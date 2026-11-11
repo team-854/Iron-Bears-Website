@@ -111,6 +111,7 @@ button:disabled { cursor: default; opacity: .5; }
 .hero-controls { position: absolute; bottom: 0; left: 0; width: 100%; background: #12131152; border-top: 1px solid #ffffff26; }
 .hero-controls-inner { min-height: 66px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .hero-caption { font-size: 12px; color: #d4d7cd; }
+.hero-credit { display: block; margin-top: 3px; font-size: 11px; }
 .scene-switcher { display: flex; align-self: stretch; gap: 28px; }
 .scene-switcher button { position: relative; padding: 18px 0; border: 0; background: transparent; color: #c3c6bc; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
 .scene-switcher button[aria-pressed="true"] { color: #fff; }

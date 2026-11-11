@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "inventoryScope": "Public/images raster assets retained from the original project plus user-supplied 2026 photos. ReferencedBy lists current source uses; original assets remain preserved.",
-  "assetCount": 37,
+  "assetCount": 39,
   "assets": [
     {
       "sourcePath": "public/images/about/assembly1.jpg",
@@ -57,9 +57,7 @@
     {
       "sourcePath": "public/images/about/hero.jpg",
       "webPath": "/images/about/hero.jpg",
-      "referencedBy": [
-        "src/components/HeroShowcase.tsx"
-      ],
+      "referencedBy": [],
       "origin": "Pre-existing user-provided project repository asset at public/images/about/hero.jpg. Original creator and copyright ownership unknown. No image generation or pixel changes performed.",
       "copyrightOwnership": "unknown",
       "generated": false,
@@ -880,6 +878,50 @@
       "width": 2160,
       "height": 2880,
       "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/2026/stemleycup-22.jpg",
+      "webPath": "/images/2026/stemleycup-22.jpg",
+      "referencedBy": [
+        "src/components/HeroShowcase.tsx"
+      ],
+      "source": "user-upload",
+      "suppliedOn": "2026-11-10",
+      "origin": "STEMley Cup photograph supplied by the user in chat on November 10, 2026. The user identifies the photographer as @jfreemanphotos. Copyright ownership and license are unspecified. Original file preserved unchanged; no image generation, pixel changes, or metadata embedding performed.",
+      "photographer": "@jfreemanphotos",
+      "photographerAttributionSource": "User instruction in chat",
+      "copyrightOwnership": "unknown",
+      "license": "unspecified",
+      "generated": false,
+      "originalSha256": "f00ce4dc67fedc9dd6d2f0fdae8ee1c333380eaa15c1533efd6e1430bd8a097d",
+      "originalBytes": 372085,
+      "sha256": "f00ce4dc67fedc9dd6d2f0fdae8ee1c333380eaa15c1533efd6e1430bd8a097d",
+      "bytes": 372085,
+      "width": 2000,
+      "height": 1334,
+      "mediaType": "image/jpeg"
+    },
+    {
+      "sourcePath": "public/images/2026/stemleycup-49.jpg",
+      "webPath": "/images/2026/stemleycup-49.jpg",
+      "referencedBy": [
+        "src/app/history/page.tsx"
+      ],
+      "source": "user-upload",
+      "suppliedOn": "2026-11-10",
+      "origin": "STEMley Cup photograph supplied by the user in chat on November 10, 2026. The user identifies the photographer as @jfreemanphotos. Copyright ownership and license are unspecified. Original file preserved unchanged; no image generation, pixel changes, or metadata embedding performed.",
+      "photographer": "@jfreemanphotos",
+      "photographerAttributionSource": "User instruction in chat",
+      "copyrightOwnership": "unknown",
+      "license": "unspecified",
+      "generated": false,
+      "originalSha256": "35c263564f8674198d8ea50f9eae737750249b590203736f0db05018519865d4",
+      "originalBytes": 375833,
+      "sha256": "35c263564f8674198d8ea50f9eae737750249b590203736f0db05018519865d4",
+      "bytes": 375833,
+      "width": 2000,
+      "height": 1334,
+      "mediaType": "image/jpeg"
     }
   ],
   "validation": {
@@ -892,8 +934,8 @@
       "directory": "public/images",
       "rasters": 34,
       "missing": 0,
-      "scope": "Historical scan of the 34 original project rasters, before the three user uploads were added."
+      "scope": "Historical scan of the 34 original project rasters, before the user uploads were added."
     },
-    "userUploadOrigins": "The three 2026 user uploads are recorded in this sidecar and retained byte-for-byte without embedding metadata."
+    "userUploadOrigins": "The five 2026 user uploads are recorded in this sidecar and retained byte-for-byte without embedding metadata. Photographer credits for the two STEMley Cup photos follow the user instruction."
   }
 }

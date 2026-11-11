@@ -31,6 +31,8 @@
   gap: clamp(32px, 5vw, 72px);
   padding-block: 80px;
 }
+.featureFigure { margin: 0; min-width: 0; }
+.photoCredit { margin-top: 10px; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .featureImage {
   display: block;
   position: relative;

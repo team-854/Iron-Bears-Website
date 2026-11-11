@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react";
 const scenes = [
-  { name: "Compete", image: "/images/about/hero.jpg", alt: "Team 854's 2025 REEFSCAPE robot competing on the field", caption: "Our 2025 REEFSCAPE robot, in its element.", position: "65% 57%" },
+  { name: "Compete", image: "/images/2026/stemleycup-22.jpg", alt: "Team 854's 2026 REBUILT robot with red bumpers competing at STEMley Cup", caption: "Our 2026 REBUILT robot at STEMley Cup.", credit: "@jfreemanphotos", position: "50% 65%" },
   { name: "Build", image: "/images/about/assembly1.jpg", alt: "Iron Bears students and mentors assembling their robot in the workshop", caption: "From the first idea to the final assembly.", position: "60% 50%" },
   { name: "Connect", image: "/images/about/teamphoto.jpg", alt: "Iron Bears students and mentors together at Martingrove Collegiate Institute", caption: "The people behind every robot we build.", position: "50% 40%" },
 ];
@@ -33,7 +33,10 @@ export default function HeroShowcase() {
       </div>
       <div className="hero-controls">
         <div className="container hero-controls-inner">
-          <p className="hero-caption" aria-live="polite">{scenes[active].caption}</p>
+          <p className="hero-caption" aria-live="polite">
+            <span>{scenes[active].caption}</span>
+            {scenes[active].credit && <span className="hero-credit">Photo: {scenes[active].credit}</span>}
+          </p>
           <div className="scene-switcher" role="group" aria-label="Explore the team in photos">
             {scenes.map((scene, index) => (
               <button key={scene.name} type="button" aria-pressed={active === index} onClick={() => setActive(index)}>{scene.name}</button>
