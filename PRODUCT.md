@@ -34,6 +34,7 @@ Visitors browse a public informational website. Sponsorship, mentoring, collabor
 
 - Existing routes are Home (`/`), About (`/about`), Sponsors (`/sponsors`), History (`/history`), and Contact (`/contact`).
 - The existing application uses Next.js App Router, React, TypeScript, and Tailwind CSS, with shared navigation and footer components.
+- Shared links use `stemleycup-22.jpg` as their Open Graph and large-image social card preview, with `@jfreemanphotos` credited in the image description. Metadata resolves image URLs against `https://www.team854.org`.
 - The History page features the latest listed season and presents 13 selected robot seasons with photos and external links to The Blue Alliance. Visitors can filter the archive by the 2020s, 2010s, or 2000s and return to all seasons; the visible count updates with the selection. Archive photos appear in an equal-sized responsive grid, preserving each record's image framing. The archive is selective; its earliest entry does not establish the team's founding date.
 - The Sponsors page recognizes supporters and offers a sponsorship package through contact. No downloadable package, online donation checkout, or student registration flow is currently implemented.
 - Team and school email addresses are actionable mailto links. Instagram and GitHub link to the published team destinations. YouTube links directly to the user-supplied Team854 channel at https://www.youtube.com/@Team854.

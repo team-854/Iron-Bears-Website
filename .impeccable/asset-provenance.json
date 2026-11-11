@@ -883,7 +883,8 @@
       "sourcePath": "public/images/2026/stemleycup-22.jpg",
       "webPath": "/images/2026/stemleycup-22.jpg",
       "referencedBy": [
-        "src/components/HeroShowcase.tsx"
+        "src/components/HeroShowcase.tsx",
+        "src/app/layout.tsx"
       ],
       "source": "user-upload",
       "suppliedOn": "2026-11-10",
